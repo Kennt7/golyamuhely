@@ -1,0 +1,143 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: RGB(117,77,149);
+    font-family: sans-serif;
+    background-image:url("../pics/golyafej.png"),    url("../pics/golyafej2.png");
+    background-repeat:repeat-y,repeat-y;
+    background-position: right,left;
+  
+
+ 
+}
+
+main,{
+    background-image:url("../pics/gyujtes/muveszi-aranycsillag.jpg");
+    height:100%;
+}
+.container mt-3{
+    background-color: yellow;
+}
+
+
+
+nav.breadcrumb {
+
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+header {
+	padding: 20px 0;
+}
+
+main {
+	padding:20px;
+
+}
+
+
+
+
+#idezet{
+    text-align: center;
+    
+}
+
+.img-fluid{
+    height:250px;
+    width:33%;
+    margin:0 auto 0 auto;
+}
+
+p{
+    font-family: "Arial" Times sans-serif;
+    font-style: oblique;
+    text-align: justify;
+    color:gold;
+}
+
+.zsofioldala{
+    width:100%;
+    background-image:url(../pics/gyujtes/muveszi-aranycsillag.jpg);
+    background-size:contain;
+}
+
+.jumbotron {
+    
+    background-size:contain;
+    border-radius:25px solid gold;
+    align-content: stretch;
+    border: 5px #EB18D5 solid;
+    width:100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-size: 180px 150px;
+    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-position:left,center, right;
+    margin:0 auto 0 auto;
+    background-color:darkgoldenrod;
+    box-shadow:7px 7px 7px #F5F900;
+}
+
+
+
+
+#bemutatkozas{
+    background-color: #404F17;
+    border:3px solid yellow;
+    text-align: justify;
+    border-radius: 25px;
+}
+
+
+h1 {
+    text-indent: 48px;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 18;
+    text-decoration: underline;
+}
+
+
+.card border-primary mb-3, card border-secondary mb-3, card border-succes mb-3{
+
+    border-top-color: #16DB93;
+    border-bottom-color: #A4036F;
+    border-left-color: #EFEA5A;
+    border-right-color: #FE5E41;
+}
+
+#gondolatok{
+    background-color: #469A7A;
+    border:3px solid #DB492F; 
+    box-shadow:0 0 10px 4px #FF6347, 0 0 5px 5px #FFDAB9;
+}
+
+#idezet{
+  margin-left:100px;
+}
+
+.card-header{
+    border: 5px solid #f51ef8;
+    box-shadow(50px 9px 20px gray);
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari prior 9.0 */
+    transform: rotate(5deg);
+    background-color:#bf9400;
+    font-family:serif;
+}
+
+.card-body{
+    border: 5px solid #2df2f4;
+ 
+}
+

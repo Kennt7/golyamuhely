@@ -1,0 +1,343 @@
+<html>
+
+     <head>
+        <meta name="author" content="Nagy Zoltán">
+        <meta charset="utf-8">
+            <title>Golyamuhely</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/app.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/restauralas.css"/>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+        </script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+<body>
+    
+ <nav class = "navbar navbar-toggleable-md  navbar-dark bg-info">
+        <div class = "container">
+            <button class = "navbar-toggler navbar-toggler-right" type="button" data-toggle = "collapse" data-target="#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded="false" aria-label =  "Toggle navigation">
+            <span class = "navbar-toggler-icon"></span> 
+            </button>
+               <a class = "navbar-brand" href = "index.html">
+                Gólyaműhely<br />
+                <img src = "./pics/ico/ahtale2.png" class = "rounded-circle" alt = "" title = "Gólyaműhely" role = "img">
+              
+                
+            </a>
+         
+            <div class = "collapse navbar-collapse" id = "navbarSupportContent">
+                <ul class = "navbar-nav ml-auto">
+                    <li class = "nav-item active">
+                        <a class = "nav-link" href = "index.html">Főoldal<span class = "sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "bemutatkozas.html">Bemutatkozás</a>
+                    </li>
+                    
+                    <li class = "nav-item dropdown">
+                        <a class = "nav-link dropdown-toggle" href = "referenciak.html" id="navbarDropdownMenuLink" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
+                        Referenciák
+                        </a>
+                        
+                        <div class = "dropdown-menu" aria-labelledby = "navbarDropdownMenuLink">
+                            <a class = "dropdown-item" href = "#">Restaurálás</a>
+                            
+                            <a class = "dropdown-item" href = "#">Mesegrafika</a>
+                            
+                        
+                        </div>
+                    </li>
+                  
+                    
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "">Olajfestmény</a>
+                    </li>
+                     <li class = "nav-item">
+                        <a class = "nav-link" href="">Grafika</a>
+                    </li>
+                     <li class = "nav-item">
+                        <a class = "nav-link" href="">Mozaik</a>
+                    </li>
+                     <li class = "nav-item">
+                        <a class = "nav-link" href="">Bútor</a>
+                    </li>
+                     <li class = "nav-item">
+                        <a class = "nav-link" href="">Mese</a>
+                    </li>
+                     <li class = "nav-item">
+                        <a class = "nav-link" href="">Ajándékok</a>
+                    </li>
+                     <li class = "nav-item">
+                        <a class = "nav-link" href="">Kedvencek</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class="nav-link" href="">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+    <header>
+    
+    
+    </header>
+    <main class = "bg-primary">
+
+        
+          <div class="container bg-secondary">
+        <div class="row">
+            <div class="col-md-8 col-bg-9">
+            
+                <!----Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#hazak" role="tab">
+                    BUDAPEST Házak
+                    </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#irodak" role="tab">
+                    BUDAPEST Irodák
+                    </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#kozepuletek" role="tab">
+                    Középületek
+                    </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#panelek" role="tab">
+                    Panelek
+                    </a>
+                    </li>
+                    
+                </ul>
+            
+            </div><!----col-md8 vége--->
+            
+           
+            
+            
+            <div class="tab-content">
+                <div class="tab-pane active" id="hazak" role="tabpanel">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>BUDAPEST Házak</p>
+                        <div id="my-pagination-content"></div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col text-center">
+                            <nav id="my-pagination" aria-label="Page navigation example"></nav>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                    <img class="img-fluid" src="./img/ONE.jpg" alt="Image">
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                    <img class="img-fluid" src="./img/globe3.jpg" alt="Image">
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                    <img class="img-fluid" src="./img/laurus.jpg" alt="Image">
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                    <img class="img-fluid" src="./img/skypark.jpg" alt="Image">
+                    </div>
+                </div><!---row vége--->
+            
+                
+                <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/kor.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/kpm.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/vision.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/madachtradecenter.jpg" alt="Image">
+                        </div>
+                </div><!---row vége--->
+                
+                <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/balna.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/zoo.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/vigado.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/stef.jpg" alt="Image">
+                        </div>
+                </div><!---row vége--->
+                
+                <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/sze.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/neprajzi-muzeum-igazsagugyi-palota-budapest.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/737x300.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/737x300.jpg" alt="Image">
+                        </div>
+                </div><!---row vége--->
+                
+             <div class="tab-pane " id="panel" role="tabpanel">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>Panel</p>
+                        
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel11.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel12.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel3.html" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel14.jpg" alt="Image">
+                        </div>
+                </div>
+                     <div class="row">
+                    <div class="col-xs-12">
+                        <p>Panel</p>
+                        
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel11.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel12.jpg" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel3.html" alt="Image">
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-3">
+                            <img class="img-fluid" src="./img/panel14.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="jumbotron">
+                    <h2>Felhívás, reklám, hir stb</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                </div><!---tab-content vége--->
+            </div><!---row vége--->
+        </div><!---container vége--->
+        
+
+    </main>
+ 
+    <footer class = "bg-info">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm-6 col-md-3 m-footer-contact">
+                    <a class = "navbar-brand" href = "index.html">
+                        <img src = "d-flex" src = "../pics/ico/logo-white.svg" alt = "" role = "img">
+                        BUDAPEST
+                    </a>
+                    <p>
+                    Gólyaműhely<br>
+                    </p>
+                </div>
+            
+            <div class = "col-sm-6 col-md-3 m-footer-nav">
+                <strong>Fontosabb munkáim</strong>
+                <ul>
+                      <li><a href = "olajfestmeny.html">Olajfestmény</a></li>
+                      <li><a href = "grafika.html">Grafika</a></li>
+                      <li><a href = "mozaik.html">Mozaik</a></li>
+                      <li><a href = "butor.html">Bútor</a></li>
+                      <li><a href = "mese.html">Mese</a></li>
+                </ul>
+            </div>
+            
+                
+            <div class = "col-sm-6 col-md-3 m-footer-nav">
+                <strong>Referenciák</strong>
+                <ul>
+                      <li><a href = "restauralas.html">Restaurálás</a></li>
+                      <li><a href = "mesegrafika.html">Mesegrafika</a></li>
+                </ul>
+            </div>
+                
+                <div class = "col-sm-6 col-md-3 m-footer-nav">
+                <strong>Információ</strong>
+                <ul>
+                      <li><a href = "index.html">Kezdőlap</a></li>
+                      <li><a href = "bemutatkozas.html">Bemutatkozás</a></li>
+                      <li><a href = "gyik.html">Kérdések és válaszok</a></li>
+                      <li><a href = "linkek.html">Linkek</a></li>
+                      <li><a href = "ajandekok.html">Ajándékok</a></li>
+                      <li><a href = "kedvencek.html">Kedvencek</a></li>
+                      <li><a href = "kapcsolat.html">Kapcsolat</a></li>
+                      <li><img  src="./pics/ico/phone_50x50.png" alt="Image"><br />06-20-482-3933</li><br />
+                      <li>   <a href = "https://www.facebook.com/G%C3%B3lyam%C5%B1hely-136971399775847/"><img src = "./pics/ico/fb_black_50x50.png" alt = "Facebook">Facebook</a></li>
+                </ul>
+            </div>
+                
+
+          
+            </div><!---row vége--->
+        </div><!---container vége--->
+    </footer>
+            
+    <script src= "./js/jquery-3.1.1.slim.min.js"></script>
+    <srcipt src= "./js/tether.min.js"></srcipt>
+    <script src= "./js/bootstrap.min.js"></script>
+    <script src= "./js/app.js"></script>
+    <script src= "./js/bootstrap.js"></script>
+    <script src= "./js/index.js"></script>
+</body>
+</html>

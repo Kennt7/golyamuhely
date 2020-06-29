@@ -1,0 +1,214 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+   background-image: url("../pics/gyujtes/szurke.jpg");
+}
+
+#tartalom{
+    width:100%;
+}
+
+.gombok{
+    margin-top:22px;
+}
+
+#myBtn, #btnElore,#kioldogomb{
+    height:50px;
+    width:80px;
+    text-align: left;
+    border: 1px solid #ffcc66;
+    font-style: italic;
+    color:black;
+  
+}
+
+a, a:hover, a:focus{
+    color:inherit;
+    text-decoration: none;
+    transition:all 0.3s;
+}
+#sidebar{
+    min-width:250px;
+    max-width:250px;
+    min-height:100vh;
+    background: #738605;
+    color:black;
+    transition:all 0.3s;
+}
+
+.listakomponensek{
+    overflow-y: auto;
+}
+#sidebar .sidebar-header{
+    padding:20px;
+    background:#6d7fcc;
+}
+
+#sidebar ul.listakomponensek{
+    padding:20px 0;
+    border-bottom:1px solid #47748b;
+}
+
+#sidebar ul li a{
+    padding:10px;
+    font-size:0.5em;
+    display:block;
+}
+
+#sidebar ul li a:hover{
+    color:#738605;
+    background:black;
+}
+
+ul ul a {
+    font-size:0.9em !important;
+    padding-left:30px !important;
+    background: #6d7fcc;
+}
+
+#sidebar.active{
+    margin-left:-250px;
+}
+
+@media(max-width:768px){
+    #sidebar{
+        margin-left:-250px;
+    }
+    #sidebar.active{
+        margin-left:-250px;
+    }
+}
+.container py-3{
+    border:5px solid black;
+}
+.container mt-3{
+    margin: 5px auto 0 auto;
+}
+
+#myCarousel{
+    display: flex;
+    border:5px solid brown;
+    
+}
+
+#btnElore{
+    background-color:darkolivegreen;
+}
+#kioldogomb{
+    background-color:darkorchid;
+}
+
+#cim{
+    text-align: center;
+}
+
+.kepek{
+    margin: 0 auto 0 auto;
+}
+
+.wrapper{
+    display:flex;
+    width:100%;
+    align-items:stretch;
+}
+#kozepso{
+    background-image:url( "../pics/wooden.jpg");
+    border: 5px solid green;
+}
+
+#elsoTema, #masodikTema{
+    font-size:10px;
+}
+h3{
+    text-align: center;
+    padding:5px;
+}
+h4{
+    padding:2px;
+    text-align: center;
+    font-size:15px;
+    font-weight: 300;
+}
+
+
+.col-md-2{
+
+    display:flex;
+    width:auto;
+}
+
+.col-md-10{
+    display:relative;
+    width:auto;
+}
+
+/*Gombok színei*/
+#k1{
+    background-color:orangered;
+}
+#k2{
+    background-color:darkgreen;
+}
+#k3{
+    background-color:yellow;
+}
+#k4{
+    background-color:darkmagenta;
+}
+#k5{
+    background-color:#e795e8;
+}
+#k6{
+    background-color:#ff043c;
+}
+#k7{
+    background-color:#98eaa1;
+}
+#k8{
+    background-color:#845e6b;
+}
+#k9{
+    background-color:#4c4724;
+}
+#k10{
+    background-color:#5e9836;
+}
+#k11{
+    background-color:#cda23e;
+}
+#k12{
+    background-color:#495735;
+}
+#k13{
+    background-color:#30e2fc;
+}
+#k14{
+    background-color:#743ec0;
+}
+#k15{
+    background-color:#cdbf16;
+}
+#k16{
+    background-color:#d3038b;
+}
+#k17{
+    background-color:#4c3c25;
+}
+#k18{
+    background-color:black;
+    color:white;
+}
+#k19{
+    background-color:#c9eaae;
+}
+#k20{
+    background-color:#15e259;
+}
+#k21{
+    background-color:darkmagenta;
+}
+
+
+

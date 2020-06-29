@@ -1,0 +1,81 @@
+
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#04350c;
+    color:yellow;
+ 
+    width:90%;
+    
+}
+
+#grafika{
+    background-image: url("");
+  
+}
+#kep{
+    margin-top:15px;
+    padding:15px;
+    border: 5px solid brown;
+}
+
+h3{
+    margin: 0 auto 0 auto;
+}
+
+p{
+    font-size: 20px;
+  
+}
+
+#jobboldaliSzoveg{
+    float:right;
+    text-align: justify;
+}
+
+#kep1{
+    margin-top:15px;
+  
+    padding:15px;
+    border: 5px solid brown;
+   /* margin: -680px 10px 900px 900px;*/
+}
+
+#baloldaliSzoveg{
+    float:left;
+}
+
+#v1,#v2,#v3{
+    margin:auto;
+    padding:15px;
+    border: 5px solid brown;
+}
+
+.vadaszat{
+    margin:0 auto 0 auto;
+}
+
+#ste{
+    margin-top:15px;
+    margin-left:5px;
+    padding:15px;
+    border: 5px solid brown;
+}
+
+#istvan{
+    margin-left:150px;
+}
+
+#alaiiras{
+    color:white;
+    margin-left: 150px;
+}
+
+#kontener{
+    margin-top:10px;
+}
+
+.szenttek{
+    margin-top: 10px;
+}

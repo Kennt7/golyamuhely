@@ -1,0 +1,48 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color:black;
+   
+}
+
+h4{
+    color:yellow;
+    margin-top: 10px;
+    float:left;
+   
+}
+
+p{
+    font-size:20px;
+    color:white;
+ 
+}
+#{
+    border: 5px solid black;
+}
+
+#butorkontener{
+    margin-top: 10px;
+}
+
+img{
+    border: 5px solid brown;
+}
+
+#mozaikkep{
+    float:left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+#jegmadarIdezet{
+    color:yellow;
+    font-size:30px;
+}
+
+strong{
+    text-decoration: underline;
+}

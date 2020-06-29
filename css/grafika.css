@@ -1,0 +1,40 @@
+
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#900C3F;
+    
+}
+
+
+
+.kepSzoveg{
+    font-family:"Lora", serif;
+    font-size: 20px;
+    text-align:center;
+    font-weight: 500;
+    color:yellow;
+
+}
+
+.tartalom{
+    width:90%;
+}
+.img-fluid {
+    margin:0 auto 0 auto;
+    border:5px solid #114f6e;
+}
+
+#oldalKep{
+    float:right;
+}
+
+.szentek{
+    font-weight: 200;
+    text-align: justify;
+    visibility:hidden;
+ 
+
+}
+

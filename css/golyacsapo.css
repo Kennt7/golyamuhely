@@ -1,0 +1,32 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    width:80%;
+    height:800px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    font-family: 'Roboto', sans-serif;
+    color:yellow;
+}
+
+.container{
+    padding:10px;
+    margin:0 400px 0 400px;
+}
+
+.carousel-caption{
+    font-family:'Odibe Sans',cursive;
+    color:black;
+}
+
+img{
+    border:3px solid yellow;
+}
+
+
+.navbar-brand{
+    color:black;
+}
+

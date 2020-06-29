@@ -1,0 +1,144 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+   
+
+
+    
+}
+
+#alsoFelirat{
+    text-shadow:none;
+}
+img{
+    border: 5px solid #b9b02d;
+    border-style: groove;
+    -webkit-box-shadow: 3px 40px 30px 15px rgba(247,215,8,1);
+    -moz-box-shadow: 3px 40px 30x 15x rgba(247,215,8,1);
+    box-shadow: 3px 40px 30px 15px rgba(247,215,8,1);
+}
+#golyaslogo,#fb,#tel{
+    -webkit-box-shadow: 0px 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px 0px ;
+    box-shadow: 0px 0px 0px 0px ;
+    border:3px solid white;
+}
+
+#tartalom{
+   background-color: brown;
+   border: 3px solid orange;
+  
+   background-image: repeating-linear-gradient(-45deg, red, black 15%);
+}
+
+#vershivatkozas{
+    color:black;
+}
+ #elsoSor, #masodikSor, #harmadikSor,
+ #negyedikSor,#otodikSor,#hatodikSor{
+    border: 5px solid black;
+    padding:5px;
+    border-image: url(../pics/oszlops.jpg) 10 round  ; 
+    border-image-width:10px;
+  
+}
+
+#ejjeliMuszak{
+border:2px solid blue;
+border-radius:8px;
+}
+
+#elsoReszlet,#masodikReszlet,#harmadikReszlet{
+    background-color:#10dc3d;
+    padding:5px;
+    text-align: justify;
+    text-align: left;
+}
+
+
+
+#negyedikReszlet,#otodikReszlet,#hatodikReszlet,#hetedikReszlet{
+    background-color: #fb8b20;
+    padding:5px;
+    text-align: justify;
+    text-align: left;
+}
+#nyolcadikReszlet,#kilencedikReszlet,#tizedikReszlet,#tizenegyedikReszlet{
+    background-color: #f70ff5;
+    padding:5px;
+    text-align: justify;
+    text-align: left;
+}
+#tizenkettedikReszlet,#tizenharmadikReszlet,#tizennegyedikReszlet,#tizenotodikReszlet{
+    background-color: #c4af3b;
+    padding:5px;
+    text-align: justify;
+    text-align: left;
+}
+#tizenhatodikReszlet,#tizenhetedikReszlet,#tizennyolcadikReszlet,#tizenkilencedikReszlet{
+    background-color: #947bb9;
+    padding:5px;
+    text-align: justify;
+    text-align: left;
+}
+#huszadikReszlet,#huszonegyedikReszlet,#huszonkettedikReszlet,#huszonharmadikReszlet{
+    background-color: #cf2a4d;
+    padding:5px;
+    text-align: justify;
+    text-align: left;
+}
+
+#huszonnegyedikReszlet,#huszonotodikReszlet,#huszonhatodikReszlet,#huszonhetedikReszlet{
+    background-color: #817358;
+    padding:5px;
+    text-align: justify;
+    text-align: left;
+}
+
+.btn {
+    border: 1px solid black;
+    color:black;
+    font-weight: 200;
+}
+
+img:hover{
+    border: 5px solid red;
+}
+
+p{
+   
+    font-kerning: auto;
+    color:black;
+    
+}
+
+ h3{
+    color:black;
+    font-weight:bold;
+    font-size: 30px;
+    font-style: oblique;
+    animation: valtozo 10s infinite;
+}
+@keyframes valtozo {
+  50% {text-shadow: 10px 20px 30px black;}
+}
+
+.pt-3{
+   
+}
+
+
+.kepCimek{
+   font-family: 'Itim';
+   font-size: 22px;
+   text-decoration-style:wavy;
+   text-shadow: 1px 1px #ab0605;
+}
+
+#fej1, #fej2{
+    align-content: center;
+    margin:5 auto 0 auto;
+}

@@ -1,0 +1,53 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color:black;
+}
+
+#slide{
+    float: right;
+}
+
+#carouselExampleIndicators .img-fluid {
+    height: 100%;
+    position: relative;
+    
+}
+
+
+
+
+.carousel-item{
+    width:500px;
+    height:500px;
+    object-fit:cover;
+   
+}
+#mozaikkontener{
+    background-color: aqua;
+}
+
+
+.col-md-8, .col-md-4{
+     background-color:darkblue;
+     color:yellow;
+}
+
+.carousel slide{
+    margin:5px auto 5px auto;
+}
+
+
+
+
+.img-fluid{
+    margin-right:15px;
+}
+
+
+p{
+    margin-left:10px;
+}
