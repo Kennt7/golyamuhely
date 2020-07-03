@@ -35,423 +35,430 @@
         </div>
     </header>
     <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="tab" id="ablak">
+                    <img class="img-fluid" src="pic/tart.jpg">
+                    <ul>
+                        <li class="tablinks" id="kF" onclick="fejezetmegnyitas(event, 'kezdolap')">
+                            <a href="#kezdolap">
+                                <img class="img-fluid" src="../mese/menu/menu__b1.jpg">
+                            </a>
+                        </li>
 
-        <div class="col-md-4">
-            <div class="tab" id="ablak">
-                <img class="img-fluid" src="pic/tart.jpg">
-                <ul>
-                    <li class="tablinks" id="kF" onclick="fejezetmegnyitas(event, 'kezdolap')">
-                        <a href="#kezdolap">
-                            <img class="img-fluid" src="../mese/menu/menu__b1.jpg">
-                        </a>
-                    </li>
+                        <li class="tablinks" onclick="fejezetmegnyitas(event, 'elsoFejezet')">
+                            <a href="#elsoFejezet">
+                                <img class="img-fluid" src="../mese/menu/menu__b2.jpg">
+                            </a>
+                        </li>
 
-                    <li class="tablinks" onclick="fejezetmegnyitas(event, 'elsoFejezet')">
-                        <a href="#elsoFejezet">
-                            <img class="img-fluid" src="../mese/menu/menu__b2.jpg">
-                        </a>
-                    </li>
+                        <li class="tablinks" onclick="fejezetmegnyitas(event, 'masodikFejezet')">
+                            <a href="#masodikFejezet">
+                                <img class="img-fluid" src="../mese/menu/menu__b3.jpg">
+                            </a>
+                        </li>
 
-                    <li class="tablinks" onclick="fejezetmegnyitas(event, 'masodikFejezet')">
-                        <a href="#masodikFejezet">
-                            <img class="img-fluid" src="../mese/menu/menu__b3.jpg">
-                        </a>
-                    </li>
+                        <li class="tablinks" onclick="fejezetmegnyitas(event, 'harmadikFejezet')">
+                            <a href="#harmadikFejezet">
+                                <img class="img-fluid" src="../mese/menu/menu__b4.jpg">
+                            </a>
+                        </li>
 
-                    <li class="tablinks" onclick="fejezetmegnyitas(event, 'harmadikFejezet')">
-                        <a href="#harmadikFejezet">
-                            <img class="img-fluid" src="../mese/menu/menu__b4.jpg">
-                        </a>
-                    </li>
+                        <li class="tablinks" onclick="fejezetmegnyitas(event, 'negyedikFejezet')">
+                            <a href="#negyedikFejezet">
+                                <img class="img-fluid" src="../mese/menu/menu__b5.jpg">
+                            </a>
+                        </li>
 
-                    <li class="tablinks" onclick="fejezetmegnyitas(event, 'negyedikFejezet')">
-                        <a href="#negyedikFejezet">
-                            <img class="img-fluid" src="../mese/menu/menu__b5.jpg">
-                        </a>
-                    </li>
+                        <li class="tablinks" onclick="fejezetmegnyitas(event, 'otodikFejezet')">
+                            <a href="#otodikFejezet">
+                                <img class="img-fluid" src="../mese/menu/menu__b6.jpg">
+                            </a>
+                        </li>
 
-                    <li class="tablinks" onclick="fejezetmegnyitas(event, 'otodikFejezet')">
-                        <a href="#otodikFejezet">
-                            <img class="img-fluid" src="../mese/menu/menu__b6.jpg">
-                        </a>
-                    </li>
+                        <li class="tablinks" onclick="fejezetmegnyitas(event, 'extra')">
+                            <a href="#extra">
+                                <img class="img-fluid" src="../mese/menu/menu__b7.jpg">
+                            </a>
+                        </li>
+                        <li>
+                            <h5>Kutyajó karácsony<br /> webes kiadás 2007-2013</h5>
+                            <img class="img-fluid" src="pic/g.gif" id="alairas1">
+                            <img class="img-fluid" src="pic/r.jpg" id="alairas2">
+                        </li>
+                    </ul>
 
-                    <li class="tablinks" onclick="fejezetmegnyitas(event, 'extra')">
-                        <a href="#extra">
-                            <img class="img-fluid" src="../mese/menu/menu__b7.jpg">
-                        </a>
-                    </li>
-                    <li>
-                        <h5>Kutyajó karácsony<br /> webes kiadás 2007-2013</h5>
-                        <img class="img-fluid" src="pic/g.gif" id="alairas1">
-                        <img class="img-fluid" src="pic/r.jpg" id="alairas2">
-                    </li>
-                </ul>
 
+                </div>
+                <!---oldalmenü vége--->
+            </div>
+            <div class="col-md-9">
+
+                <!------Kezdofejezet---------------------------------->
+                <quote id="felsoIdezet">"Ezt a könyvet hű társamnak,<br /> Legjobb barátomnak, Seriffnek ajánlom." (Gazdi)
+                </quote>
+
+                <div class="tab-content" id="kezdolap">
+                    <h1>Kutyajó karácsony</h1>
+                    <h3>Egyéb címek: Jóbarátok, Levél a Mikuláshoz</h3>
+                    <h5>Két kutya, egy hóember, egy kis fenyő és a Mikulás különös találkozása..<br />
+                        <strong>Főszerepekben:</strong></h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img id="f1" class="img-fluid" class="kezdoOldal" src="../mese/fejezetek/kezdoOldal/kutyus_es_seriff.jpg">
+                            <h4>Kutyus és seriff </h4>
+
+                        </div>
+                        <div class="col-md-6">
+                            <img id="f2" class="img-fluid" class="kezdoOldal" src="../mese/fejezetek/kezdoOldal/apo.jpg">
+                            <h4>Mikulást már mindenki ismeri</h4>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <img id="f3" class="img-fluid" class="kezdoOldal" id="kezdoOldal" onclick="valt()" src="../mese/fejezetek/kezdoOldal/balazs.jpg">
+                            <h4>Hóbalázs</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <img id="f4" class="img-fluid" class="kezdoOldal" src="../mese/fejezetek/kezdoOldal/fenyo.jpg">
+                            <h4>Kisfenyő</h4>
+                        </div>
+                        <p>Kezdődhet a kaland!</p>
+                    </div>
+                </div>
+                <!------1---------------------------------->
+                <div id="elsoFejezet" class="tab-content">
+                    <img src="./fejezetek/elso/csont1.png" onclick="valt()" id="eF">
+                    <h3>Fejezet</h3>
+                    <p>Seriff egy kis faluban lakik, és a városban dolgozik.Nagyon fontos munkát végez.<br />Gazdi műhelyére vigyáz napközben. Ő a biztonsági őr.</p>
+                    <img src="./fejezetek/elso/seriff.jpg">
+                    <p>Minden este, munka után, felviszi Gazdit a János-hegyre sétálni.<br /> Seriff egy szép napon itt ismerkedett meg Kutyussal.</p>
+                    <p>Először féltek egymástól, de később úgy összebarátkoztak, hogy Seriff attól a naptól fogva csak Kutyus miatt ment fel a hegyre, s még a reggelijéből is vitt neki egy-egy falatkát. Kutyus pedig megmutatta Seriffnek a fészkét, és a kedvenc
+                        szikláját.
+                    </p>
+                    <p>-Nézd! Innen a legszebb a kilátás!-mondta.</p>
+                    <img src="./fejezetek/elso/kutyus-seriff.jpg">
+                    <p>Ennél a sziklánál találkoztak minden este, és itt beszélgettek órák hosszat, az élet nagy dolgairól. Kutyus elmesélte, hogy egy szép nagy házban született, amelynek hatalmas kertjében sokat fogócskázott, játszadozott testvéreivel.</p>
+                    <img src="./fejezetek/elso/kutyusok.jpg">
+                    <p>Boldogok voltunk és vidámak, de egy nap történt valami. Jött egy ember és elvitte az egyik testvéremet. Azt mondta, hogy azért, mert ő a legszebb. Azután minden nap jött valaki és elvitte valamelyik kölyköt. Már csak ketten maradtunk
+                        a húgommal.
+                    </p>
+                    <p>Féltünk, hogy elszakítanak minket egymástól, ezért, hogy ne találjanak ránk elbújtunk.</p>
+                    <img src="./fejezetek/elso/bokornal.jpg">
+                    <img src="./fejezetek/elso/hugi.jpg">
+                    <p>Ám az emberek néhány finom falattal kicsaltak bennünket a rejtekhelyünkről és elvitték az utolsó kicsi testvéremet Hugit is. Azt mondták neki, miközben egy nagy guruló dobozba terelték:<br /> -Ne félj kutyuska, jó helyre fogsz kerülni!
+                        -Azt a guruló dobozt autónak nevezik az emberek-oktatta Seriff a barátját.</p>
+                    <img src="./fejezetek/elso/autos.jpg">
+                    <p>Az autó azonban sokkal gyorsabb volt nálam és én hamar lemaradtam. Akkor vettem észre, hogy fogalmam sincs, hol vagyok. Eltévedtem! Sokáig kóboroltam, éhes voltam és fáradt. Lepihentem egy nagy fa alá, és mély álomba merültem. Arra
+                        ébredtem, hogy egy koldus ember simogat és beszél hozzám.</p>
+                    <img src="fejezetek/elso/pityereg.jpg">
+                    <p>-Hát te kiskutya, hogy kerülsz ide? Nagyon elfáradtál ugye? Eltévedhettél, és biztosan éhes is vagy. Jól gondolom?</p>
+                    <img src="./fejezetek/elso/koldus.jpg">
+                    <p> - Szegény Kutyus! Neked is pont egy koldus emberrel kellett találkoznod, aki saját maga is alig jut valami élelemhez - mondta szomorúan. - No, de nem baj! Megosztozunk azon, amink van. Tudod, tetszel nekem, te Kutyus. Lehetnénk barátok.
+                        Mit szólsz hozzá?</p>
+                    <p>
+                        Ekkor butaságot, hogy egy ember barátja legyek, még életemben nem hallottam, de az eleség fele, amelyet felajánlott a koldus ember, csábító ajánlat volt számomra. Így hát igent mondtam neki, és a barátja lettem.</p>
+                    <p> - Önző és buta voltál te, Kutyus! Az egyik gyerekemre emlékeztetsz - szólalt meg Seriff mély hallgatás után, de Kutyus gyorsan félbeszakította...</p>
+                    <p>
+                        - Tudom, tudom, most már belátom, hogy buta voltam. Őt is elvesztettem.</p>
+                    <p>
+
+                        - Miért, mi történt? Mondd már Kutyus, ne csigázz! - kérdezte izgatottan Seriff.</p>
+                    <p>
+                        - Jó barátok lettünk a koldussal. Igaz, hogy háza nem volt. Itt laktunk ebben az erdőben, a domb mögötti barlangban. Tudod, amit megmutattam neked, ahol most is alszom - magyarázta Kutyus.</p>
+                    <p> - Ott aludt az ember is? Ez furcsa. Az én Gazdim, meleg ágyban alszik! Kivéve, ha éjszaka dolgozik, mert akkor én alszom az ágyában - válaszolta Seriff büszkén, és közben jóleső érzés töltötte el, mert a Gazdi finom szagára és a puha
+                        dunyhájára gondolt.
+                    </p>
+                    <img src="./fejezetek/elso/golyafeszek.jpg">
+                    <p>
+                        - Mi az az ágy, Seriff? - kérdezte Kutyus. - Mindjárt elmagyarázom, te butus, de most inkább meséld tovább a történetet! - türelmetlenkedett Seriff. - Jó, jó. Tehát, ott aludtunk a barlangban a koldus emberrel. Nem volt valami meleg, de ha összebújtunk,
+                        nem fáztunk. Éjjel a bagoly őrizte álmunkat...
+                    </p>
+                    <img src="./fejezetek/elso/nightuhu.jpg">
+                    <p> Reggelente a koldus elment, s hogy honnan szerezte, nem tudom, de mindig egy kenyérrel tért vissza. Ez volt a reggelink, az ebédünk, és a vacsoránk.</p>
+                    <p>- Miért nem fogtál hozzá egy nyulat, Kutyus? Tudod, milyen finom a nyúlpörkölt kenyérrel? - kérdezte Seriff.</p>
+                    <p>- Próbáltam én, de nem ment. A nyúl nagyon gyorsan szalad, ráadásul cseles is! - válaszolt Kutyus.</p>
+                    <p>- Én már fogtam egyet! - dicsekedett Seriff, azután gyorsan hozzátette:</p>
+                    <p>De nem bántottam! Csak megvizsgáltam közelebbről, hogyan is néz ki egy ilyen gyorslábú "szerkezet". Nagyon izmos lába van! Ezt onnan tudom, hogy vizsgálódás közben jól orrba rúgott! - mesélte Seriff, aztán izgatottan kérlelte Kutyust:</p>
+
+                    <p>- Mondd tovább! Mi történt a koldussal?</p>
+
+                    <p>Egy nap elment kenyérért, és nem jött vissza többet. Nem tudom, hol lehet, azóta sem hallottam felőle. Sokáig vártam és kerestem őt, de hiába. Megkértem galamb barátomat, hogy nézzen körül odafentről, de ő sem látta sehol. Eltűnt!
+                        Így hát magamra maradtam, és mondhatom, nagyon rossz egyedül. Azért van néhány barátom. Például a bagoly, aki éjjelente vigyáz rám, amíg alszom.</p>
+                    <img src="./fejezetek/elso/bagoly.jpg">
+
+                    <p>Szarka barátom pedig ételt lop nekem a vendéglőből, és itt vagy nekem te is, aki megfelezed velem a reggelidet, és esténként olyan jó veled beszélgetni, játszani, futkározni, de nagyon rossz, amikor elmész! Tudom, tudom, neked dolgoznod
+                        kell és vár a Gazdid, de akkor is nagyon hiányzol! Én is szeretnék egy gazdit, aki minden nap velem van, simogat, beszél hozzám, labdázik velem, és meleg ágyikóban alszik. - mondta szomorúan Kutyus, aztán kíváncsian megkérdezte
+                        újra:
+                    </p>
+                    <p>- Mi az az ágy Seriff?</p>
+
+                    <p>- Az egy fából készült fekvőhely, amibe meleg pokrócot és tollal bélelt puha párnát és paplant tesznek. Figyelj! Lerajzolom ide a homokba!</p>
+
+                    <img src="./fejezetek/elso/bed.jpg">
+                    <p>- Tudod, Kutyus, neked is lehetett volna gazdid, de te megijedtél és elszaladtál...</p>
+
+                    <p>- Ezt nem értem - mondta Kutyus.</p>
+
+                    <p>- Akkor figyelj jól, elmagyarázom! Az emberek, akik elvitték a testvéreidet, az ő gazdáik lettek. Minden testvérednek van már gazdija, aki labdázik velük, és sétálni viszi őket, úgy, mint az én Gazdim engem. - magyarázta Seriff.</p>
+
+                    <p>Kutyus gyanakodva kapta fel a fejét. - Ebben biztos vagy, Seriff?</p>
+
+                    <p>- Igen, egészen biztos!</p>
+                    <img src="./fejezetek/elso/kutyusinbed.jpg">
+
+                    <p>Nekem is voltak kölykeim, és őket is elvitték. Nagyon megijedtem, de a Gazdival később elmentünk a gyerekekhez látogatóba, és akkor megnyugodtam, mert láttam, hogy ők is szerető gazdikhoz kerültek, és boldogok. Én meg végre pihenhettem
+                        egy kicsit. Nagyon fárasztó volt tíz kis kölyköt tanítgatni.</p>
+                    <img src="./fejezetek/elso/family.jpg">
+                    <p>A nap minden percében vigyáznom kellett rájuk, rajtuk kellett tartanom a szemem, mert rendkívül elevenek voltak. Folyton összegabalyodtak és úgy gurultak összekapaszkodva, mint egy nagy gombóc. Máskor fölmásztak a Gazdi ágyára, és
+                        nem tudtak lejönni, vagy lepottyantak róla. Eltévedtek a Gazdi kertjében, aztán sírva gubbasztottak egy bokor alatt, amíg rájuk nem találtam.</p>
+                    <p>A legkisebbik kölyköm, egy kislány, otthon maradt velem. Őt a Gazdi nem adta oda senkinek. Kis Muknak hívják, és ugyan olyan fekete, mint te.</p>
+                    <p>Nagyon emlékeztetsz egy másik kölykömre is. Bukfenc a neve. Olyan a természeted, mint az övé. Később majd mesélek neked Bukfencről is, de most térjünk vissza hozzád.</p>
+                    <p>Tudod Kutyus, ha nem szaladsz a húgod után, hanem nyugton maradsz, érted is jött volna egy gazdi és most nem lennél ilyen bajban. Ugye, érted? Ez a dolgok furcsa rendje kis barátom.</p>
+                    <p>- Azt hiszem, igazad van, Seriff. Most mi tévő legyek? Rossz egyedül, éhes vagyok és fázom.</p>
+                    <p>Hajnalban sok apró fehérség hullott az égből... Fehér és hideg lett tőle az egész erdő!</p>
+                    <img src="./fejezetek/elso/muki.jpg">
+                    <p>Hajnalban sok apró fehérség hullott az égből...Fehér és hideg lett tőle az egész erdő!</p>
+                    <img src="./fejezetek/elso/bukfenc.jpg">
+                    <p>- Hahó, Kutyus, azt a sok kis fehérséget, úgy hívják, hogy hó, és az nagyon jó, ha esik, mert akkor már itt jár a közelben a Mikulás! A hó ugyanis akkor esik, amikor a Mikulás rénszarvas húzta szánján, végigszáguld a felhők tetején.
+                        Te Kutyus! Támadt egy ötletem! Hogy ez eddig nem jutott eszembe! - kapta föl a fejét Seriff.</p>
+                    <p>- Mire gondolsz barátom?</p>
+                    <p>- Bízz bennem, Kutyus, minden rendben lesz! - vakkantotta vidáman, és elszaladt.</p>
+                </div>
+                <!------2---------------------------------->
+                <div id="masodikFejezet" class="tab-content">
+                    <img src="./fejezetek/masodik/2f.png">
+                    <h3>Fejezet</h3>
+                    <p>-Sziasztok, naplopó csirkék! -csaholta vidáman -Nem láttátok Liba mamát?</p>
+                    <p>-Bent van az ólban, neveletlen, szedte-vette kutyája- rebbentek szét a tyúkok hangosan kotkodácsolva, amikor Seriff bevágódott a baromfiudvarba.</p>
+                    <img class="img-fluid" src="./fejezetek/masodik/baromfi.jpg">
+                    <p>Félre az útból, rántott húsnak való népség!-kiáltotta szemtelenül, és bedugta fejét az ólba.</p>
+                    <p>- Jó napot, Liba mama! Szükségem volna egy tolladra. - Minek az neked, ember barátja? - gágogta Liba mama. - Levelet kell írnom a Mikulásnak! - Ugyan már, te gazdi szomorító, hiszen a Mikulás csak mese! - nevetett Liba mama.</p>
+                    <p>- A Mikulás egyáltalán nem mese, Liba mama! A Mikulás tényleg létezik. A Gazdi egyik könyvében olvastam. Igaz, hogy régen nem így hívták. Figyelj csak, elmesélem! Szent Miklós püspök Myra városában lakott, Törökországban. Jó ember
+                        volt. Titokban megajándékozta a szegényeket.</p>
+                    <p>Myrában élt akkortájt három pártában maradt lánytestvér. Nem tudtak férjhez menni, mert szegények voltak, nem volt hozományuk. Pedig az egyik lánynak már választottja is volt. Egy este a lány, motoszkálást hallott az ajtónál...</p>
+                    <p>Kinézett és egy zacskó pénzt talált a tornácon, miközben egy piros palástot látott elsuhanni a sötétben az erdő felé. Nem értette. Ki lehet a nagylelkű segítő? Boldog volt, mert így már férjhez mehetett választottjához. Pár nap múlva
+                        a másik két lány is kapott hozományt a titokzatos idegentől.</p>
+                    <p>- Ki lehet ilyen adakozó? - gágogta Liba mama.</p>
+                    <p>Szent Miklós püspök, akit ma Mikulásnak hívunk. Már nagyon öreg. A régi püspöki palástja helyett piros prémes ruhát hord, és hosszú, fehér szakálla nőtt. Egy dolog azonban nem változott. Mindenkinek segít, aki rászorul, mert ő nem
+                        csak szóval hirdeti a karácsony üzenetét. Az egyik barátom nagy bajba került, az ő nevében írok levelet a Mikulásnak. Nincs gazdája, kóbor kutyus. Akkor hát adsz nekem egy tollat, Liba mama?</p>
+                    <p>- Hát persze, húzz csak ki egyet bátran, drágám! - Drááágááám dráááágáááám Kukkuríkúúú!</p>
+                    <p>- Miket mondasz te, ennek a koszos kutyának? - rikkantott a kakas.</p>
+                    <img class="img-fluid" src="./fejezetek/masodik/suni.jpg">
+                    <p>De Serif ezt már nem hallotta. Libamama tollával a szájában egyenest a sünihez rohant, hogy levelet kérjen tőle, aztán szedte a lábát hazáig, beszaladt a szobájába, be a Gazdi ágyába. Rögvest nekilátott, és megfogalmazta a levelet.</p>
+                    <img class="img-fluid" src="./fejezetek/masodik/seriff-in-bed.jpg">
+                    <p>Amikor elkészült, átmászott a kerítésen, és futott, ahogy a lába bírta, egészen a postáig.</p>
+                    <img class="img-fluid" src="./fejezetek/masodik/levelestyutyu.jpg">
+                    <p>A Gazdi már vacsorához hívta, ezért nagyon kellett sietnie, nehogy kiderüljön, kiszökött a házból. Sietve bedobta a levelet a postaládába, és futott is haza. Vacsora után hamar elaludt. Kutyusról álmodott, ahogy új gazdija simogatja
+                        fekete buksiját.
+                    </p>
+
+                </div>
+                <!------3---------------------------------->
+                <div id="harmadikFejezet" class="tab-content">
+                    <img class="img-fluid" src="./fejezetek/harmadik/3f.png">
+                    <h3>Fejezet</h3>
+                    <p>Eközben az erdőben Kutyus is álomra hajtotta a fejét. Sötét éjszaka volt, mintha a Hold is a paplan alá bújt volna, csak a szelet szerződtették ma éjjelre zenésznek, aki viszont bőszen dolgozott. Fújt, süvített és tépte a fák koronáját
+                        a csontig hatoló hidegben. Minden állat elbújt az odújába várva a hajnali fényt.</p>
+                    <img class="img-fluid" src="fejezetek/harmadik/sotetejj.jpg">
+                    <p>A kis falu is nyugovóra tért. Egyvalaki azonban épp most indult útnak, s a sötétséget kihasználva, puha talpakon lopakodott egy baráti találkozóra.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/bandita.jpg">
+                    <p>A posta padlásán Macska-bált rendeztek az éjjel. Oda indult Bandita, a fekete-fehér foltos két-ballábas kandúr. Bandita gyermekkori nagy ellensége volt Seriffnek. Kikémlelte, hogy Seriff, akit ő csak Nagy Fehérnek hív, levelet írt
+                        ma este. Nagy bánatára azt már nem tudta kilesni, hogy ki a levél címzettje, és ez borzasztóan bosszantotta. Ezért is sietett annyira a postai egerésző estre, bár éhes nem volt, mert ellopta a Nagy Fehér maradék vacsoráját.</p>
+                    <p>A postához érve hallotta, hogy barátai már vígan viháncolnak a tetőn. A macskák, látva Bandita érkezését elkezdték a szokásos csúfolódást. Bandita ugyanis a legügyetlenebb egerésző a környéken és mindenki tudja róla, hogy a kutya vacsoráján
+                        él, ami bizony nagy szégyen egy falusi macskának.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/postap.jpg">
+                    <p>- Vigyázz, Bandita, nehogy megkergessenek az egerek! - nevettek hangosan a cicák.</p>
+                    <p>- Ne gúnyolódjatok, ma nem egerészni jöttem!</p>
+                    <p>- Gondoltuk! - vihogtak a többiek - Biztos nem vagy éhes, mert megetted Nagy Fehér maradékát, amíg ő itt járt.</p>
+                    <p>
+                        - Itt járt Nagy Fehér? Ez biztos? Láttátok?</p>
+                    <p>- Igen, Te, tesze-tosza jószág. Itt volt és bedobott egy levelet a postaládába, azután elszaladt.</p>
+                    <p>- Melyik ládába dobta? Mondjátok gyorsan!? – nyávogta Bandita izgatottan.</p>
+                    <p>- A zöld színűbe, Te, macskajaj! Különben miért vagy olyan kíváncsi? Biztos nem neked írta.</p>
+                    <p>Bandita azonnal a zöld postaláda tetejére ugrott, belekukucskált. Valóban ott volt a levél! Bedugta mancsát a postaláda nyílásán, és beleakasztotta a körmeit a levélbe.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/posta.jpg">
+                    <p>- Így ni! Már meg is van! Izgatottan kezdte olvasni, majd hangos nevetésbe tört ki. A többiek felfigyeltek rá.</p>
+                    <p>- Nézzétek ez egér helyett levelet fogott! Gyertek, nézzük meg mit olvas! Mondd már Bandita, mi olyan vicces!</p>
+                    <p>A macskák mind Bandita köré gyűltek. Mancsról-mancsra adták a levelet és csak nevettek, nevettek, vihogtak, nyávogtak.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/levelescica.jpg">
+                    <p>- Hogy lehet ez a Nagy Fehér ilyen buta! Elhiszi, hogy a Mikulás létezik! Ha-ha-ha! – gúnyolódtak a kutya levelén. A nagy viháncolásra a szél is feltámadt, odasuhant Bandita mellé, és kikapta mancsából a levelet, mintha csak megunta
+                        volna a macskák gúnyolódását.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/wind.jpg">
+                    <p>A magasba emelte, és csak fújta, fújta egyre messzebb, falun, városon, erdőn, mezőn keresztül, míg végül egy szélvédett fenyőerdőhöz érve, a legöregebb fenyő orra elé pottyantotta a hóba. A fenyő mély álomból ébredve csodálkozva nézte
+                        a barna levelet.
+                    </p>
+                    <p>- Hogy kerülhetett ez egy örökzöld fenyőerdőbe? – tűnődött. Lehajolt, felemelte, s meglepődve látta, hogy írás is van rajta.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/fenyok.jpg">
+                    <p>Közben felébredt szendergéséből a családja is, és észrevették kezében a levelet. A kis fenyők mind köréje gyűltek</p>
+                    <p>- Olvasd föl Fenyőpapa! - kérlelték az öreg fenyőt.</p>
+                    <p>Fenyőpapa hangosan elkezdte olvasni a levelet.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/fenyopapa.jpg">
+                    <strong>Kedves Mikulás,</strong>
+                    <p>Kedves Mikulás, Én Seriff vagyok, és a barátomnak, Kóbor Kutyusnak szeretnék karácsonyi ajándékba egy gazdit kérni Tőled. Én az Üveghegy mellett, a harmadik fehér házban lakom. Kérlek, keress meg Mikulás, és én cserébe a kedvességedért,
+                        mindenben segítek Neked.
+                    </p>
+                    <strong>Köszönettel:Seriff</strong>
+
+                    <p>- Gyerekek, úgy látom, ez egy nagyon fontos levél! Most mitévők legyünk, Fenyőmama?</p>
+                    <p>- Ez egyszerű! - rikkantott fel az egyik kis fenyő - Majd én elviszem a Mikulásnak azt a levelet. Nemrég láttam őt. Épp a fejünk fölött suhant el, amikor Hóembert építettünk. Emlékeztek fiúk?</p>
+                    <p>- Hogyne emlékeznénk, de olyan gyorsan repítette a rénszarvas, hogy attól félünk, már nagyon messze járhat!</p>
+                    <p>- Az már igaz, de a munkája is sok. És a jó munkához idő kell, ugye? Ha törik, ha szakad, én bizony megkeresem és elviszem neki a levelet! Segítenünk kell Kutyuson! Fenyőpapa rám bízhatod a dolgot!</p>
+                    <p>A fenyőgyerek ezzel a lendülettel már magára is kapta sapkáját és a kis csizmáit. A zsebébe forró krumplit rakott a mamája, hogy ne fázzon a keze, és útnak is indult az éj leple alatt. Nem félt a sötétben, mert egy csillagot kötött
+                        a sapkája csúcsára, ami világította az utat. A szél is alább hagyott. Nyugodt tempóban haladt előre a legközelebbi falu irányába, ami még kétnapi járásra volt.</p>
+                    <img class="img-fluid" src="./fejezetek/harmadik/kisfenyo.jpg">
+                </div>
+                <!------4---------------------------------->
+                <div id="negyedikFejezet" class="tab-content">
+                    <img class="img-fluid" src="./fejezetek/negyedik/4f.png">
+                    <h3>Fejezet</h3>
+                    <p>Eközben Seriff otthon izgatottan várta a fejleményeket, hisz a levélnek postai úton már meg kelllett érkeznie a Mikuláshoz.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/nightwindow.jpg">
+                    <p>- Ilyen sok munkája van, vagy tényleg nem is létezik? Kutyusról sem tudok semmit, mert már karácsonyi szabadságon vagyunk a Gazdival, és nem megyünk a városba. Kutyus biztos azt gondolja, hogy már nem is szeretem.</p>
+                    <p>- Mi lehet vajon szegénnyel? - Ráadásul még Bandita is eltűnt, napok óta nem jött haza. - Őt sem tudom megkergetni, pedig a macskakergetés remek feszültségoldó játék. Jaj, mi lesz ennek a vége? - Jaj nekem! - így morfondírozott magában.</p>
+                    <p>Kutyus a hegyen szintúgy jajgatott...</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/kutyus-a-hegyen.jpg">
+                    <p>Ő nem tudta, hogy Seriff a karácsonyi szünetben nem dolgozik. Honnan is tudhatta volna, hisz ez az első tél az életében, és ráadásul nagyon hideg. "Lehet, hogy bajban van a barátom? Olyan gyorsan elszaladt akkor este. Mi lehet vele?
+                        Vagy talán már nem is szeret, azért nem jön el hozzám?"- így tűnődött magában.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/kutyus-szomoru.jpg">
+                    <p>Kisfenyő eközben elérte a falu határát. Boldogan szaporázta lépteit. "Mindjárt ott vagyok - bíztatta magát - a gyerekek majd segítenek nekem megtalálni a Mikulást." Ebben a pillanatban a szél újra feltámadt és hatalmas vihar kerekedett.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/kisfenyo-vs-wind.jpg">
+                    <p>Idővel aztán a szél beleunt a mókába, és amilyen gyorsan kerekedett, olyan gyorsan el is állt. Kisfenyő meg orra pottyant. Nagyon megütötte magát, felállni sem tudott.</p>
+                    <p>Most mi lesz? A levél nálam, a Mikulás a közelben, nekem meg eltörött a lábam - gondolta kétségbeesetten. Nem volt más hátra, hangos kiabálásba kezdett:</p>
+                    <p>- Segítség! Segítség! Hahó! Segítség!</p>
+                    <p>Szerencséjére éppen arra síelt egy hóember, aki meghallotta a segélykiáltást, és odasiklott Kisfenyőhöz</p>
+                    <p>- Szia, Kisfenyő, én Hóbalázs vagyok. Mit csinálsz ott a hóban ülve? Találtál valamit? És hogy kerülsz ide? Messziről jöttél? Téged még nem láttalak errefelé. Add a kezed, hadd segítselek föl!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/kisfenyo-hobarat.jpg">
+                    <p>- Júj, de szúrós vagy!</p>
+                    <p>- Jaj, Hóbalázs, ne kérdezz már olyan gyorsan, inkább segíts nekem, kérlek! A Mikulást keresem, nagyon fontos levelet hoztam neki. Sürgősen meg kell találnom őt.</p>
+                    <p>- A legjobb helyen jársz. Én ugyanis tudom, hogy hol van. Gyere utánam, megmutatom!</p>
+                    <p>- De nem tudok ám, mert eltörött a lábam!</p>
+                    <p>- Ejnye, ejnye! Lássuk csak! Hoppla-hó, van egy ötletem! - kiáltotta Hóbalázs és ezzel elsiklott a sílécein.</p>
+                    <p>Kisvártatva visszatért egy szánkóval és egy sállal. A közelben játszó gyerekektől kérte kölcsön. Felsegítette a kisszánkóra Kisfenyőt, és a sállal bekötötte a lábát. - Így, ni! Most már mehetünk! Kapaszkodj erősen!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/hoszan.jpg">
+                    <p>A szánkó csak úgy repült a friss hóban, és perceken belül ott termettek a Mikulás háta mögött, aki észre sem vette őket. Nagy munkában volt a krampuszaival. Megszólítani nem merték, csak halkan köhintettek egyet. A Mikulás felfigyelt
+                        rájuk. Megfordult és látva a furcsa jövevényeket, lemászott a létráról.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/mikulas-letran.jpg">
+                    <p>- Hát ti mi járatban vagytok?</p>
+                    <p>- Egy rendkívül fontos levelet hoztam neked - felelte bátran Kisfenyő.</p>
+                    <p>- Ami azt illeti, elég későn érkeztetek. Már alig van ajándékom. No, de azért hadd olvassam azt a levelet, aztán majd meglátom, mit tehetek!</p>
+                    <p>Kényelmesen leült egy ajándékcsomag tetejére, feltette a szemüvegét, és komoly arccal olvasni kezdett.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/mikulas-letter.jpg">
+                    <p>A végére érve boldogan csapta össze a kezeit.</p>
+                    <p>- Hát, ilyet! Ha tudnátok, mekkora segítség nekem ez a levél! Bajban voltam egy kívánság teljesítésével. Bármilyen hihetetlen, még a Mikulás is kerülhet bajba, de ti megmentettetek! Nemrég üzenetet kaptam egy kislánytól, aki egy kutyust
+                        kért tőlem. Igaz, hogy van már egy kutyája, de a kislány szerint szomorú egyedül, ezért szeretne egy jó barátot neki. Fogalmam sem volt, honnan szerzek kiskutyát, de a ti jóvoltotokból meg fogja kapni! Gyertek gyorsan, keressük
+                        meg Seriffet és Kutyust. Siessünk! Sürget az idő!</p>
+                    <p>Mind felültek a szánra, bár Hóember pocakja miatt alig fértek el rajta. A rénszarvas, mint a szélvész repítette őket, és a Hold világította nekik az utat.</p>
+                    <p>Hamarosan megérkeztek Seriff háza elé, aki már várta őket, eléjük szaladt, és örömében a Mikulás ölébe ugrott. Boldogan mutatta az utat Kutyushoz.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/mikulas-szanon.jpg">
+                    <p>Kutyus percről percre szomorúbb lett. Befeküdt egy bokor alá, és ott sírt bánatában, mert azt hitte, hogy megfeledkezett róla a barátja. Megint nagyon egyedül érezte magát.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/kutyus-sir.jpg">
+                    <p>Már majdnem elaludt, amikor végre ismerős hangokra lett figyelmes. Mintha barátja hangját hallotta volna a távolból... vagy csak képzelődik?
+                    </p>
+                    <p>Nem, ez tényleg ő! Visszajött! Jaj, de jó! Hát, mégis szeret!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/hope.jpg">
+                    <p>- Seriff, barátom! Hát, eljöttél?</p>
+                    <p>- Szia Kutyus, hogy aggódtam érted!</p>
+                    <p>Boldogan vakkantottak egymásnak, és bolondos futkározásba, játékba kezdtek.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/happydogs.jpg">
+                    <p>A Mikulás csendben mosolygott a bajusza alatt, aztán szelíden rájuk szólt:</p>
+                    <p>- Most már elég a hancúrozásból, mert még van egy fontos dolgunk. El kell vinnünk Kutyust az új gazdijához.</p>
+                    <p>- Az új gazdimhoz? Ez igaz, Seriff?</p>
+                    <p>- Bizony, Kutyus! Gyere gyorsan, ugorj föl a szánra! Valaki nagyon vár téged. Siess, mert nincs sok időnk, mindjárt Szenteste, és nekem is haza kell mennem a Gazdihoz.</p>
+                    <p>- Egy kicsit azért félek.</p>
+                    <p>- Ne félj Kutyus, mire a nap újra felkel, neked is lesz kedves, hű gazdád, aki puha, meleg ágyba fektet, és becéző szavakkal altat.</p>
+                    <p>- Sőt, van még egy meglepetésem számodra Kutyus - mondta a Mikulás - Gyertek hamar, menjünk, menjünk!</p>
+                    <p>A szán újra eliramodott, és kisvártatva meg is állt egy szép nagy kertes ház előtt. A Mikulás letette Kutyust a kapu elé. - No, most menj be szépen! - mondta, majd kinyílt a kapu és Kutyus belépett.</p>
+                    <p>Nagyon meglepődött. A kertből egy másik kutyus ugatása hallatszott. "Ez furcsa. Ennek a kutyának ismerem a hangját..." - csodálkozott.</p>
+                    <p>Hogy ne ismernéd Kutyus, hisz ő a húgod! Ez volt a meglepetés!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/talalkozas.jpg">
+                    <p>- El sem tudom hinni, mennyi ajándék egy napra! Jaj Hugi, Hugikám, én vagyok az, Kutyus!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/kutyus-hugi-mancs.jpg">
+                    <p>- Bátyám, kedves Bátyám, hogy találtál rám? De jó, hogy itt vagy!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/kutyus-hugi-game.jpg">
+                    <p>A két testvér egymás nyakába ugrott, össze-vissza puszilták egymást, és hatalmas nagy köröket futottak a kertben, hangos vakkantásokkal kísérve örömtáncukat.</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/snowcircle.jpg">
+                    <p>A nagy ugatásra egy kislány lépett ki a házból, a szüleivel.</p>
+                    <p>A lány egyenest Kutyushoz szaladt, lehajolt hozzá, megsimogatta, majd kedves hangon így szólt hozzá: "Szia Kutyus, örülök, hogy itt vagy!"</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/ujgazdi.jpg">
+                    <p>- Honnan tudod a nevemet? - kérdezte meglepetten, de a kislány már nem hallotta. Szüleihez futott, és hangosan kiabálta: "Nézd anyu, van a kiskutyámnak barátja. Biztosan a Mikulás küldte!"</p>
+                    <p>- Miből gondolod kicsim? Lehet, hogy csak egy kóbor kutya.</p>
+                    <p>- Nem kóbor, Anya! Levelet írtam a Mikulásnak, amiben barátot kértem Huginak, hogy legyen kivel futkároznia. Látjátok? Itt van. Milyen aranyosak együtt! Nézzétek, el akarják kapni a hópelyheket!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/snowgame.jpg">
+                    <p>- Ezt a Kutyust, csak a Mikulás küldhette nekünk! Ugye megtarthatom?</p>
+                    <p>- Persze kicsim, de most már hívd be őket a házba, mert a végén még megfáznak. Etessük meg őket finom husikával.</p>
+                    <p>- Sütit is adhatok nekik? Apa, Kutyus is mellettem alhat, ugye? Kutyusnak fogom hívni. Ni-ni, erre hallgat. Nézzétek, pacsit adott nekem! Anya varrsz neki is párnát és paplant?</p>
+                    <p>A kislány tele volt kérdésekkel izgalmában. Örült újdonsült barátjának.</p>
+                    <p>- Jó itt lenni Hugi. Ezek az emberek nagyon kedvesek, főleg a kis ember. Hát, ilyen egy jó gazdi?</p>
+                    <p>- Igen Bátyus, ilyen. Ők nagyon jó Gazdik. Jaj, Bátyus, nem tudom, hogyan találtál rám, de jó, hogy itt vagy, nagyon hiányoztál!</p>
+                    <p>- A Mikulás és a barátom, Seriff segítettek. Seriffet majd bemutatom neked, jó? És mindent elmesélek részletesen, mert sok minden történt ám velem, amióta elváltak útjaink.</p>
+                    <p>- Rendben van, testvérkém. Bőven lesz időnk mindenre. Többé sosem hagyjuk el egymást. Most pedig aludjunk, mert biztosan elfáradtál, nehéz napod lehetett.</p>
+                    <p>- Jó éjszakát, Hugi!</p>
+                    <p>- Szép jó éjszakát, Bátyám! Álmodj finom füstölt csonttal!</p>
+                    <img class="img-fluid" src="./fejezetek/negyedik/joejt.jpg">
+                </div>
+                <!------5---------------------------------->
+                <div id="otodikFejezet" class="tab-content">
+                    <img class="img-fluid" src="./fejezetek/otodik/5f.png">
+                    <h3>Fejezet</h3>
+                    <p>Aki még nem alszik, annak elmesélem, hogy mi történt másnap.</p>
+                    <p>Kutyus reggel felébredt és körülnézett a szobában. Az ablakon bemosolygott a nap, a húga mellette szuszogott, és a kislány átölelte. Végre boldognak érezte magát. "Igaza volt Seriffnek. Mire a nap újra felkelt, hű gazdim lett. Köszönöm
+                        barátom!" - suttogta hálásan</p>
+                    <img class="img-fluid" src="./fejezetek/otodik/masnap.jpg">
+                    <p>A baráti szövetség a két kutya között megmaradt, és új tagokkal is bővült a kis társaság. Kutyus, Hugi, Seriff és a Gazdik elválaszthatatlanok lettek. Mikor a Nap elalszik, és a Hold felgyújtja a csillagokat, mind együtt mennek fel
+                        a János-hegyre megbeszélni az élet nagy dolgait.</p>
+                    <img class="img-fluid" src="./fejezetek/otodik/szuzi.jpg">
+                    <img class="img-fluid" src="./fejezetek/otodik/end.jpg">
+                </div>
+                <!------extra---------------------------------->
+                <div id="extra" class="tab-content">
+                    <h1 id="mesesextrak">Mesés extrák!</h1>
+
+                    <h3>Szereplők élőben</h3>
+                    <div class="kepdoboz">
+                        <a href="./pic/serko.jpg"> <img class="extrakepek" class="img-fluid" src="./pic/serko.jpg" target="kepdoboz"></a>
+
+                        <a href="./pic/babu.jpg"><img class="extrakepek" class="img-fluid" src="./pic/babu.jpg" target="kepdoboz"></a>
+                        <a href="./pic/fal.jpg"><img class="extrakepek" class="img-fluid" src="./pic/fal.jpg" target="kepdoboz"></a>
+
+                        <img class="extrakepek" class="img-fluid" src="./pic/kutyus-seriff.jpg" target="kepdoboz">
+                        <img class="extrakepek" class="img-fluid" src="./pic/tyutyu.jpg" target="kepdoboz">
+                        <img class="extrakepek" src="../mese/extra/a_elolap.jpg" target="kepdoboz">
+                        <img class="extrakepek" src="../mese/extra/a_hatlap.jpg" target="kepdoboz">
+
+
+                    </div>
+
+
+
+                    <!--<h3><img src="./pic/book.jpg">Mesekönyv borító</h3>-->
+                    <br />
+                    <br />
+                    <h3 id="stablista">
+                        <img src="../mese/pic/moon.jpg">Videó stáblista</h3>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="../mese/video/stablist.mp4"></iframe>
+                    </div>
+                    Zene:Irigy Hónaljmirigy
+                </div>
 
             </div>
-            <!---oldalmenü vége--->
+            <!---col-md-8--vége--->
+
+
+
+            <!---fősor vége--------->
+
         </div>
-        <div class="col-md-8">
+        <!----row--vége----->
+        < </div>
+            <!----container-vége-->
 
-            <!------Kezdofejezet---------------------------------->
-            <quote id="felsoIdezet">Ezt a könyvet hű társamnak,<br /> Legjobb barátomnak, Seriffenk ajánlom. (Gazdi)
-            </quote>
-
-            <div class="tab-content" id="kezdolap">
-                <h1>Kutyajó karácsony</h1>
-                <h3>Egyéb címek: Jóbarátok, Levél a Mikuláshoz</h3>
-                <h5>Két kutya, egy hóember, egy kis fenyő és a Mikulás különös találkozása..<br />
-                    <strong>Főszerepekben:</strong></h5>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img id="f1" class="img-fluid" class="kezdoOldal" src="../mese/fejezetek/kezdoOldal/kutyus_es_seriff.jpg">
-                        <h4>Kutyus és seriff</h4>
-
-                    </div>
-                    <div class="col-md-6">
-                        <img id="f2" class="img-fluid" class="kezdoOldal" src="../mese/fejezetek/kezdoOldal/apo.jpg">
-                        <h4>Mikulást már mindenki ismeri</h4>
-                    </div>
-                </div>
-                <br />
-
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <img id="f3" class="img-fluid" class="kezdoOldal" id="kezdoOldal" onclick="valt()" src="../mese/fejezetek/kezdoOldal/balazs.jpg">
-                        <h4>Hóbalázs</h4>
-                    </div>
-                    <div class="col-md-6">
-                        <img id="f4" class="img-fluid" class="kezdoOldal" src="../mese/fejezetek/kezdoOldal/fenyo.jpg">
-                        <h4>Kisfenyő</h4>
-                    </div>
-                    <p>Kezdődhet a kaland!</p>
-                </div>
-            </div>
-            <!------1---------------------------------->
-            <div id="elsoFejezet" class="tab-content">
-                <img src="./fejezetek/elso/csont1.png" onclick="valt()" id="eF">
-                <h3>Fejezet</h3>
-                <p>Seriff egy kis faluban lakik, és a városban dolgozik.Nagyon fontos munkát végez.<br />Gazdi műhelyére vigyáz napközben. Ő a biztonsági őr.</p>
-                <img src="./fejezetek/elso/seriff.jpg">
-                <p>Minden este, munka után, felviszi Gazdit a János-hegyre sétálni.<br /> Seriff egy szép napon itt ismerkedett meg Kutyussal.</p>
-                <p>Először féltek egymástól, de később úgy összebarátkoztak, hogy Seriff attól a naptól fogva csak Kutyus miatt ment fel a hegyre, s még a reggelijéből is vitt neki egy-egy falatkát. Kutyus pedig megmutatta Seriffnek a fészkét, és a kedvenc
-                    szikláját.
-                </p>
-                <p>-Nézd! Innen a legszebb a kilátás!-mondta.</p>
-                <img src="./fejezetek/elso/kutyus-seriff.jpg">
-                <p>Ennél a sziklánál találkoztak minden este, és itt beszélgettek órák hosszat, az élet nagy dolgairól. Kutyus elmesélte, hogy egy szép nagy házban született, amelynek hatalmas kertjében sokat fogócskázott, játszadozott testvéreivel.</p>
-                <img src="./fejezetek/elso/kutyusok.jpg">
-                <p>Boldogok voltunk és vidámak, de egy nap történt valami. Jött egy ember és elvitte az egyik testvéremet. Azt mondta, hogy azért, mert ő a legszebb. Azután minden nap jött valaki és elvitte valamelyik kölyköt. Már csak ketten maradtunk a
-                    húgommal.</p>
-                <p>Féltünk, hogy elszakítanak minket egymástól, ezért, hogy ne találjanak ránk elbújtunk.</p>
-                <img src="./fejezetek/elso/bokornal.jpg">
-                <img src="./fejezetek/elso/hugi.jpg">
-                <p>Ám az emberek néhány finom falattal kicsaltak bennünket a rejtekhelyünkről és elvitték az utolsó kicsi testvéremet Hugit is. Azt mondták neki, miközben egy nagy guruló dobozba terelték:<br /> -Ne félj kutyuska, jó helyre fogsz kerülni!
-                    -Azt a guruló dobozt autónak nevezik az emberek-oktatta Seriff a barátját.</p>
-                <img src="./fejezetek/elso/autos.jpg">
-                <p>Az autó azonban sokkal gyorsabb volt nálam és én hamar lemaradtam. Akkor vettem észre, hogy fogalmam sincs, hol vagyok. Eltévedtem! Sokáig kóboroltam, éhes voltam és fáradt. Lepihentem egy nagy fa alá, és mély álomba merültem. Arra ébredtem,
-                    hogy egy koldus ember simogat és beszél hozzám.</p>
-                <img src="fejezetek/elso/pityereg.jpg">
-                <p>-Hát te kiskutya, hogy kerülsz ide? Nagyon elfáradtál ugye? Eltévedhettél, és biztosan éhes is vagy. Jól gondolom?</p>
-                <img src="./fejezetek/elso/koldus.jpg">
-                <p> - Szegény Kutyus! Neked is pont egy koldus emberrel kellett találkoznod, aki saját maga is alig jut valami élelemhez - mondta szomorúan. - No, de nem baj! Megosztozunk azon, amink van. Tudod, tetszel nekem, te Kutyus. Lehetnénk barátok.
-                    Mit szólsz hozzá?</p>
-                <p>
-                    Ekkor butaságot, hogy egy ember barátja legyek, még életemben nem hallottam, de az eleség fele, amelyet felajánlott a koldus ember, csábító ajánlat volt számomra. Így hát igent mondtam neki, és a barátja lettem.</p>
-                <p> - Önző és buta voltál te, Kutyus! Az egyik gyerekemre emlékeztetsz - szólalt meg Seriff mély hallgatás után, de Kutyus gyorsan félbeszakította...</p>
-                <p>
-                    - Tudom, tudom, most már belátom, hogy buta voltam. Őt is elvesztettem.</p>
-                <p>
-
-                    - Miért, mi történt? Mondd már Kutyus, ne csigázz! - kérdezte izgatottan Seriff.</p>
-                <p>
-                    - Jó barátok lettünk a koldussal. Igaz, hogy háza nem volt. Itt laktunk ebben az erdőben, a domb mögötti barlangban. Tudod, amit megmutattam neked, ahol most is alszom - magyarázta Kutyus.</p>
-                <p> - Ott aludt az ember is? Ez furcsa. Az én Gazdim, meleg ágyban alszik! Kivéve, ha éjszaka dolgozik, mert akkor én alszom az ágyában - válaszolta Seriff büszkén, és közben jóleső érzés töltötte el, mert a Gazdi finom szagára és a puha dunyhájára
-                    gondolt.</p>
-                <img src="./fejezetek/elso/golyafeszek.jpg">
-                <p>
-                    - Mi az az ágy, Seriff? - kérdezte Kutyus. - Mindjárt elmagyarázom, te butus, de most inkább meséld tovább a történetet! - türelmetlenkedett Seriff. - Jó, jó. Tehát, ott aludtunk a barlangban a koldus emberrel. Nem volt valami meleg, de ha összebújtunk,
-                    nem fáztunk. Éjjel a bagoly őrizte álmunkat...
-                </p>
-                <img src="./fejezetek/elso/nightuhu.jpg">
-                <p> Reggelente a koldus elment, s hogy honnan szerezte, nem tudom, de mindig egy kenyérrel tért vissza. Ez volt a reggelink, az ebédünk, és a vacsoránk.</p>
-                <p>- Miért nem fogtál hozzá egy nyulat, Kutyus? Tudod, milyen finom a nyúlpörkölt kenyérrel? - kérdezte Seriff.</p>
-                <p>- Próbáltam én, de nem ment. A nyúl nagyon gyorsan szalad, ráadásul cseles is! - válaszolt Kutyus.</p>
-                <p>- Én már fogtam egyet! - dicsekedett Seriff, azután gyorsan hozzátette:</p>
-                <p>De nem bántottam! Csak megvizsgáltam közelebbről, hogyan is néz ki egy ilyen gyorslábú "szerkezet". Nagyon izmos lába van! Ezt onnan tudom, hogy vizsgálódás közben jól orrba rúgott! - mesélte Seriff, aztán izgatottan kérlelte Kutyust:</p>
-
-                <p>- Mondd tovább! Mi történt a koldussal?</p>
-
-                <p>Egy nap elment kenyérért, és nem jött vissza többet. Nem tudom, hol lehet, azóta sem hallottam felőle. Sokáig vártam és kerestem őt, de hiába. Megkértem galamb barátomat, hogy nézzen körül odafentről, de ő sem látta sehol. Eltűnt! Így
-                    hát magamra maradtam, és mondhatom, nagyon rossz egyedül. Azért van néhány barátom. Például a bagoly, aki éjjelente vigyáz rám, amíg alszom.</p>
-                <img src="./fejezetek/elso/bagoly.jpg">
-
-                <p>Szarka barátom pedig ételt lop nekem a vendéglőből, és itt vagy nekem te is, aki megfelezed velem a reggelidet, és esténként olyan jó veled beszélgetni, játszani, futkározni, de nagyon rossz, amikor elmész! Tudom, tudom, neked dolgoznod
-                    kell és vár a Gazdid, de akkor is nagyon hiányzol! Én is szeretnék egy gazdit, aki minden nap velem van, simogat, beszél hozzám, labdázik velem, és meleg ágyikóban alszik. - mondta szomorúan Kutyus, aztán kíváncsian megkérdezte újra:
-                </p>
-                <p>- Mi az az ágy Seriff?</p>
-
-                <p>- Az egy fából készült fekvőhely, amibe meleg pokrócot és tollal bélelt puha párnát és paplant tesznek. Figyelj! Lerajzolom ide a homokba!</p>
-
-                <img src="./fejezetek/elso/bed.jpg">
-                <p>- Tudod, Kutyus, neked is lehetett volna gazdid, de te megijedtél és elszaladtál...</p>
-
-                <p>- Ezt nem értem - mondta Kutyus.</p>
-
-                <p>- Akkor figyelj jól, elmagyarázom! Az emberek, akik elvitték a testvéreidet, az ő gazdáik lettek. Minden testvérednek van már gazdija, aki labdázik velük, és sétálni viszi őket, úgy, mint az én Gazdim engem. - magyarázta Seriff.</p>
-
-                <p>Kutyus gyanakodva kapta fel a fejét. - Ebben biztos vagy, Seriff?</p>
-
-                <p>- Igen, egészen biztos!</p>
-                <img src="./fejezetek/elso/kutyusinbed.jpg">
-
-                <p>Nekem is voltak kölykeim, és őket is elvitték. Nagyon megijedtem, de a Gazdival később elmentünk a gyerekekhez látogatóba, és akkor megnyugodtam, mert láttam, hogy ők is szerető gazdikhoz kerültek, és boldogok. Én meg végre pihenhettem
-                    egy kicsit. Nagyon fárasztó volt tíz kis kölyköt tanítgatni.</p>
-                <img src="./fejezetek/elso/family.jpg">
-                <p>A nap minden percében vigyáznom kellett rájuk, rajtuk kellett tartanom a szemem, mert rendkívül elevenek voltak. Folyton összegabalyodtak és úgy gurultak összekapaszkodva, mint egy nagy gombóc. Máskor fölmásztak a Gazdi ágyára, és nem
-                    tudtak lejönni, vagy lepottyantak róla. Eltévedtek a Gazdi kertjében, aztán sírva gubbasztottak egy bokor alatt, amíg rájuk nem találtam.</p>
-                <p>A legkisebbik kölyköm, egy kislány, otthon maradt velem. Őt a Gazdi nem adta oda senkinek. Kis Muknak hívják, és ugyan olyan fekete, mint te.</p>
-                <p>Nagyon emlékeztetsz egy másik kölykömre is. Bukfenc a neve. Olyan a természeted, mint az övé. Később majd mesélek neked Bukfencről is, de most térjünk vissza hozzád.</p>
-                <p>Tudod Kutyus, ha nem szaladsz a húgod után, hanem nyugton maradsz, érted is jött volna egy gazdi és most nem lennél ilyen bajban. Ugye, érted? Ez a dolgok furcsa rendje kis barátom.</p>
-                <p>- Azt hiszem, igazad van, Seriff. Most mi tévő legyek? Rossz egyedül, éhes vagyok és fázom.</p>
-                <p>Hajnalban sok apró fehérség hullott az égből... Fehér és hideg lett tőle az egész erdő!</p>
-                <img src="./fejezetek/elso/muki.jpg">
-                <p>Hajnalban sok apró fehérség hullott az égből...Fehér és hideg lett tőle az egész erdő!</p>
-                <img src="./fejezetek/elso/bukfenc.jpg">
-                <p>- Hahó, Kutyus, azt a sok kis fehérséget, úgy hívják, hogy hó, és az nagyon jó, ha esik, mert akkor már itt jár a közelben a Mikulás! A hó ugyanis akkor esik, amikor a Mikulás rénszarvas húzta szánján, végigszáguld a felhők tetején. Te
-                    Kutyus! Támadt egy ötletem! Hogy ez eddig nem jutott eszembe! - kapta föl a fejét Seriff.</p>
-                <p>- Mire gondolsz barátom?</p>
-                <p>- Bízz bennem, Kutyus, minden rendben lesz! - vakkantotta vidáman, és elszaladt.</p>
-            </div>
-            <!------2---------------------------------->
-            <div id="masodikFejezet" class="tab-content">
-                <img src="./fejezetek/masodik/2f.png">
-                <h3>Fejezet</h3>
-                <p>-Sziasztok, naplopó csirkék! -csaholta vidáman -Nem láttátok Liba mamát?</p>
-                <p>-Bent van az ólban, neveletlen, szedte-vette kutyája- rebbentek szét a tyúkok hangosan kotkodácsolva, amikor Seriff bevágódott a baromfiudvarba.</p>
-                <img class="img-fluid" src="./fejezetek/masodik/baromfi.jpg">
-                <p>Félre az útból, rántott húsnak való népség!-kiáltotta szemtelenül, és bedugta fejét az ólba.</p>
-                <p>- Jó napot, Liba mama! Szükségem volna egy tolladra. - Minek az neked, ember barátja? - gágogta Liba mama. - Levelet kell írnom a Mikulásnak! - Ugyan már, te gazdi szomorító, hiszen a Mikulás csak mese! - nevetett Liba mama.</p>
-                <p>- A Mikulás egyáltalán nem mese, Liba mama! A Mikulás tényleg létezik. A Gazdi egyik könyvében olvastam. Igaz, hogy régen nem így hívták. Figyelj csak, elmesélem! Szent Miklós püspök Myra városában lakott, Törökországban. Jó ember volt.
-                    Titokban megajándékozta a szegényeket.</p>
-                <p>Myrában élt akkortájt három pártában maradt lánytestvér. Nem tudtak férjhez menni, mert szegények voltak, nem volt hozományuk. Pedig az egyik lánynak már választottja is volt. Egy este a lány, motoszkálást hallott az ajtónál...</p>
-                <p>Kinézett és egy zacskó pénzt talált a tornácon, miközben egy piros palástot látott elsuhanni a sötétben az erdő felé. Nem értette. Ki lehet a nagylelkű segítő? Boldog volt, mert így már férjhez mehetett választottjához. Pár nap múlva a
-                    másik két lány is kapott hozományt a titokzatos idegentől.</p>
-                <p>- Ki lehet ilyen adakozó? - gágogta Liba mama.</p>
-                <p>Szent Miklós püspök, akit ma Mikulásnak hívunk. Már nagyon öreg. A régi püspöki palástja helyett piros prémes ruhát hord, és hosszú, fehér szakálla nőtt. Egy dolog azonban nem változott. Mindenkinek segít, aki rászorul, mert ő nem csak
-                    szóval hirdeti a karácsony üzenetét. Az egyik barátom nagy bajba került, az ő nevében írok levelet a Mikulásnak. Nincs gazdája, kóbor kutyus. Akkor hát adsz nekem egy tollat, Liba mama?</p>
-                <p>- Hát persze, húzz csak ki egyet bátran, drágám! - Drááágááám dráááágáááám Kukkuríkúúú!</p>
-                <p>- Miket mondasz te, ennek a koszos kutyának? - rikkantott a kakas.</p>
-                <img class="img-fluid" src="./fejezetek/masodik/suni.jpg">
-                <p>De Serif ezt már nem hallotta. Libamama tollával a szájában egyenest a sünihez rohant, hogy levelet kérjen tőle, aztán szedte a lábát hazáig, beszaladt a szobájába, be a Gazdi ágyába. Rögvest nekilátott, és megfogalmazta a levelet.</p>
-                <img class="img-fluid" src="./fejezetek/masodik/seriff-in-bed.jpg">
-                <p>Amikor elkészült, átmászott a kerítésen, és futott, ahogy a lába bírta, egészen a postáig.</p>
-                <img class="img-fluid" src="./fejezetek/masodik/levelestyutyu.jpg">
-                <p>A Gazdi már vacsorához hívta, ezért nagyon kellett sietnie, nehogy kiderüljön, kiszökött a házból. Sietve bedobta a levelet a postaládába, és futott is haza. Vacsora után hamar elaludt. Kutyusról álmodott, ahogy új gazdija simogatja fekete
-                    buksiját.</p>
-
-            </div>
-            <!------3---------------------------------->
-            <div id="harmadikFejezet" class="tab-content">
-                <img class="img-fluid" src="./fejezetek/harmadik/3f.png">
-                <h3>Fejezet</h3>
-                <p>Eközben az erdőben Kutyus is álomra hajtotta a fejét. Sötét éjszaka volt, mintha a Hold is a paplan alá bújt volna, csak a szelet szerződtették ma éjjelre zenésznek, aki viszont bőszen dolgozott. Fújt, süvített és tépte a fák koronáját
-                    a csontig hatoló hidegben. Minden állat elbújt az odújába várva a hajnali fényt.</p>
-                <img class="img-fluid" src="fejezetek/harmadik/sotetejj.jpg">
-                <p>A kis falu is nyugovóra tért. Egyvalaki azonban épp most indult útnak, s a sötétséget kihasználva, puha talpakon lopakodott egy baráti találkozóra.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/bandita.jpg">
-                <p>A posta padlásán Macska-bált rendeztek az éjjel. Oda indult Bandita, a fekete-fehér foltos két-ballábas kandúr. Bandita gyermekkori nagy ellensége volt Seriffnek. Kikémlelte, hogy Seriff, akit ő csak Nagy Fehérnek hív, levelet írt ma este.
-                    Nagy bánatára azt már nem tudta kilesni, hogy ki a levél címzettje, és ez borzasztóan bosszantotta. Ezért is sietett annyira a postai egerésző estre, bár éhes nem volt, mert ellopta a Nagy Fehér maradék vacsoráját.</p>
-                <p>A postához érve hallotta, hogy barátai már vígan viháncolnak a tetőn. A macskák, látva Bandita érkezését elkezdték a szokásos csúfolódást. Bandita ugyanis a legügyetlenebb egerésző a környéken és mindenki tudja róla, hogy a kutya vacsoráján
-                    él, ami bizony nagy szégyen egy falusi macskának.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/postap.jpg">
-                <p>- Vigyázz, Bandita, nehogy megkergessenek az egerek! - nevettek hangosan a cicák.</p>
-                <p>- Ne gúnyolódjatok, ma nem egerészni jöttem!</p>
-                <p>- Gondoltuk! - vihogtak a többiek - Biztos nem vagy éhes, mert megetted Nagy Fehér maradékát, amíg ő itt járt.</p>
-                <p>
-                    - Itt járt Nagy Fehér? Ez biztos? Láttátok?</p>
-                <p>- Igen, Te, tesze-tosza jószág. Itt volt és bedobott egy levelet a postaládába, azután elszaladt.</p>
-                <p>- Melyik ládába dobta? Mondjátok gyorsan!? – nyávogta Bandita izgatottan.</p>
-                <p>- A zöld színűbe, Te, macskajaj! Különben miért vagy olyan kíváncsi? Biztos nem neked írta.</p>
-                <p>Bandita azonnal a zöld postaláda tetejére ugrott, belekukucskált. Valóban ott volt a levél! Bedugta mancsát a postaláda nyílásán, és beleakasztotta a körmeit a levélbe.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/posta.jpg">
-                <p>- Így ni! Már meg is van! Izgatottan kezdte olvasni, majd hangos nevetésbe tört ki. A többiek felfigyeltek rá.</p>
-                <p>- Nézzétek ez egér helyett levelet fogott! Gyertek, nézzük meg mit olvas! Mondd már Bandita, mi olyan vicces!</p>
-                <p>A macskák mind Bandita köré gyűltek. Mancsról-mancsra adták a levelet és csak nevettek, nevettek, vihogtak, nyávogtak.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/levelescica.jpg">
-                <p>- Hogy lehet ez a Nagy Fehér ilyen buta! Elhiszi, hogy a Mikulás létezik! Ha-ha-ha! – gúnyolódtak a kutya levelén. A nagy viháncolásra a szél is feltámadt, odasuhant Bandita mellé, és kikapta mancsából a levelet, mintha csak megunta volna
-                    a macskák gúnyolódását.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/wind.jpg">
-                <p>A magasba emelte, és csak fújta, fújta egyre messzebb, falun, városon, erdőn, mezőn keresztül, míg végül egy szélvédett fenyőerdőhöz érve, a legöregebb fenyő orra elé pottyantotta a hóba. A fenyő mély álomból ébredve csodálkozva nézte
-                    a barna levelet.</p>
-                <p>- Hogy kerülhetett ez egy örökzöld fenyőerdőbe? – tűnődött. Lehajolt, felemelte, s meglepődve látta, hogy írás is van rajta.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/fenyok.jpg">
-                <p>Közben felébredt szendergéséből a családja is, és észrevették kezében a levelet. A kis fenyők mind köréje gyűltek</p>
-                <p>- Olvasd föl Fenyőpapa! - kérlelték az öreg fenyőt.</p>
-                <p>Fenyőpapa hangosan elkezdte olvasni a levelet.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/fenyopapa.jpg">
-                <strong>Kedves Mikulás,</strong>
-                <p>Kedves Mikulás, Én Seriff vagyok, és a barátomnak, Kóbor Kutyusnak szeretnék karácsonyi ajándékba egy gazdit kérni Tőled. Én az Üveghegy mellett, a harmadik fehér házban lakom. Kérlek, keress meg Mikulás, és én cserébe a kedvességedért,
-                    mindenben segítek Neked.
-                </p>
-                <strong>Köszönettel:Seriff</strong>
-
-                <p>- Gyerekek, úgy látom, ez egy nagyon fontos levél! Most mitévők legyünk, Fenyőmama?</p>
-                <p>- Ez egyszerű! - rikkantott fel az egyik kis fenyő - Majd én elviszem a Mikulásnak azt a levelet. Nemrég láttam őt. Épp a fejünk fölött suhant el, amikor Hóembert építettünk. Emlékeztek fiúk?</p>
-                <p>- Hogyne emlékeznénk, de olyan gyorsan repítette a rénszarvas, hogy attól félünk, már nagyon messze járhat!</p>
-                <p>- Az már igaz, de a munkája is sok. És a jó munkához idő kell, ugye? Ha törik, ha szakad, én bizony megkeresem és elviszem neki a levelet! Segítenünk kell Kutyuson! Fenyőpapa rám bízhatod a dolgot!</p>
-                <p>A fenyőgyerek ezzel a lendülettel már magára is kapta sapkáját és a kis csizmáit. A zsebébe forró krumplit rakott a mamája, hogy ne fázzon a keze, és útnak is indult az éj leple alatt. Nem félt a sötétben, mert egy csillagot kötött a sapkája
-                    csúcsára, ami világította az utat. A szél is alább hagyott. Nyugodt tempóban haladt előre a legközelebbi falu irányába, ami még kétnapi járásra volt.</p>
-                <img class="img-fluid" src="./fejezetek/harmadik/kisfenyo.jpg">
-            </div>
-            <!------4---------------------------------->
-            <div id="negyedikFejezet" class="tab-content">
-                <img class="img-fluid" src="./fejezetek/negyedik/4f.png">
-                <h3>Fejezet</h3>
-                <p>Eközben Seriff otthon izgatottan várta a fejleményeket, hisz a levélnek postai úton már meg kelllett érkeznie a Mikuláshoz.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/nightwindow.jpg">
-                <p>- Ilyen sok munkája van, vagy tényleg nem is létezik? Kutyusról sem tudok semmit, mert már karácsonyi szabadságon vagyunk a Gazdival, és nem megyünk a városba. Kutyus biztos azt gondolja, hogy már nem is szeretem.</p>
-                <p>- Mi lehet vajon szegénnyel? - Ráadásul még Bandita is eltűnt, napok óta nem jött haza. - Őt sem tudom megkergetni, pedig a macskakergetés remek feszültségoldó játék. Jaj, mi lesz ennek a vége? - Jaj nekem! - így morfondírozott magában.</p>
-                <p>Kutyus a hegyen szintúgy jajgatott...</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/kutyus-a-hegyen.jpg">
-                <p>Ő nem tudta, hogy Seriff a karácsonyi szünetben nem dolgozik. Honnan is tudhatta volna, hisz ez az első tél az életében, és ráadásul nagyon hideg. "Lehet, hogy bajban van a barátom? Olyan gyorsan elszaladt akkor este. Mi lehet vele? Vagy
-                    talán már nem is szeret, azért nem jön el hozzám?"- így tűnődött magában.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/kutyus-szomoru.jpg">
-                <p>Kisfenyő eközben elérte a falu határát. Boldogan szaporázta lépteit. "Mindjárt ott vagyok - bíztatta magát - a gyerekek majd segítenek nekem megtalálni a Mikulást." Ebben a pillanatban a szél újra feltámadt és hatalmas vihar kerekedett.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/kisfenyo-vs-wind.jpg">
-                <p>Idővel aztán a szél beleunt a mókába, és amilyen gyorsan kerekedett, olyan gyorsan el is állt. Kisfenyő meg orra pottyant. Nagyon megütötte magát, felállni sem tudott.</p>
-                <p>Most mi lesz? A levél nálam, a Mikulás a közelben, nekem meg eltörött a lábam - gondolta kétségbeesetten. Nem volt más hátra, hangos kiabálásba kezdett:</p>
-                <p>- Segítség! Segítség! Hahó! Segítség!</p>
-                <p>Szerencséjére éppen arra síelt egy hóember, aki meghallotta a segélykiáltást, és odasiklott Kisfenyőhöz</p>
-                <p>- Szia, Kisfenyő, én Hóbalázs vagyok. Mit csinálsz ott a hóban ülve? Találtál valamit? És hogy kerülsz ide? Messziről jöttél? Téged még nem láttalak errefelé. Add a kezed, hadd segítselek föl!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/kisfenyo-hobarat.jpg">
-                <p>- Júj, de szúrós vagy!</p>
-                <p>- Jaj, Hóbalázs, ne kérdezz már olyan gyorsan, inkább segíts nekem, kérlek! A Mikulást keresem, nagyon fontos levelet hoztam neki. Sürgősen meg kell találnom őt.</p>
-                <p>- A legjobb helyen jársz. Én ugyanis tudom, hogy hol van. Gyere utánam, megmutatom!</p>
-                <p>- De nem tudok ám, mert eltörött a lábam!</p>
-                <p>- Ejnye, ejnye! Lássuk csak! Hoppla-hó, van egy ötletem! - kiáltotta Hóbalázs és ezzel elsiklott a sílécein.</p>
-                <p>Kisvártatva visszatért egy szánkóval és egy sállal. A közelben játszó gyerekektől kérte kölcsön. Felsegítette a kisszánkóra Kisfenyőt, és a sállal bekötötte a lábát. - Így, ni! Most már mehetünk! Kapaszkodj erősen!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/hoszan.jpg">
-                <p>A szánkó csak úgy repült a friss hóban, és perceken belül ott termettek a Mikulás háta mögött, aki észre sem vette őket. Nagy munkában volt a krampuszaival. Megszólítani nem merték, csak halkan köhintettek egyet. A Mikulás felfigyelt rájuk.
-                    Megfordult és látva a furcsa jövevényeket, lemászott a létráról.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/mikulas-letran.jpg">
-                <p>- Hát ti mi járatban vagytok?</p>
-                <p>- Egy rendkívül fontos levelet hoztam neked - felelte bátran Kisfenyő.</p>
-                <p>- Ami azt illeti, elég későn érkeztetek. Már alig van ajándékom. No, de azért hadd olvassam azt a levelet, aztán majd meglátom, mit tehetek!</p>
-                <p>Kényelmesen leült egy ajándékcsomag tetejére, feltette a szemüvegét, és komoly arccal olvasni kezdett.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/mikulas-letter.jpg">
-                <p>A végére érve boldogan csapta össze a kezeit.</p>
-                <p>- Hát, ilyet! Ha tudnátok, mekkora segítség nekem ez a levél! Bajban voltam egy kívánság teljesítésével. Bármilyen hihetetlen, még a Mikulás is kerülhet bajba, de ti megmentettetek! Nemrég üzenetet kaptam egy kislánytól, aki egy kutyust
-                    kért tőlem. Igaz, hogy van már egy kutyája, de a kislány szerint szomorú egyedül, ezért szeretne egy jó barátot neki. Fogalmam sem volt, honnan szerzek kiskutyát, de a ti jóvoltotokból meg fogja kapni! Gyertek gyorsan, keressük meg
-                    Seriffet és Kutyust. Siessünk! Sürget az idő!</p>
-                <p>Mind felültek a szánra, bár Hóember pocakja miatt alig fértek el rajta. A rénszarvas, mint a szélvész repítette őket, és a Hold világította nekik az utat.</p>
-                <p>Hamarosan megérkeztek Seriff háza elé, aki már várta őket, eléjük szaladt, és örömében a Mikulás ölébe ugrott. Boldogan mutatta az utat Kutyushoz.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/mikulas-szanon.jpg">
-                <p>Kutyus percről percre szomorúbb lett. Befeküdt egy bokor alá, és ott sírt bánatában, mert azt hitte, hogy megfeledkezett róla a barátja. Megint nagyon egyedül érezte magát.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/kutyus-sir.jpg">
-                <p>Már majdnem elaludt, amikor végre ismerős hangokra lett figyelmes. Mintha barátja hangját hallotta volna a távolból... vagy csak képzelődik?
-                </p>
-                <p>Nem, ez tényleg ő! Visszajött! Jaj, de jó! Hát, mégis szeret!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/hope.jpg">
-                <p>- Seriff, barátom! Hát, eljöttél?</p>
-                <p>- Szia Kutyus, hogy aggódtam érted!</p>
-                <p>Boldogan vakkantottak egymásnak, és bolondos futkározásba, játékba kezdtek.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/happydogs.jpg">
-                <p>A Mikulás csendben mosolygott a bajusza alatt, aztán szelíden rájuk szólt:</p>
-                <p>- Most már elég a hancúrozásból, mert még van egy fontos dolgunk. El kell vinnünk Kutyust az új gazdijához.</p>
-                <p>- Az új gazdimhoz? Ez igaz, Seriff?</p>
-                <p>- Bizony, Kutyus! Gyere gyorsan, ugorj föl a szánra! Valaki nagyon vár téged. Siess, mert nincs sok időnk, mindjárt Szenteste, és nekem is haza kell mennem a Gazdihoz.</p>
-                <p>- Egy kicsit azért félek.</p>
-                <p>- Ne félj Kutyus, mire a nap újra felkel, neked is lesz kedves, hű gazdád, aki puha, meleg ágyba fektet, és becéző szavakkal altat.</p>
-                <p>- Sőt, van még egy meglepetésem számodra Kutyus - mondta a Mikulás - Gyertek hamar, menjünk, menjünk!</p>
-                <p>A szán újra eliramodott, és kisvártatva meg is állt egy szép nagy kertes ház előtt. A Mikulás letette Kutyust a kapu elé. - No, most menj be szépen! - mondta, majd kinyílt a kapu és Kutyus belépett.</p>
-                <p>Nagyon meglepődött. A kertből egy másik kutyus ugatása hallatszott. "Ez furcsa. Ennek a kutyának ismerem a hangját..." - csodálkozott.</p>
-                <p>Hogy ne ismernéd Kutyus, hisz ő a húgod! Ez volt a meglepetés!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/talalkozas.jpg">
-                <p>- El sem tudom hinni, mennyi ajándék egy napra! Jaj Hugi, Hugikám, én vagyok az, Kutyus!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/kutyus-hugi-mancs.jpg">
-                <p>- Bátyám, kedves Bátyám, hogy találtál rám? De jó, hogy itt vagy!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/kutyus-hugi-game.jpg">
-                <p>A két testvér egymás nyakába ugrott, össze-vissza puszilták egymást, és hatalmas nagy köröket futottak a kertben, hangos vakkantásokkal kísérve örömtáncukat.</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/snowcircle.jpg">
-                <p>A nagy ugatásra egy kislány lépett ki a házból, a szüleivel.</p>
-                <p>A lány egyenest Kutyushoz szaladt, lehajolt hozzá, megsimogatta, majd kedves hangon így szólt hozzá: "Szia Kutyus, örülök, hogy itt vagy!"</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/ujgazdi.jpg">
-                <p>- Honnan tudod a nevemet? - kérdezte meglepetten, de a kislány már nem hallotta. Szüleihez futott, és hangosan kiabálta: "Nézd anyu, van a kiskutyámnak barátja. Biztosan a Mikulás küldte!"</p>
-                <p>- Miből gondolod kicsim? Lehet, hogy csak egy kóbor kutya.</p>
-                <p>- Nem kóbor, Anya! Levelet írtam a Mikulásnak, amiben barátot kértem Huginak, hogy legyen kivel futkároznia. Látjátok? Itt van. Milyen aranyosak együtt! Nézzétek, el akarják kapni a hópelyheket!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/snowgame.jpg">
-                <p>- Ezt a Kutyust, csak a Mikulás küldhette nekünk! Ugye megtarthatom?</p>
-                <p>- Persze kicsim, de most már hívd be őket a házba, mert a végén még megfáznak. Etessük meg őket finom husikával.</p>
-                <p>- Sütit is adhatok nekik? Apa, Kutyus is mellettem alhat, ugye? Kutyusnak fogom hívni. Ni-ni, erre hallgat. Nézzétek, pacsit adott nekem! Anya varrsz neki is párnát és paplant?</p>
-                <p>A kislány tele volt kérdésekkel izgalmában. Örült újdonsült barátjának.</p>
-                <p>- Jó itt lenni Hugi. Ezek az emberek nagyon kedvesek, főleg a kis ember. Hát, ilyen egy jó gazdi?</p>
-                <p>- Igen Bátyus, ilyen. Ők nagyon jó Gazdik. Jaj, Bátyus, nem tudom, hogyan találtál rám, de jó, hogy itt vagy, nagyon hiányoztál!</p>
-                <p>- A Mikulás és a barátom, Seriff segítettek. Seriffet majd bemutatom neked, jó? És mindent elmesélek részletesen, mert sok minden történt ám velem, amióta elváltak útjaink.</p>
-                <p>- Rendben van, testvérkém. Bőven lesz időnk mindenre. Többé sosem hagyjuk el egymást. Most pedig aludjunk, mert biztosan elfáradtál, nehéz napod lehetett.</p>
-                <p>- Jó éjszakát, Hugi!</p>
-                <p>- Szép jó éjszakát, Bátyám! Álmodj finom füstölt csonttal!</p>
-                <img class="img-fluid" src="./fejezetek/negyedik/joejt.jpg">
-            </div>
-            <!------5---------------------------------->
-            <div id="otodikFejezet" class="tab-content">
-                <img class="img-fluid" src="./fejezetek/otodik/5f.png">
-                <h3>Fejezet</h3>
-                <p>Aki még nem alszik, annak elmesélem, hogy mi történt másnap.</p>
-                <p>Kutyus reggel felébredt és körülnézett a szobában. Az ablakon bemosolygott a nap, a húga mellette szuszogott, és a kislány átölelte. Végre boldognak érezte magát. "Igaza volt Seriffnek. Mire a nap újra felkelt, hű gazdim lett. Köszönöm
-                    barátom!" - suttogta hálásan</p>
-                <img class="img-fluid" src="./fejezetek/otodik/masnap.jpg">
-                <p>A baráti szövetség a két kutya között megmaradt, és új tagokkal is bővült a kis társaság. Kutyus, Hugi, Seriff és a Gazdik elválaszthatatlanok lettek. Mikor a Nap elalszik, és a Hold felgyújtja a csillagokat, mind együtt mennek fel a János-hegyre
-                    megbeszélni az élet nagy dolgait.</p>
-                <img class="img-fluid" src="./fejezetek/otodik/szuzi.jpg">
-                <img class="img-fluid" src="./fejezetek/otodik/end.jpg">
-            </div>
-            <!------extra---------------------------------->
-            <div id="extra" class="tab-content">
-                <h1 id="mesesextrak">Mesés extrák!</h1>
-
-                <h3>Szereplők élőben</h3>
-                <div class="kepdoboz">
-                    <a href="./pic/serko.jpg"> <img class="extrakepek" class="img-fluid" src="./pic/serko.jpg" target="kepdoboz"></a>
-
-                    <a href="./pic/babu.jpg"><img class="extrakepek" class="img-fluid" src="./pic/babu.jpg" target="kepdoboz"></a>
-                    <a href="./pic/fal.jpg"><img class="extrakepek" class="img-fluid" src="./pic/fal.jpg" target="kepdoboz"></a>
-
-                    <img class="extrakepek" class="img-fluid" src="./pic/kutyus-seriff.jpg" target="kepdoboz">
-                    <img class="extrakepek" class="img-fluid" src="./pic/tyutyu.jpg" target="kepdoboz">
-                    <img class="extrakepek" src="../mese/extra/a_elolap.jpg" target="kepdoboz">
-                    <img class="extrakepek" src="../mese/extra/a_hatlap.jpg" target="kepdoboz">
-
-
-                </div>
-
-
-
-                <!--<h3><img src="./pic/book.jpg">Mesekönyv borító</h3>-->
-                <br />
-                <br />
-                <h3 id="stablista">
-                    <img src="../mese/pic/moon.jpg">Videó stáblista</h3>
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="../mese/video/stablist.mp4"></iframe>
-                </div>
-                Zene:Irigy Hónaljmirigy
-            </div>
-
-        </div>
-        <!---col-md-8--vége--->
-
-
-
-        <!---fősor vége--------->
-
-
-    </div>
-    <!----Fődiv---vége--->
-    <script src="../js/kutyajokaracsony.js"></script>
-    <script src="../js/kutyajokaracsonyextra.js"></script>
+            <script src="../js/kutyajokaracsony.js"></script>
+            <script src="../js/kutyajokaracsonyextra.js"></script>
 </body>
 
 </html>
