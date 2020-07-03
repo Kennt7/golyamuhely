@@ -3,7 +3,7 @@ $('#carouselExampleIndicators').carousel({
      default = 5000
      milisec / false,
      */
-    interval: 15000,
+    interval: 4500,
     /*
      default = true
      true / false
