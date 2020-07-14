@@ -7,6 +7,7 @@
     }
     
     body {
+        width: fit-content;
         background-color: orange;
         font-family: Arial;
         height: 100%;
@@ -149,4 +150,8 @@
     
     .col-12 {
         padding: 5px;
+    }
+
+    footer{
+        height: auto;
     }
