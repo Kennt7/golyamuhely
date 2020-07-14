@@ -1,453 +1,467 @@
 <html>
 
-     <head>
-        <meta name="author" content="Nagy Zoltán">
-        <meta charset="utf-8">
-            <title>Golyamuhely</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-         
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/app.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/restauralas.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Barrio|Bungee+Inline|Hind+Siliguri|Miniver|PT+Serif|Zilla+Slab+Highlight&display=swap" rel="stylesheet">
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
-        </script>
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-         <script src="https://code.jquery.com/jquery-3.4.1.js 
-        "integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta name="author" content="Nagy Zoltán">
+    <meta charset="utf-8">
+    <title>Golyamuhely</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/app.css" />
+    <link rel="stylesheet" type="text/css" href="./css/restauralas.css" />
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Bungee+Inline|Hind+Siliguri|Miniver|PT+Serif|Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js 
+        " integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
 <body>
-    
- <nav class = "navbar navbar-toggleable-md  navbar-dark bg-info">
-        <div class = "container">
-            <button class = "navbar-toggler navbar-toggler-right" type="button" data-toggle = "collapse" data-target="#navbarSupportedContent" aria-controls = "navbarSupportedContent" aria-expanded="false" aria-label =  "Toggle navigation">
+
+    <nav class="navbar navbar-toggleable-md  navbar-dark bg-info">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class = "navbar-toggler-icon"></span> 
             </button>
-               <a class = "navbar-brand" href = "index.html">
+            <a class="navbar-brand" href="index.html">
                 Gólyaműhely<br />
                 <img src = "./pics/ico/ahtale2.png" class = "rounded-circle" alt = "" title = "Gólyaműhely" role = "img">
               
                 
             </a>
-         
-            <div class = "collapse navbar-collapse" id = "navbarSupportContent">
-                <ul class = "navbar-nav ml-auto">
-                    <li class = "nav-item active">
-                        <a class = "nav-link" href = "index.html">Főoldal<span class = "sr-only">(current)</span></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Főoldal<span class = "sr-only">(current)</span></a>
                     </li>
-                    
-                    <li class = "nav-item">
-                        <a class = "nav-link" href = "bemutatkozas.html">Bemutatkozás</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="bemutatkozas.html">Bemutatkozás</a>
                     </li>
-                    
-                    <li class = "nav-item dropdown">
-                        <a class = "nav-link dropdown-toggle" href = "referenciak.html" id="navbarDropdownMenuLink" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="referenciak.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Referenciák
                         </a>
-                        
-                        <div class = "dropdown-menu" aria-labelledby = "navbarDropdownMenuLink">
-                            <a class = "dropdown-item" href = "#">Restaurálás</a>
-                            
-                            <a class = "dropdown-item" href = "grafika.html">Grafika</a>
-                            
-                        
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Restaurálás</a>
+
+                            <a class="dropdown-item" href="grafika.html">Grafika</a>
+
+
                         </div>
                     </li>
-                  
-                    
-                    <li class = "nav-item">
-                        <a class = "nav-link" href = "olajfestmenyek.html">Olajfestmény</a>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="olajfestmenyek.html">Olajfestmény</a>
                     </li>
-                     <li class = "nav-item">
-                        <a class = "nav-link" href="mozaik.html">Mozaik</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mozaik.html">Mozaik</a>
                     </li>
-                     <li class = "nav-item">
-                        <a class = "nav-link" href="butor.html">Bútor</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="butor.html">Bútor</a>
                     </li>
-                     <li class = "nav-item">
-                        <a class = "nav-link" href="mese.html">Mese</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mese.html">Mese</a>
                     </li>
-                     <li class = "nav-item">
-                        <a class = "nav-link" href="ajandektargyak.html">Ajándéktárgyak</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ajandektargyak.html">Ajándéktárgyak</a>
                     </li>
-                     <li class = "nav-item">
-                        <a class = "nav-link" href="kedvencek.html">Kedvencek</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kedvencek.html">Kedvencek</a>
                     </li>
-                    
-                    <li class = "nav-item">
+
+                    <li class="nav-item">
                         <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
                     </li>
                 </ul>
             </div>
         </div>
-    
+
     </nav>
- 
-        
- <header>
-    
-    
-    
-</header>
-<main class="" >
-<!-----Fősor--------------------------->
 
-<div class = "row" >
-    <div class="wrapper">
-        <!----Oldalmenü--->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-            <h3>Restaurálás</h3>
+
+    <header>
+
+
+
+    </header>
+    <main class="">
+        <!-----Fősor--------------------------->
+
+        <div class="row">
+            <div class="wrapper">
+                <!----Oldalmenü--->
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <h3>Restaurálás</h3>
+                    </div>
+
+                    <ul class="listakomponensek">
+                        <!---1.elem---------------->
+                        <li id="k1" class="active">
+                            <a href="#ido1">
+                                <h3>Az idő vasfoga</h3>
+                            </a>
+                        </li>
+                        <!---2.elem---------------->
+                        <li id="k2">
+                            <a href="ketto">
+                                <h3>A lány korabeli ruhában</h3>
+                            </a>
+                        </li>
+                        <!---3.elem---------------->
+                        <li id="k3">
+                            <a href="">
+                                <h3>Akác a parton</h3>
+                            </a>
+                        </li>
+                        <!---4.elem---------------->
+                        <li id="k4">
+                            <a href="">
+                                <h3>Keleti sétálóutca</h3>
+                            </a>
+                        </li>
+                        <!---5.elem---------------->
+                        <li id="k5">
+                            <a href="">
+                                <h3>Lovak a tengerparton</h3>
+                            </a>
+                        </li>
+                        <!---6.elem---------------->
+                        <li id="k6">
+                            <a href="">
+                                <h3>Erdő takarítás</h3>
+                            </a>
+                        </li>
+                        <!---7.elem---------------->
+                        <li id="k7">
+                            <a href="">
+                                <h3>Jézus érkezése</h3>
+                            </a>
+                        </li>
+                        <!---8.elem---------------->
+                        <li id="k8">
+                            <a href="">
+                                <h3>Jézus a kereszten</h3>
+                            </a>
+                        </li>
+                        <!---9.elem---------------->
+                        <li id="k9">
+                            <a href="">
+                                <h3>Madonna</h3>
+                            </a>
+                        </li>
+                        <!---10.elem---------------->
+                        <li id="k10">
+                            <a href="">
+                                <h3>Kis házikó-Restaurálva!</h3>
+                            </a>
+                        </li>
+                        <!---11.elem---------------->
+                        <li id="k11">
+                            <a href="">
+                                <h3>Nyár</h3>
+                            </a>
+                        </li>
+                        <!---12.elem---------------->
+                        <li id="k12">
+                            <a href="">
+                                <h3>Koszos utca-Megtisztítva!</h3>
+                            </a>
+                        </li>
+                        <!---13.elem---------------->
+                        <li id="k13">
+                            <a href="">
+                                <h3>Festmény tisztítás 1</h3>
+                            </a>
+                        </li>
+                        <!---14.elem---------------->
+                        <li id="k14">
+                            <a href="">
+                                <h3>Festmény tisztítás 2</h3>
+                            </a>
+                        </li>
+                        <!---15.elem---------------->
+                        <li id="k15">
+                            <a href="">
+                                <h3>Évtizedes kosz-Letisztítva!</h3>
+                            </a>
+                        </li>
+                        <!---16.elem---------------->
+                        <li id="k16">
+                            <a href="">
+                                <h3>Festmény restaurálás</h3>
+                            </a>
+                        </li>
+                        <!---17.elem---------------->
+                        <li id="k17">
+                            <a href="">
+                                <h3>Tisztítás és restaurálás</h3>
+                            </a>
+                        </li>
+                        <!---18.elem---------------->
+                        <li id="k18">
+                            <a href="">
+                                <h3>Képrestaurálás</h3>
+                            </a>
+                        </li>
+                        <!---19.elem---------------->
+                        <li id="k19">
+                            <a href="">
+                                <h3>Krasznahorka vára</h3>
+                            </a>
+                        </li>
+                        <!---20.elem---------------->
+                        <li id="k20">
+                            <a href="">
+                                <h3>Nagy képekeret</h3>
+                            </a>
+                        </li>
+                        <!---21.elem---------------->
+                        <li id="k21">
+                            <a href="">
+                                <h3>Kis képkeret</h3>
+                            </a>
+                        </li>
+
+
+
+
+
+                    </ul>
+                </nav>
+
+                <div class="col-md-10 col-lg-9" id="content">
+
+                    </button>
+                    <div class="row">
+                        <button type="button" id="kioldogomb">
+                                <i class="fas fa-align-left"></i>
+                                <span>Képek</span>
+                             </button>
+                        <div class="tab-content">
+                            <div class="gombok">
+                                <button type="button" id="myBtn" class="btn btn-success">Vissza</button>
+                                <button type="button" id="btnElore" class="btn btn-primary">Előre</button>
+                            </div>
+                            <!-- The carousel -->
+                            <div id="myCarousel" class="carousel slide mt-4" data-interval="0">
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                    <li class="item1 active"></li>
+                                    <li class="item2"></li>
+                                    <li class="item3"></li>
+                                </ul>
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <!--carousel elem--->
+                                    <div class="carousel-item active">
+                                        <div class="carousel-caption" id="elsoTema">
+                                            <p>Sok-sok hiba közelről</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img id="ido1" class="img-fluid" src=".\restauralas\az_ido_vasfoga\rest57.jpg" alt="ilyen volt">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption" id="elsoTema">
+                                            <p>Sok-sok hiba közelről</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\az_ido_vasfoga\rest57.jpg" alt="ilyen volt">
+                                        </div>
+                                    </div>
+
+                                    <!--carousel elem--->
+                                    <!--carousel elem--->
+                                    <div class="carousel-item">
+                                        <div class="carousel-caption" id="elsoTema">
+                                            <p>Hatalmas hiányosságok</p>
+                                        </div>
+
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\az_ido_vasfoga\rest58.jpg">
+                                        </div>
+                                    </div>
+                                    <!--Carousel elem--1-->
+                                    <div class="carousel-item " id="azidovasfoga">
+                                        <div class="carousel-caption" id="elsoTema">
+                                            <p>Az idő vasfoga</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\az_ido_vasfoga\rest55.jpg" alt="ilyen volt">
+                                            <img class="img-fluid" src=".\restauralas\az_ido_vasfoga\rest56.jpg" alt="ilyen ilyen lett">
+                                        </div>
+                                    </div>
+
+                                    <!--carousel elem--2--->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption" id="masodikTema">
+                                            <p>Az lány korabeli ruhában</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\ilyenvolt.jpg">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\ilyenlett.jpg">
+                                        </div>
+                                    </div>
+
+                                    <!--carousel elem--3--->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption" id="masodikTema">
+                                            <p>Kosz mindenütt</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\koszmindenutt.jpg">
+                                        </div>
+                                    </div>
+
+                                    <!--Carousel elem---4-->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption" id="masodikTema">
+                                            <p>Hatalmas szakadás</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\szakadas.jpg" alt="ilyen volt">
+                                        </div>
+                                    </div>
+
+                                    <!--Carousel elem-5---->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption" id="masodikTema">
+                                            <p>Szakadás hátulról</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\szakadas_hatulrol.jpg" alt="ilyen volt">
+                                        </div>
+                                    </div>
+
+                                    <!--Carousel elem--6--->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption" id="masodikTema">
+                                            <p>Szakadás befoltozva; Tisztítás próbák</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\tisztitas_befoltozva.jpg" alt="ilyen volt">
+                                        </div>
+                                    </div>
+
+                                    <!--carousel elem--7--->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption" id="masodikTema">
+                                            <p>Az lány korabeli ruhában</p>
+                                        </div>
+                                        <div class="kepek">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\ilyenvolt.jpg" alt="ilyen volt">
+                                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\ilyenlett.jpg" alt="ilyen lett">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--carousel inner vége-->
+                            </div>
+                            <!--mycarousel, carousel-slide vég-->
+                        </div>
+                        <!--tab-content--vége-->
+                    </div>
+                    <!----row-vége-->
+                    <!--tartalmon belüli sor vége--->
+                </div>
+                <!--container mt-3 vége-->
             </div>
-            
-            <ul class="listakomponensek">
-            <!---1.elem---------------->
-            <li id="k1" class="active">
-            <a href="egy">
-            <h3>Az idő vasfoga</h3>
-            </a>    
-            </li>
-            <!---2.elem---------------->    
-            <li id="k2">
-            <a href="ketto">
-            <h3>A lány korabeli ruhában</h3>
-            </a>
-            </li>
-             <!---3.elem---------------->    
-            <li id="k3">
-            <a href="">
-            <h3>Akác a parton</h3> 
-            </a>
-            </li>
-             <!---4.elem---------------->    
-            <li id="k4">
-            <a href="">
-            <h3>Keleti sétálóutca</h3>
-            </a>
-            </li>
-             <!---5.elem---------------->    
-            <li id="k5">
-            <a href="">
-            <h3>Lovak a tengerparton</h3>
-            </a>
-            </li>
-             <!---6.elem---------------->    
-            <li id="k6">
-            <a href="">
-            <h3>Erdő takarítás</h3>
-            </a>
-            </li>
-             <!---7.elem---------------->    
-            <li id="k7">
-            <a href="">
-            <h3>Jézus érkezése</h3>
-            </a>
-            </li>
-            <!---8.elem---------------->    
-            <li id="k8">
-            <a href="">
-            <h3>Jézus a kereszten</h3>
-            </a>
-            </li>
-            <!---9.elem---------------->    
-            <li id="k9">
-            <a href="">
-            <h3>Madonna</h3>
-            </a>
-            </li>
-            <!---10.elem---------------->    
-            <li id="k10">
-            <a href="">
-            <h3>Kis házikó-Restaurálva!</h3>
-            </a>
-            </li>
-            <!---11.elem---------------->    
-            <li id="k11">
-            <a href="">
-            <h3>Nyár</h3>
-            </a>
-            </li>
-            <!---12.elem---------------->    
-            <li id="k12">
-            <a href="">
-            <h3>Koszos utca-Megtisztítva!</h3>
-            </a>
-            </li>
-            <!---13.elem---------------->    
-            <li id="k13">
-            <a href="">
-            <h3>Festmény tisztítás 1</h3>
-            </a>
-            </li>
-            <!---14.elem---------------->    
-            <li id="k14">
-            <a href="">
-            <h3>Festmény tisztítás 2</h3>
-            </a>
-            </li>
-            <!---15.elem---------------->    
-            <li id="k15">
-            <a href="">
-            <h3>Évtizedes kosz-Letisztítva!</h3>
-            </a>
-            </li>
-            <!---16.elem---------------->    
-            <li id="k16">
-            <a href="">
-            <h3>Festmény restaurálás</h3>
-            </a>
-            </li>
-            <!---17.elem---------------->    
-            <li id="k17">
-            <a href="">
-            <h3>Tisztítás és restaurálás</h3>
-            </a>
-            </li>
-            <!---18.elem---------------->    
-            <li id="k18">
-            <a href="">
-            <h3>Képrestaurálás</h3>
-            </a>
-            </li>
-            <!---19.elem---------------->    
-            <li id="k19">
-            <a href="">
-            <h3>Krasznahorka vára</h3>
-            </a>
-            </li>
-            <!---20.elem---------------->    
-            <li id="k20">
-            <a href="">
-            <h3>Nagy képekeret</h3>
-            </a>
-            </li>
-            <!---21.elem---------------->    
-            <li id="k21">
-            <a href="">
-            <h3>Kis képkeret</h3>
-            </a>
-            </li>
-                
-                
-                
+            <!-----col-md-12 vége--->
+        </div>
+        <!----wrapper vége--->
 
-            
-            </ul>
-        </nav>
-                
-        <div class = "col-md-10 col-lg-9" id="content">
-            <div class="col-md-12 mt-3">
-                <button type="button" id="kioldogomb">
-                    <i class="fas fa-align-left"></i>
-                    <span>Képek</span>
-                 </button>
-                <div class = "row">
-                    <div class="tab-content">
-                     <div class="gombok">
-                        <button type="button" id="myBtn" class="btn btn-success">Vissza</button><br />
-                        <button type="button" id="btnElore" class="btn btn-primary">Előre</button>
-                        </div>
-                        <!-- The carousel -->
-                        <div id="myCarousel" class="carousel slide mt-4" data-interval="0">
-                        <!-- Indicators -->
-                        <ul class="carousel-indicators">
-                        <li class="item1 active"></li>
-                        <li class="item2"></li>
-                        <li class="item3"></li>
-                        </ul>
-                        <!-- The slideshow -->
-                        <div class="carousel-inner">
-                        <!--carousel elem--->
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" id="elsoTema">
-                            <p>Sok-sok hiba közelről</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\az_ido_vasfoga\rest57.jpg" alt="ilyen volt"> 
-                        </div>
-                        </div>
-                    
-                        <div class="carousel-item " >
-                        <div class="carousel-caption" id="elsoTema">
-                            <p>Sok-sok hiba közelről</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\az_ido_vasfoga\rest57.jpg" alt="ilyen volt"> 
-                        </div>
-                        </div>
-                    
-                        <!--carousel elem--->
-                        <!--carousel elem--->
-                        <div class="carousel-item">
-                        <div class="carousel-caption" id="elsoTema">
-                            <p>Hatalmas hiányosságok</p>
-                        </div>
-                            
-                        <div class="kepek">
-                            <img  class="img-fluid" src=".\restauralas\az_ido_vasfoga\rest58.jpg" >
-                        </div>
-                        </div>
-                        <!--Carousel elem--1-->
-                        <div class="carousel-item " id="azidovasfoga">
-                        <div class="carousel-caption" id="elsoTema">
-                            <p>Az idő vasfoga</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\az_ido_vasfoga\rest55.jpg"  alt="ilyen volt">
-                            <img class="img-fluid"  src=".\restauralas\az_ido_vasfoga\rest56.jpg"alt="ilyen ilyen lett">
-                        </div>
-                        </div>
-                                 
-                        <!--carousel elem--2--->
-                        <div class="carousel-item ">
-                        <div class="carousel-caption" id="masodikTema">
-                            <p>Az lány korabeli ruhában</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\lany_korabeli_ruhaban\ilyenvolt.jpg"  >
-                            <img class="img-fluid"  src=".\restauralas\lany_korabeli_ruhaban\ilyenlett.jpg" >
-                        </div>
-                        </div>
-                            
-                        <!--carousel elem--3--->
-                        <div class="carousel-item ">
-                        <div class="carousel-caption" id="masodikTema">
-                            <p >Kosz mindenütt</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\lany_korabeli_ruhaban\koszmindenutt.jpg"  >
-                        </div>
-                        </div>
-                            
-                        <!--Carousel elem---4-->
-                        <div class="carousel-item ">
-                        <div class="carousel-caption" id="masodikTema">
-                            <p>Hatalmas szakadás</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\lany_korabeli_ruhaban\szakadas.jpg"  alt="ilyen volt">      
-                        </div>
-                        </div>
-              
-                        <!--Carousel elem-5---->
-                        <div class="carousel-item ">
-                        <div class="carousel-caption" id="masodikTema">
-                            <p>Szakadás hátulról</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\lany_korabeli_ruhaban\szakadas_hatulrol.jpg"  alt="ilyen volt">     
-                        </div>
-                        </div>
-                            
-                        <!--Carousel elem--6--->
-                        <div class="carousel-item ">
-                        <div class="carousel-caption" id="masodikTema">
-                            <p>Szakadás befoltozva; Tisztítás próbák</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid" src=".\restauralas\lany_korabeli_ruhaban\tisztitas_befoltozva.jpg"  alt="ilyen volt">   
-                        </div>
-                        </div>
-                            
-                        <!--carousel elem--7--->
-                        <div class="carousel-item ">
-                        <div class="carousel-caption" id="masodikTema">
-                            <p>Az lány korabeli ruhában</p>
-                        </div>
-                        <div class="kepek">
-                            <img class="img-fluid"  src=".\restauralas\lany_korabeli_ruhaban\ilyenvolt.jpg"  alt="ilyen volt">
-                            <img class="img-fluid"  src=".\restauralas\lany_korabeli_ruhaban\ilyenlett.jpg"  alt="ilyen lett">
-                        </div>
-                        </div> 
-                        
-                        </div><!--carousel inner vége-->
-                        </div><!--mycarousel, carousel-slide vég-->
-                        </div><!--tab-content--vége-->
-                        </div><!--tartalmon belüli sor vége--->
-                        </div><!--container mt-3 vége-->             
-                        </div><!-----col-md-12 vége--->
-    </div><!----wrapper vége--->
-    
 
-    </div><!---Fősor---vége---------->
-     
+        </div>
+        <!---Fősor---vége---------->
 
-                                                
-                     
-                   
+
+
+
+
 
     </main>
-    <footer class = "bg-info">
-        <div class = "container">
-            <div class = "row">
-                <div class = "col-sm-6 col-md-3 m-footer-contact">
-                    <a class = "navbar-brand" href = "index.html">
+    <footer class="bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 m-footer-contact">
+                    <a class="navbar-brand" href="index.html">
                         
                         BUDAPEST
                     </a>
                     <p>
-                    Gólyaműhely<br>
+                        Gólyaműhely<br>
                     </p>
                 </div>
-            
-            <div class = "col-sm-6 col-md-3 m-footer-nav">
-                <strong>Fontosabb munkáim</strong>
-                <ul>
-                      <li><a href = "olajfestmeny.html">Olajfestmény</a></li>
-                      <li><a href = "grafika.html">Grafika</a></li>
-                      <li><a href = "mozaik.html">Mozaik</a></li>
-                      <li><a href = "butor.html">Bútor</a></li>
-                      <li><a href = "mese.html">Mese</a></li>
-                </ul>
-            </div>
-            
-                
-            <div class = "col-sm-6 col-md-3 m-footer-nav">
-                <strong>Referenciák</strong>
-                <ul>
-                      <li><a href = "restauralas.html">Restaurálás</a></li>
-                      <li><a href = "mesegrafika.html">Mesegrafika</a></li>
-                </ul>
-            </div>
-                
-                <div class = "col-sm-6 col-md-3 m-footer-nav">
-                <strong>Információ</strong>
-                <ul>
-                      
-                      <li><a href = "bemutatkozas.html">Bemutatkozás</a></li>
-                      <li><a href = "gyik.html">Kérdések és válaszok</a></li>
-                      <li><a href = "linkek.html">Linkek</a></li>
-                    <li><a href = "ajandekok.html">Ajándéktárgyak</a></li>
-                      <li><a href = "kedvencek.html">Kedvencek</a></li>
-                      <li><a href = "kapcsolat.html">Kapcsolat</a></li>
-                      <li>
-                        <a href = "https://www.facebook.com/G%C3%B3lyam%C5%B1hely-136971399775847/"><img src = "./pics/ico/fb_black_50x50.png" alt = "Facebook"><br>Facebook</a></li>
-                    <img  src="./pics/ico/phone_50x50.png" alt="Image"><br />06-20-482-3933
-                </ul>
-            </div>
-                
 
-          
-            </div><!---row vége--->
-        </div><!---container vége--->
+                <div class="col-sm-6 col-md-3 m-footer-nav">
+                    <strong>Fontosabb munkáim</strong>
+                    <ul>
+                        <li><a href="olajfestmeny.html">Olajfestmény</a></li>
+                        <li><a href="grafika.html">Grafika</a></li>
+                        <li><a href="mozaik.html">Mozaik</a></li>
+                        <li><a href="butor.html">Bútor</a></li>
+                        <li><a href="mese.html">Mese</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-sm-6 col-md-3 m-footer-nav">
+                    <strong>Referenciák</strong>
+                    <ul>
+                        <li><a href="restauralas.html">Restaurálás</a></li>
+                        <li><a href="mesegrafika.html">Mesegrafika</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-md-3 m-footer-nav">
+                    <strong>Információ</strong>
+                    <ul>
+
+                        <li><a href="bemutatkozas.html">Bemutatkozás</a></li>
+                        <li><a href="gyik.html">Kérdések és válaszok</a></li>
+                        <li><a href="linkek.html">Linkek</a></li>
+                        <li><a href="ajandekok.html">Ajándéktárgyak</a></li>
+                        <li><a href="kedvencek.html">Kedvencek</a></li>
+                        <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                        <li>
+                            <a href="https://www.facebook.com/G%C3%B3lyam%C5%B1hely-136971399775847/"><img src="./pics/ico/fb_black_50x50.png" alt="Facebook"><br>Facebook</a>
+                        </li>
+                        <img src="./pics/ico/phone_50x50.png" alt="Image"><br />06-20-482-3933
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <!---row vége--->
+        </div>
+        <!---container vége--->
     </footer>
- 
- 
 
-            
-    <script src= "./js/jquery-3.1.1.slim.min.js"></script>
-    <srcipt src= "./js/tether.min.js"></srcipt>
-    <script src= "./js/bootstrap.min.js"></script>
-    <script src= "./js/app.js"></script>
-    <script src= "./js/bootstrap.js"></script>
-    <script src= "./js/index.js"></script>
-    <script src= "./js/restauralas.js"></script>
+
+
+
+    <script src="./js/jquery-3.1.1.slim.min.js"></script>
+    <srcipt src="./js/tether.min.js"></srcipt>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/restauralas.js"></script>
 </body>
+
 </html>
