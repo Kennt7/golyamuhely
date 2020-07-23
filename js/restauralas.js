@@ -67,7 +67,7 @@ $(document).ready(function(){
   });
 });
 
-$(function onclick() {
+/* $(function onclick() {
   $(".listakomponensek").on("click", function () {
       $("#k1").load("#ido1");
   });
@@ -75,6 +75,6 @@ $(function onclick() {
       $("#main").load("PageB.html");
   });
 });
- 
+  */
 
 
