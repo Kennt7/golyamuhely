@@ -1,48 +1,37 @@
-
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    background-color:darkblue;
-   
+body {
+    background-color: darkblue;
 }
 
-h2{
-    color:#03b8e3;
+h2 {
+    color: #03b8e3;
 }
 
-h4{
-    color:yellow;
+h4 {
+    color: yellow;
     margin-top: 10px;
     text-align: left;
     font-weight: 50;
     font-family: 'Crimson Text';
-   
 }
 
-p{
-    color:white;
- 
-}
-#{
-    border: 5px solid black;
+p {
+    color: white;
 }
 
-#mozaikkontener{
+#mozaikkontener {
     margin-top: 15px;
 }
 
-
-#kopanel{
-    color:azure;
+#kopanel {
+    color: azure;
 }
 
-#uvegpanel{
-    
-}
+#uvegpanel {}
 
-img{
+img {
     border: 5px solid black;
 }
-
