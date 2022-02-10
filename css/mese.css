@@ -8,9 +8,6 @@ body {
 }
 
 .kontener {
-    display: ;
-    padding;
-    width: ;
     border-image: url("../pics/t2.png");
 }
 
@@ -37,15 +34,16 @@ h1 {
 }
 
 h2 {
-    background-image: url(../pics/gyujtes/fekete-sarga.jpg);
+    background-image: url(../pics/gyujtes/);
     margin-top: 5px;
     padding: 5px;
-    border: 3px solid rgb(243, 133, 7);
+    /* border: 3px solid rgb(243, 7, 231); */
+    border-style: inset;
     text-align: center;
     font-family: 'Cinzel', serif;
     padding-top: 10px;
     font-size: 25px;
-    color:rgb(5, 97, 43);
+    color: rgb(158, 158, 82);
     border-radius: 25px;
     width: 100%;
 }
@@ -73,7 +71,7 @@ h5 {
 }
 
 #oldalMenu {
-    padding-left:15px;
+    padding-left: 15px;
     border-left: 3px solid black;
     border-image: url(../pics/t1.png) 50 round;
     border-image-width: 20px;
@@ -96,7 +94,8 @@ col-md-4 {
 
 .col-sm-9,
 .col-md-9 {
-    background-color: coral;
+    background-color: rgb(80, 255, 89);
+    background-image: url("../pics/gyujtes/pattern.jpg");
     margin: 0 auto 0 auto;
     padding: 5px;
     border-right: 5px solid black;
