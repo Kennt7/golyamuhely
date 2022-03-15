@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
     background-image: url("../pics/golyafej.png"), url("../pics/golyafej2.png");
     background-repeat: repeat-y, repeat-y;
-    background-position: right, left;
+    background-position: right 25.5% , left  25.5%;
 }
 
 
