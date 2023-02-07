@@ -1,70 +1,69 @@
-                    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-                    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-                    * {
-                        box-sizing: border-box;
-                    }
-                    
-                    main {
-                        /* width: 100%; */
-                        background-color: #2b82bd;
-                    }
-                    
-                    .szovegsav {
-                        color: black;
-                    }
-                    
-                    .col-sm-6 {
-                        text-align: center;
-                        width: 20%;
-                    }
-                    
-                    h1 {
-                        font-family: 'Great Vibes', cursive !important;
-                        border-radius: 25px;
-                        animation: creator 5s infinite;
-                    }
-                    
-                    @keyframes creator {
-                        50% {
-                            box-shadow: 10px 20px 30px rgb(250, 249, 246);
-                        }
-                    }
-                    
-                    h4 {
-                        text-align: center;
-                        color: white;
-                    }
-                    
-                    h4 {
-                        color: red;
-                    }
-                    
-                    #carouselExampleIndicators .img-fluid {
-                        height: 100%;
-                        width: 50%;
-                    }
-                    
-                    .embed-responsive {
-                        border-radius: 25px;
-                        border: 3px solid gray;
-                    }
-                    
-                    .container mt-3 {
-                        margin: 0 auto 0 auto;
-                        /* position: absolute; */
-                    }
-                    
-                    .carousel-item {
-                        width: 500px;
-                        height: 500px;
-                        object-fit: cover;
-                    }
-                    
-                    .nav-link {
-                        color: aqua;
-                        font-family: 'Roboto', sans-serif;
-                    }
-                    
-                    ul {
-                        list-style-type: none;
-                    }
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        main {
+            /* width: 100%; */
+            background-color: #2b82bd;
+        }
+        
+        .szovegsav {
+            color: black;
+        }
+        
+        .col-sm-6 {
+            text-align: center;
+            width: 20%;
+        }
+        
+        h1 {
+            font-family: 'Great Vibes', cursive !important;
+            border-radius: 25px;
+            animation: creator 5s infinite;
+        }
+        
+        @keyframes creator {
+            50% {
+                box-shadow: 10px 20px 30px rgb(250, 249, 246);
+            }
+        }
+        
+        #carouselExampleIndicators .img-fluid {
+            height: 100%;
+            width: 50%;
+        }
+        
+        .embed-responsive {
+            border-radius: 25px;
+            border: 3px solid gray;
+        }
+        
+        .container mt-3 {
+            margin: 0 auto 0 auto;
+            /* position: absolute; */
+        }
+        
+        .carousel-item {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+        
+        .nav-link {
+            color: rgb(240, 154, 6);
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        footer {
+            font-family: 'Roboto', sans-serif;
+        }

@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     /* padding: 20px; */
 
-*/ .container mt-3 {
+.container mt-3 {
     background-color: yellow;
 }
 
@@ -51,12 +51,6 @@ p {
     font-style: oblique;
     text-align: justify;
     color: gold;
-}
-
-.zsofioldala {
-    /* width: 100%; */
-    /* background-image: url(../pics/gyujtes/muveszi-aranycsillag.jpg); */
-    /* background-size: cover; */
 }
 
 .jumbotron {

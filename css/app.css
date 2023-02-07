@@ -1,9 +1,5 @@
-body {
-    background: #fff;
-    font-family: "Open Sans", sans-serif;
-}
-
 /* TOPBAR CONTACT NAVIGATION */
+
 nav.top-contact-navigation {
     background: green;
     padding: 5px 0;
@@ -35,7 +31,9 @@ nav.top-contact-navigation ul li a img {
     margin-right: 5px;
 }
 
+
 /* PRIMARY NAVBAR */
+
 .navbar {
     background: #0275d8;
 }
@@ -92,6 +90,7 @@ nav.top-contact-navigation ul li a img {
 
 
 /* FOOTER */
+
 footer {
     text-align: center;
 }
@@ -158,6 +157,7 @@ footer [class*="col-"] {
     color: #292b2c;
 }
 
+
 /******************************************************************
 DEFAULTS
 ******************************************************************/
@@ -166,10 +166,7 @@ DEFAULTS
     background: #dedede;
 }
 
-section, footer {
+section,
+footer {
     padding: 20px 0;
 }
-
-
-
-

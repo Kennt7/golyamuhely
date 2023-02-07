@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="./pics/ico/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="./css/olajfestmenyek.css" />
+    <link rel="stylesheet" type="text/css" href="./css/olajfestmenyek_proba.css" />
     <link rel="stylesheet" type="text/css" href="./css/app.css" />
     <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -63,7 +63,7 @@
                             </a>
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="restauralas.html">Restaurálás</a>
+                            <a class="dropdown-item" href="festmeny-restauralas.html">Restaurálás</a>
 
                             <a class="dropdown-item" href="grafika.html">Grafika</a>
 
@@ -98,492 +98,603 @@
     </nav>
 
     <main id="tartalom">
-
-        <div class="container-fluid text-center mb-3" id="tener">
-            <img src="./pics/fej1.jpg" id="fej1">
-            <h3 class="pt-3">Olajfestmények</h3><br>
-            <img src="./pics/fej1.jpg" id="fej2">
-            <!---1.sor------------------->
-            <div class="row" id="elsoSor">
-                <div class="col-sm-3 mb-3">
-                    <img src="./olajfestmenyek/150x150/k001.jpg" class="img-fluid" style="width:100%" alt="Image" title="Nagyobb nézetért kattints a szövegre.">
-                    <a href="olajfestmenyek/oila01.jpg" target="_blank">
-                        <p class="kepCimek">
-                            Jóbarát
+        <h1>Olajfestmények</h1>
+        <div class="wrapper">
+            <div class="box item-1">
+                <img src="./olajfestmenyek/150x150/k001.jpg" alt="">
+                <a href="olajfestmenyek/oila01.jpg" target="_blank">
+                    <p class="kepCimek">
+                        Jóbarát
+                    </p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#elsoReszlet" ondblclick="osszecsuk()" aria-expanded="false" aria-controls="elsoReszlet">
+                    Részletek</button>
+                <div id="elsoReszlet" class="collapse">
+                    <b>
+                        Kép méretei:80x60cm</b><br/> Legjobb barátom állt modellt e képhez. Jó, közben elaludt. Serifnek ajánlom a következő verset:
+                    <h4>Kosztolányi Dezső:Hattyú kutyám</h4>
+                    Ülj itt, s vigyázz a házra, te farkasok szelíd, fehérfia, ős embergyűlölő, kinek a léptünk álmatlan, éber neuraszténa. Ne engedd, hogy istentelen lerontsák mit szívből, agyból rágott a kéz. Hadd álmodozzon pár évig a gazdád A körbe, mely szűk és bezárt
+                    egész.
+                    <a href="https://kutyabarat.hu/kutyabarat_hirek/75346/kutyas_vers_mindenkinek_kosztolanyi_dezso/" target="_blank">
+                        <p id="vershivatkozas">
+                            <strong>Teljes vers</strong>
                         </p>
                     </a>
-
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#elsoReszlet" ondblclick="osszecsuk()" aria-expanded="false" aria-controls="elsoReszlet">
-                            Részletek</button>
-                    <div id="elsoReszlet" class="collapse">
-                        <b>
-                                Kép méretei:80x60cm</b><br/> Legjobb barátom állt modellt e képhez. Jó, közben elaludt. Serifnek ajánlom a következő verset:
-                        <h4>Kosztolányi Dezső:Hattyú kutyám</h4>
-                        Ülj itt, s vigyázz a házra, te farkasok szelíd, fehérfia, ős embergyűlölő, kinek a léptünk álmatlan, éber neuraszténa. Ne engedd, hogy istentelen lerontsák mit szívből, agyból rágott a kéz. Hadd álmodozzon pár évig a gazdád A körbe, mely szűk és bezárt
-                        egész.
-                        <a href="https://kutyabarat.hu/kutyabarat_hirek/75346/kutyas_vers_mindenkinek_kosztolanyi_dezso/" target="_blank">
-                            <p id="vershivatkozas">
-                                <strong>Teljes vers</strong>
-                            </p>
-                        </a>
-                    </div>
-                    <!----dropup menu vége-->
-
                 </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="./olajfestmenyek/150x150/k002.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila02N.jpg" target="_blank">
-                        <p class="kepCimek">
-                            Muki
-                        </p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#masodikReszlet" ondblclick="osszecsuk()">Részletek</button>
-                    <div id="masodikReszlet" class="collapse">
-                        <b>
-                                Kép méretei:120x120cm</b><br/>
-                        <p>Keret nélküli kifeszített, 120x120-as kocka vászonra festett olajkép.</p>
-                        <p>Öcsém 18. születésnapjára készült kedvenc kiskutyájáról, az általa készített digitális fotó alapján, a háttér szándékosan lett fekete. A kutyám, Seriff legkisebb lányát ábrázolja.</p>
+                <!----dropup menu vége-->
+                <div class="overlay ovrl-left ovrl-1"></div>
+                <div class="overlay ovrl-right ovrl-1"></div>
+                <div class="locker">
+                    <i class="arrow fa fa-arrows-h" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="box item-2"><img src="olajfestmenyek/150x150/k002.jpg" alt="">
+                <a href="olajfestmenyek/oila02N.jpg" target="_blank">
+                    <p class="kepCimek">
+                        Muki
+                    </p>
+                </a><button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#masodikReszlet" ondblclick="osszecsuk()">Részletek</button>
+                <div id="masodikReszlet" class="collapse">
+                    <b>
+                            Kép méretei:120x120cm</b><br/>
+                    <p>Keret nélküli kifeszített, 120x120-as kocka vászonra festett olajkép.</p>
+                    <p>Öcsém 18. születésnapjára készült kedvenc kiskutyájáról, az általa készített digitális fotó alapján, a háttér szándékosan lett fekete. A kutyám, Seriff legkisebb lányát ábrázolja.</p>
 
-                        <p>A festmény hátoldalán, -rajtam kívül- a kutyafalka 3 tagja is aláírásával hitelesített!
-                        </p>
+                    <p>A festmény hátoldalán, -rajtam kívül- a kutyafalka 3 tagja is aláírásával hitelesített!
+                    </p>
 
-                        <p>"Az eb szerfelett meggondolatlan szerzet. Fittyet hány rá, vajon igazad van-e vagy sem, milyen magasságokba kapaszkodtál fel az élet szamárlétráján, nem kérdi, gazdag vagy-e vagy szegény, buta vagy bölcs, bűnös vagy szent. Bárhogy
-                            is forduljon azonban Fortuna kereke, akár jó, akár rossz hírnek örvendj, lehetsz köztiszteletben álló polgár vagy a család fekete báránya- Ő akkor is ragaszkodik hozzád, a végsőkig védelmez- és az életét is odaadja érted.."</p>
-                        Jerome K. Jerome
-                    </div>
+                    <p>"Az eb szerfelett meggondolatlan szerzet. Fittyet hány rá, vajon igazad van-e vagy sem, milyen magasságokba kapaszkodtál fel az élet szamárlétráján, nem kérdi, gazdag vagy-e vagy szegény, buta vagy bölcs, bűnös vagy szent. Bárhogy
+                        is forduljon azonban Fortuna kereke, akár jó, akár rossz hírnek örvendj, lehetsz köztiszteletben álló polgár vagy a család fekete báránya- Ő akkor is ragaszkodik hozzád, a végsőkig védelmez- és az életét is odaadja érted.."</p>
+                    Jerome K. Jerome
                 </div>
 
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k003.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila03N.jpg" target="_blank">
-                        <p class="kepCimek">Kedvenc lovam, Misi</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#harmadikReszlet">Részletek</button>
-                    <div id="harmadikReszlet" class="collapse">
+
+                <div class="overlay ovrl-left ovrl-2"></div>
+                <div class="overlay ovrl-right ovrl-2"></div>
+                <div class="locker">
+                    <i class="arrow fa fa-arrows-h" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="box item-3"><img src="olajfestmenyek/150x150/k003.jpg" alt="">
+
+                <a href="olajfestmenyek/oila03N.jpg" target="_blank">
+                    <p class="kepCimek">Kedvenc lovam, Misi</p>
+                </a>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#harmadikReszlet">Részletek</button>
+                <div id="harmadikReszlet" class="collapse">
+                    <div class="card card-body">
                         <p>
                             <b>Képméret: 50x70cm</b> Kedvenc lovamat örökítettem meg, ezen olajfestményen, egyedi vastag faág keretben, vásznon.</p>
                     </div>
+
                 </div>
-                <!---jobboldali kép------------------->
-                <div class="col-sm-3 mb-3">
-                    <a href="ejjelimuszak.html"><img src="pics/ahoil.png" class="img-fluid" id="ejjeliMuszak" style="width:100%" alt="Éjjeli műszak" title="Éjjeli műszak" usemap="#baljobb"></a>
+                <div class="overlay ovrl-left ovrl-3"></div>
+                <div class="overlay ovrl-right ovrl-3"></div>
+                <div class="locker">
+                    <i class="arrow fa fa-arrows-h" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="box item-4">
+                <img src="olajfestmenyek/150x150/k005.jpg" alt="Image">
+                <a href="olajfestmenyek/oila05.jpg" target="_blank">
+                    <p class="kepCimek">Állati jóbarátok</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#negyedikReszlet">Részletek</button>
+                <div id="negyedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b>
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-3"></div>
+                <div class="overlay ovrl-right ovrl-3"></div>
+                <div class="locker">
+                    <i class="arrow fa fa-arrows-h" aria-hidden="true"></i>
                 </div>
             </div>
 
-            <!---2.sor------------------->
-            <div class="sor" id="masodikSor">
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k005.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila05.jpg" target="_blank">
-                        <p class="kepCimek">Állati jóbarátok</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#negyedikReszlet">Részletek</button>
-                    <div id="negyedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b>
-                        </p>
-                    </div>
+            <div class="box item-5">
+                <img src="olajfestmenyek/150x150/oila13.jpg" alt="Image ">
+                <a href="pics/originKepek//oila13.jpg " target="_blank ">
+                    <p class="kepCimek ">A lovak álma</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#otodikReszlet">Részletek</button>
+                <div id="otodikReszlet" class="collapse">
+                    <p>
+                        <b>Koltai Gergely: Lovak álma</b> Koltai Gergely Lovak álma (részlet) "A lovak álma szabadság, Zabla nélkül élni. Vágtatni a pusztában, a széllel szembenézni. A lovak álma az igazság, Adni sose kérni! Nem rohanni a semmiért - ellátni
+                        a célig! " ... "A lovak álma nem eladó, A szemük beszédes, Féljen aki ellenáll, Ha megindul a ménes."</p>
                 </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/oila13.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="pics/originKepek//oila13.jpg" target="_blank">
-                        <p class="kepCimek">A lovak álma</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#otodikReszlet">Részletek</button>
-                    <div id="otodikReszlet" class="collapse">
-                        <p>
-                            <b>Koltai Gergely: Lovak álma</b> Koltai Gergely Lovak álma (részlet) "A lovak álma szabadság, Zabla nélkül élni. Vágtatni a pusztában, a széllel szembenézni. A lovak álma az igazság, Adni sose kérni! Nem rohanni a semmiért
-                            - ellátni a célig!" ... "A lovak álma nem eladó, A szemük beszédes, Féljen aki ellenáll, Ha megindul a ménes."</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/kicsinyitett/oila07.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila07.jpg" target="_blank">
-                        <p class="kepCimek">Hűséges</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#hatodikReszlet">Részletek</button>
-                    <div id="hatodikReszlet" class="collapse">
-                        <p>
-                            <b>Akril festmény keret nélküli vásznon</b> "A kutya valóságos szent. Természeténél fogva tisztaszívű és őszinte. Ösztönszerűen tudja, mikor nincs rá szükség: Órákig képes nyugodtan feküdni, mikor királya belemerül a munkába.
-                            ám amikor a király szomorú és szorong, odalopakodik hozzá, hogy az ölébe hajtsa a fejét. - Ne félj. Sose bánd, ha mindenki más el is hagy. Gyere sétáljunk egyet, és felejtsd el az egészet."
-
-                            <strong>Axel Munthe</strong> "Egy nemzet nagyságát és erkölcsi fejlettségi szintjét abból lehet lemérni, ahogyan az állatokkal bánik."
-
-                            <strong>Mahatma Ghandi</strong>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k008.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila08.jpg" target="_blank">
-                        <p class="kepCimek">Nyáregyházi őzek</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#hetedikReszlet">Részletek</button>
-                    <div id="hetedikReszlet" class="collapse">
-                        <p>
-                            <b>Akril festmény, vásznon.</b> "Egy őz lépett ki az erdőszélére, s figyelő orral beleszagolt az estébe. - Egyedül vagyok őz, jaj nagyon egyedül vagyok. Gyere ide, őz, gyere ide hozzám, gyere ide, őz... Az őz lassan, nagyon
-                            lassan megindult. És jött. Lassan, nagyon lassan, mintha csak aludt volna közben. Babonázottan nézte a közeledő őzet, furcsán dobogott a szíve. - Gyere ide őz, gyere hozzám, őz... És az őz jött. Nagyon-nagyon lassan, előrehúzott
-                            nyakkal, remegő lábakkal. Jött. Valami lágy öröm ömlött végig a lányon, szemei csillogtak. - Gyere, kicsi őz, gyere!"
-
-                            <b>Részlet, Wass Albert: A funtineli Boszorkány című regény-trilógiából.</b>
-                        </p>
-                    </div>
+                <div class="overlay ovrl-left ovrl-3"></div>
+                <div class="overlay ovrl-right ovrl-3"></div>
+                <div class="locker">
+                    <i class="arrow fa fa-arrows-h" aria-hidden="true"></i>
                 </div>
             </div>
-            <!---3.sor------------------->
-            <div class="row" id="harmadikSor">
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k009.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila06.jpg" target="_blank">
-                        <p class="kepCimek">Cicák</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#nyolcadikReszlet">Részletek</button>
-                    <div id="nyolcadikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b>
-                        </p>
-                    </div>
+            <div class="box item-6"><img src="olajfestmenyek/kicsinyitett/oila07.jpg" alt="Image">
+                <a href="olajfestmenyek/oila07.jpg" target="_blank">
+                    <p class="kepCimek">Hűséges</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#hatodikReszlet">Részletek</button>
+                <div id="hatodikReszlet" class="collapse">
+                    <p>
+                        <b>Akril festmény keret nélküli vásznon</b> "A kutya valóságos szent. Természeténél fogva tisztaszívű és őszinte. Ösztönszerűen tudja, mikor nincs rá szükség: Órákig képes nyugodtan feküdni, mikor királya belemerül a munkába. ám
+                        amikor a király szomorú és szorong, odalopakodik hozzá, hogy az ölébe hajtsa a fejét. - Ne félj. Sose bánd, ha mindenki más el is hagy. Gyere sétáljunk egyet, és felejtsd el az egészet."
+
+                        <strong>Axel Munthe</strong> "Egy nemzet nagyságát és erkölcsi fejlettségi szintjét abból lehet lemérni, ahogyan az állatokkal bánik."
+
+                        <strong>Mahatma Ghandi</strong>
+                    </p>
                 </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k011.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila10N.jpg" target="_blank">
-                        <p class="kepCimek">Kutyaportré 1.0</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#kilencedikReszlet">Részletek</button>
-                    <div id="kilencedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k010.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila11N.jpg" target="_blank">
-                        <p class="kepCimek">Kutyaportré 2.0</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizedikReszlet">Részletek</button>
-                    <div id="tizedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k012.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila09N.jpg" target="_blank">
-                        <p class="kepCimek">Farkas</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenegyedikReszlet">Részletek</button>
-                    <div id="tizenegyedikReszlet" class="collapse">
-                        <p>
-                            <b>Farkas(2007) Képméret: 60x80cm</b> Akril festmény,60 cm széles, 80 cm magas vászon. "Még mindig szelíd és gyengéd volt velem, de végül is megízlelte, milyen vadnak és szabadnak lenni a maga öröksége szerint amint figyeltem
-                            őt, milyen elkeseredetten, láncát feszítve járkál vinnyogva vagy ugrál őrjöngve, hirtelen megértettem, milyen nagyon rossz dolog megszelídíteni egy farkast."
-                            <b>Mech, D. 1970.</b>
-                        </p>
-                    </div>
+                <div class="overlay ovrl-left ovrl-6 "></div>
+                <div class="overlay ovrl-right ovrl-6 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
                 </div>
             </div>
+            <div class="box item-7"><img src="olajfestmenyek/150x150/k008.jpg" alt="Image">
+                <a href="olajfestmenyek/oila08.jpg" target="_blank">
+                    <p class="kepCimek">Nyáregyházi őzek</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#hetedikReszlet">Részletek</button>
+                <div id="hetedikReszlet" class="collapse">
+                    <p>
+                        <b>Akril festmény, vásznon.</b> "Egy őz lépett ki az erdőszélére, s figyelő orral beleszagolt az estébe. - Egyedül vagyok őz, jaj nagyon egyedül vagyok. Gyere ide, őz, gyere ide hozzám, gyere ide, őz... Az őz lassan, nagyon lassan
+                        megindult. És jött. Lassan, nagyon lassan, mintha csak aludt volna közben. Babonázottan nézte a közeledő őzet, furcsán dobogott a szíve. - Gyere ide őz, gyere hozzám, őz... És az őz jött. Nagyon-nagyon lassan, előrehúzott nyakkal,
+                        remegő lábakkal. Jött. Valami lágy öröm ömlött végig a lányon, szemei csillogtak. - Gyere, kicsi őz, gyere!"
 
-            <!---4.sor------------------->
-            <div class="row" id="negyedikSor">
-                <div class="col-sm-3">
-                    <img src="olajfestmenyek/150x150/k013.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oile01.jpg" target="_blank">
-                        <p class="kepCimek">Gergő</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenkettedikReszlet">Részletek</button>
-                    <div id="tizenkettedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b> Unokaöcsém, Gergő gyerekkori portréja.</p>
-                    </div>
+                        <b>Részlet, Wass Albert: A funtineli Boszorkány című regény-trilógiából.</b>
+                    </p>
                 </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k015.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila12.jpg" target="_blank">
-                        <p class="kepCimek">Tigris</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenharmadikReszlet">Részletek</button>
-                    <div id="tizenharmadikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 126x84cm</b> A képen az én cicám látható. Keret nélküli, kifeszített vásznon. 126,5cm széles, 85cm magas.
-                            <strong>Megrendelésre lefestem a te cicád is.</strong>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k014.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oile04.jpg" target="_blank">
-                        <p class="kepCimek">Klári</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizennegyedikReszlet">Részletek</button>
-                    <div id="tizennegyedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b><br/> Klára Unokahúgom gyerekkori portréja
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k016.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oile05.jpg" target="_blank">
-                        <p class="kepCimek">Csak barátok</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenotodikReszlet">Részletek</button>
-                    <div id="tizenotodikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 50x70cm</b> Kedvenc lovamat örökítettem meg, ezen olajfestményen, egyedi vastag faág keretben, vásznon.</p>
-                    </div>
+                <div class="overlay ovrl-left ovrl-7 "></div>
+                <div class="overlay ovrl-right ovrl-7 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
                 </div>
             </div>
-            <!---5.sor------------------->
-            <div class="row" id="otodikSor">
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k017.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oile02.jpg" target="_blank">
-                        <p class="kepCimek">Ildika</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenhatodikReszlet">Részletek</button>
-                    <div id="tizenhatodikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 100x130cm</b> Olajfestmény vásznon. A kép alapszínei, a szerelem szinei. A piros a romantikus-, a sárga a játékos szerelem, míg a kék, a gyengéd vonzalom - pajtási szerelem és szenvedély színe. "Szeretem, ahova
-                            lépsz, Szeretem, ahova nézel, Szeretem, amire vágysz, S szeretem, amit érzel. Szeretem mosolyod, Szeretem érintésed, Szeretem szavaid, S csillogó léted."
-                        </p>
-                    </div>
+            <div class="box item-8"> <img src="olajfestmenyek/150x150/k009.jpg" alt="Image">
+                <a href="olajfestmenyek/oila06.jpg" target="_blank">
+                    <p class="kepCimek">Cicák</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#nyolcadikReszlet">Részletek</button>
+                <div id="nyolcadikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b>
+                    </p>
                 </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k018.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="pics/originKepek/oile03.jpg" target="_blank">
-                        <p class="kepCimek">Hold arca</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenhetedikReszlet">Részletek</button>
-                    <div id="tizenhetedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 130x110cm</b> Olajfestmény, keret nélküli vászonra feszítve. "Szűzi istennő, ki beezüstözöd ezeket a szent öreg fákat."</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/kicsinyitett/oile06.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oile06N.jpg" target="_blank">
-                        <p class="kepCimek">Kicsi Angyal</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizennyolcadikReszlet">Részletek</button>
-                    <div id="tizennyolcadikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b> Pannika emlékére Őrangyalom, most ez órán Jöjj el kérlek, ide hozzám, Égből szállva, földre érve, Repülj lelkem közelébe. Segíts, hogy a gondok fátylán, Ha magamtól nem is látnám Fényed hozzám átragyogjon,
-                            Kedves lelked körbefogjon. Oldd fel szívem száz bilincsét, Hozd el hozzám most a békét, Hogyha szólsz azt meghallhassam, Vagy ha jelt adsz megkaphassam. Úgy legyen.
-
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/oila14.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila14N.jpg" target="_blank">
-                        <p class="kepCimek">Kis oroszlán</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenkilencedikReszlet">Részletek</button>
-                    <div id="tizenkilencedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 50x70cm</b> Az állatról készült portré, az Abony állatkertben megtekinthető. A kicsi oroszlán neve: Son.</p>
-                    </div>
+                <div class="overlay ovrl-left ovrl-8 "></div>
+                <div class="overlay ovrl-right ovrl-8 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
                 </div>
             </div>
-            <!---utolsó előtti.sor------------------->
-            <div class="row" id="hatodikSor">
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k019.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/k019.jpg" target="_blank">
-                        <p class="kepCimek">Halászfalu</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszadikReszlet">Részletek</button>
-                    <div id="huszadikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 80x60cm</b>
-                        </p>
-                    </div>
+            <div class="box item-9"> <img src="olajfestmenyek/150x150/k011.jpg" alt="Image">
+                <a href="olajfestmenyek/oila10N.jpg" target="_blank">
+                    <p class="kepCimek">Kutyaportré 1.0</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#kilencedikReszlet">Részletek</button>
+                <div id="kilencedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b>
+                    </p>
                 </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k020.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oilt03.jpg" target="_blank">
-                        <p class="kepCimek">Nagyapáim álma</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonegyedikReszlet">Részletek</button>
-                    <div id="huszonegyedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b> A régi Nagy Magyarország. Sok igaz magyar szív álmodozott arról, hogy visszaállítsák a Trianon előtti, eredeti ország méretet, hogy összefogás és béke legyen e mederben, ha már itt élünk mind a Kárpát-medencében.
-                            Köztük családom és jómagam is. Ez a gondolat ihlette e képet. "Hol szőke sellő, lenge szellő játszik a Tiszán, Ott él egy nép, legendák népe, ott az én hazám. Az ősi Kárpát őrzi álmát, hű Csaba vezér, Ki csillagoknak égi útján
-                            vissza-visszatér. Szép vagy, gyönyörű vagy Magyarország, Gyönyörűbb, mint a nagyvilág. Ha zeng a zeneszó, látom ragyogó, szép orcád. Táltos paripánkon odaszállunk Hazahív fű, fa, lomb, s virág. Úgy sír a hegedű, vár egy gyönyörű
-                            szép ország." (részlet)
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k021.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oilt02.jpg" target="_blank">
-                        <p class="kepCimek">Megcsináljuk</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonkettedikReszlet">Részletek</button>
-                    <div id="huszonkettedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: nincs adat</b> Megcsináljuk (2008) Immáron 6. éve képviselte a magyar népet az MSZP kormány és bizony 4. éve uralja a pártot egy olyan áruló, mint az akkori miniszterelnök, Gyurcsány Ferenc. Elege lett már a népnek
-                            ebből az áruló, magyar-ellenes, viszályokkal teli, ellent-mondásos kormánypolitikából! Tűntetések söpörtek végig az országon és a magyar emberek összefogva szeretnék leléptetni Ezt, a tisztségére már koránt sem méltó embert!
-                            Amíg ez meg nem történik Én is csak lázadok, mindörökké...</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">
-                    <img src="olajfestmenyek/150x150/k004.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oila04.jpg" target="_blank">
-                        <p class="kepCimek">Szabadnak születve</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonharmadikReszlet">Részletek</button>
-                    <div id="huszonharmadikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 50x70cm</b>
-                        </p>
-                    </div>
-                </div>
-            </div><br/>
-            <!---utolsó sor------------------->
-            <div class="row" id="hatodikSor">
-                <div class="col-sm-3">
-                    <img src="olajfestmenyek/kov1.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oilv1.jpg" target="_blank">
-                        <p class="kepCimek">Csend</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonnegyedikReszlet">Részletek</button>
-                    <div id="huszonnegyedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 60x80cm</b>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <img src="olajfestmenyek/kicsinyitett/kov2.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/kov2.jpg" target="_blank">
-                        <p class="kepCimek">Magány</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonotodikReszlet">Részletek</button>
-                    <div id="huszonotodikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 60x80cm</b>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <img src="olajfestmenyek/kov3.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="pics/originKepek/oilv3.jpg" target="_blank">
-                        <p class="kepCimek">Bátorság</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonhatodikReszlet">Részletek</button>
-                    <div id="huszonhatodikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 60x80cm</b>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <img src="olajfestmenyek/kicsinyitett/oilv4.jpg" class="img-fluid" style="width:100%" alt="Image">
-                    <a href="olajfestmenyek/oilv4.jpg" target="_blank">
-                        <p class="kepCimek">Változás</p>
-                    </a>
-                    <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonhetedikReszlet">Részletek</button>
-                    <div id="huszonhetedikReszlet" class="collapse">
-                        <p>
-                            <b>Képméret: 60x80cm</b>
-                        </p>
-                    </div>
+                <div class="overlay ovrl-left ovrl-9 "></div>
+                <div class="overlay ovrl-right ovrl-9 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
                 </div>
             </div>
-
-        </div><br>
-    </main>
-
-    <footer class="bg-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 m-footer-contact">
-                    <a class="navbar-brand" href="index.html">
-
-                            BUDAPEST
-                        </a>
-                    <p id="alsoFelirat">
-                        Gólyaműhely<br>
+            <div class="box item-10">
+                <img src="olajfestmenyek/150x150/k010.jpg" alt="Image ">
+                <a href="olajfestmenyek/oila11N.jpg " target="_blank ">
+                    <p class="kepCimek ">Kutyaportré 2.0</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizedikReszlet">Részletek</button>
+                <div id="tizedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b>
                     </p>
                 </div>
 
-                <div class="col-sm-6 col-md-3 m-footer-nav">
+                <div class="overlay ovrl-left ovrl-10 "></div>
+                <div class="overlay ovrl-right ovrl-10 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="box item-11">
+                <img src="olajfestmenyek/150x150/k012.jpg" alt="Image">
+                <a href="olajfestmenyek/oila09N.jpg " target="_blank ">
+                    <p class="kepCimek ">Farkas</p>
+                </a>
+                <button type="button " class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenegyedikReszlet">Részletek</button>
+                <div id="tizenegyedikReszlet" class="collapse ">
+                    <p>
+                        <b>Farkas(2007) Képméret: 60x80cm</b> Akril festmény,60 cm széles, 80 cm magas vászon. "Még mindig szelíd és gyengéd volt velem, de végül is megízlelte, milyen vadnak és szabadnak lenni a maga öröksége szerint amint figyeltem őt,
+                        milyen elkeseredetten, láncát feszítve járkál vinnyogva vagy ugrál őrjöngve, hirtelen megértettem, milyen nagyon rossz dolog megszelídíteni egy farkast. "
+                        <b>Mech, D. 1970.</b>
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-11"></div>
+                <div class="overlay ovrl-right ovrl-11"></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="box item-12 ">
+                <img src="olajfestmenyek/150x150/k013.jpg" alt="Image ">
+                <a href="olajfestmenyek/oile01.jpg " target="_blank ">
+                    <p class="kepCimek ">Gergő</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenkettedikReszlet">Részletek</button>
+                <div id="tizenkettedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b> Unokaöcsém, Gergő gyerekkori portréja.</p>
+                </div>
+                <div class="overlay ovrl-left ovrl-12 "></div>
+                <div class="overlay ovrl-right ovrl-12 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-13 ">
+                <img src="olajfestmenyek/150x150/k015.jpg" alt="Image ">
+                <a href="olajfestmenyek/oila12.jpg " target="_blank ">
+                    <p class="kepCimek ">Tigris</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenharmadikReszlet">Részletek</button>
+                <div id="tizenharmadikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 126x84cm</b> A képen az én cicám látható. Keret nélküli, kifeszített vásznon. 126,5cm széles, 85cm magas.
+                        <strong>Megrendelésre lefestem a te cicád is.</strong>
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-13 "></div>
+                <div class="overlay ovrl-right ovrl-13 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-14 ">
+                <img src="olajfestmenyek/150x150/k014.jpg" alt="Image ">
+                <a href="olajfestmenyek/oile04.jpg " target="_blank ">
+                    <p class="kepCimek">Klári</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizennegyedikReszlet">Részletek</button>
+                <div id="tizennegyedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b><br/> Klára Unokahúgom gyerekkori portréja
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-14 "></div>
+                <div class="overlay ovrl-right ovrl-14 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-15 ">
+                <img src="olajfestmenyek/150x150/k016.jpg" alt="Image">
+                <a href="olajfestmenyek/oile05.jpg" target="_blank">
+                    <p class="kepCimek">Csak barátok</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenotodikReszlet">Részletek</button>
+                <div id="tizenotodikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 50x70cm</b> Kedvenc lovamat örökítettem meg, ezen olajfestményen, egyedi vastag faág keretben, vásznon.</p>
+                </div>
+                <div class="overlay ovrl-left ovrl-15 "></div>
+                <div class="overlay ovrl-right ovrl-15 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-16 ">
+                <img src="olajfestmenyek/150x150/k017.jpg" alt="Image">
+                <a href="olajfestmenyek/oile02.jpg" target="_blank">
+                    <p class="kepCimek">Ildika</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenhatodikReszlet">Részletek</button>
+                <div id="tizenhatodikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 100x130cm</b> Olajfestmény vásznon. A kép alapszínei, a szerelem szinei. A piros a romantikus-, a sárga a játékos szerelem, míg a kék, a gyengéd vonzalom - pajtási szerelem és szenvedély színe. "Szeretem, ahova lépsz,
+                        Szeretem, ahova nézel, Szeretem, amire vágysz, S szeretem, amit érzel. Szeretem mosolyod, Szeretem érintésed, Szeretem szavaid, S csillogó léted."
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-16 "></div>
+                <div class="overlay ovrl-right ovrl-16 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-17 ">
+                <img src="olajfestmenyek/150x150/k018.jpg" alt="Image">
+                <a href="pics/originKepek/oile03.jpg" target="_blank">
+                    <p class="kepCimek">Hold arca</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenhetedikReszlet">Részletek</button>
+                <div id="tizenhetedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 130x110cm</b> Olajfestmény, keret nélküli vászonra feszítve. "Szűzi istennő, ki beezüstözöd ezeket a szent öreg fákat."</p>
+                </div>
+
+                <div class="overlay ovrl-left ovrl-17 "></div>
+                <div class="overlay ovrl-right ovrl-17 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-18 ">
+                <img src="olajfestmenyek/kicsinyitett/oile06.jpg" alt="Image">
+                <a href="olajfestmenyek/oile06N.jpg" target="_blank">
+                    <p class="kepCimek">Kicsi Angyal</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizennyolcadikReszlet">Részletek</button>
+                <div id="tizennyolcadikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b> Pannika emlékére Őrangyalom, most ez órán Jöjj el kérlek, ide hozzám, Égből szállva, földre érve, Repülj lelkem közelébe. Segíts, hogy a gondok fátylán, Ha magamtól nem is látnám Fényed hozzám átragyogjon,
+                        Kedves lelked körbefogjon. Oldd fel szívem száz bilincsét, Hozd el hozzám most a békét, Hogyha szólsz azt meghallhassam, Vagy ha jelt adsz megkaphassam. Úgy legyen.
+
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-18 "></div>
+                <div class="overlay ovrl-right ovrl-18 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-19 ">
+                <img src="olajfestmenyek/150x150/oila14.jpg" alt="Image">
+                <a href="olajfestmenyek/oila14N.jpg" target="_blank">
+                    <p class="kepCimek">Kis oroszlán</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#tizenkilencedikReszlet">Részletek</button>
+                <div id="tizenkilencedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 50x70cm</b> Az állatról készült portré, az Abony állatkertben megtekinthető. A kicsi oroszlán neve: Son.</p>
+                </div>
+                <div class="overlay ovrl-left ovrl-19 "></div>
+                <div class="overlay ovrl-right ovrl-19 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-20 ">
+                <img src="olajfestmenyek/150x150/k019.jpg" alt="Image">
+                <a href="olajfestmenyek/k019.jpg" target="_blank">
+                    <p class="kepCimek">Halászfalu</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszadikReszlet">Részletek</button>
+                <div id="huszadikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 80x60cm</b>
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-20 "></div>
+                <div class="overlay ovrl-right ovrl-20 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-21 ">
+                <img src="olajfestmenyek/150x150/k020.jpg" alt="Image ">
+                <a href="olajfestmenyek/oilt03.jpg " target="_blank ">
+                    <p class="kepCimek ">Nagyapáim álma</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonegyedikReszlet">Részletek</button>
+                <div id="huszonegyedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b> A régi Nagy Magyarország. Sok igaz magyar szív álmodozott arról, hogy visszaállítsák a Trianon előtti, eredeti ország méretet, hogy összefogás és béke legyen e mederben, ha már itt élünk mind a Kárpát-medencében.
+                        Köztük családom és jómagam is. Ez a gondolat ihlette e képet. "Hol szőke sellő, lenge szellő játszik a Tiszán, Ott él egy nép, legendák népe, ott az én hazám. Az ősi Kárpát őrzi álmát, hű Csaba vezér, Ki csillagoknak égi útján
+                        vissza-visszatér. Szép vagy, gyönyörű vagy Magyarország, Gyönyörűbb, mint a nagyvilág. Ha zeng a zeneszó, látom ragyogó, szép orcád. Táltos paripánkon odaszállunk Hazahív fű, fa, lomb, s virág. Úgy sír a hegedű, vár egy gyönyörű
+                        szép ország. " (részlet)
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-21 "></div>
+                <div class="overlay ovrl-right ovrl-21 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-22">
+                <img src=" olajfestmenyek/150x150/k021.jpg " alt="Image ">
+                <a href="olajfestmenyek/oilt02.jpg " target="_blank ">
+                    <p class="kepCimek ">Megcsináljuk</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed " data-toggle="collapse" data-target="#huszonkettedikReszlet">Részletek</button>
+                <div id="huszonkettedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: nincs adat</b> Megcsináljuk (2008) Immáron 6. éve képviselte a magyar népet az MSZP kormány és bizony 4. éve uralja a pártot egy olyan áruló, mint az akkori miniszterelnök, Gyurcsány Ferenc. Elege lett már a népnek
+                        ebből az áruló, magyar-ellenes, viszályokkal teli, ellent-mondásos kormánypolitikából! Tűntetések söpörtek végig az országon és a magyar emberek összefogva szeretnék leléptetni Ezt, a tisztségére már koránt sem méltó embert! Amíg
+                        ez meg nem történik Én is csak lázadok, mindörökké...</p>
+                </div>
+
+                <div class="overlay ovrl-left ovrl-22 "></div>
+                <div class="overlay ovrl-right ovrl-22 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-23 ">
+                <img src="olajfestmenyek/150x150/k004.jpg" alt="Image">
+                <a href="olajfestmenyek/oila04.jpg" target="_blank">
+                    <p class="kepCimek">Szabadnak születve</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonharmadikReszlet">Részletek</button>
+                <div id="huszonharmadikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 50x70cm</b>
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-23 "></div>
+                <div class="overlay ovrl-right ovrl-23 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-24">
+
+                <img src="olajfestmenyek/kov1.jpg" alt="Image">
+                <a href="olajfestmenyek/oilv1.jpg" target="_blank">
+                    <p class="kepCimek ">Csend</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonnegyedikReszlet">Részletek</button>
+                <div id="huszonnegyedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 60x80cm</b>
+                    </p>
+                </div>
+                <div class="overlay ovrl-left ovrl-24 "></div>
+                <div class="overlay ovrl-right ovrl-24 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-25">
+                <img src="olajfestmenyek/kicsinyitett/kov2.jpg" alt="Image">
+                <a href="olajfestmenyek/kov2.jpg" target="_blank">
+                    <p class="kepCimek">Magány</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonotodikReszlet">Részletek</button>
+                <div id="huszonotodikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 60x80cm</b>
+                    </p>
+                </div>
+
+                <div class="overlay ovrl-left ovrl-25"></div>
+                <div class="overlay ovrl-right ovrl-25"></div>
+                <div class="locker">
+                    <i class="arrow fa fa-arrows-h" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="box item-26 ">
+                <img src="olajfestmenyek/kov3.jpg" alt="Image">
+                <a href="pics/originKepek/oilv3.jpg" target="_blank">
+                    <p class="kepCimek">Bátorság</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonhatodikReszlet">Részletek</button>
+                <div id="huszonhatodikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 60x80cm</b>
+                    </p>
+                </div>
+
+                <div class="overlay ovrl-left ovrl-26 "></div>
+                <div class="overlay ovrl-right ovrl-26 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+            <div class="box item-27 ">
+                <img src="olajfestmenyek/kicsinyitett/oilv4.jpg" alt="Image">
+                <a href="olajfestmenyek/oilv4.jpg" target="_blank">
+                    <p class="kepCimek">Változás</p>
+                </a>
+                <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#huszonhetedikReszlet">Részletek</button>
+                <div id="huszonhetedikReszlet" class="collapse">
+                    <p>
+                        <b>Képméret: 60x80cm</b>
+                    </p>
+                </div>
+
+                <div class="overlay ovrl-left ovrl-27 "></div>
+                <div class="overlay ovrl-right ovrl-27 "></div>
+                <div class="locker ">
+                    <i class="arrow fa fa-arrows-h " aria-hidden="true "></i>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-info ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-6 col-md-3 m-footer-contact ">
+                    <a class="navbar-brand " href="index.html ">
+
+                        <h4>Gólyaműhely</h4>
+                        <h6>BUDAPEST, 2020</h6>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-3 m-footer-nav ">
                     <strong>Fontosabb munkáim</strong>
                     <ul>
                         <li>
-                            <a href="olajfestmeny.html">Olajfestmény</a>
+                            <a href="olajfestmeny.html ">Olajfestmény</a>
                         </li>
                         <li>
-                            <a href="grafika.html">Grafika</a>
+                            <a href="grafika.html ">Grafika</a>
                         </li>
                         <li>
-                            <a href="mozaik.html">Mozaik</a>
+                            <a href="mozaik.html ">Mozaik</a>
                         </li>
                         <li>
-                            <a href="butor.html">Bútor</a>
+                            <a href="butor.html ">Bútor</a>
                         </li>
                         <li>
-                            <a href="mese.html">Mese</a>
+                            <a href="mese.html ">Mese</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-sm-6 col-md-3 m-footer-nav">
+                <div class="col-sm-6 col-md-3 m-footer-nav ">
                     <strong>Referenciák</strong>
                     <ul>
                         <li>
-                            <a href="restauralas.html">Restaurálás</a>
+                            <a href="restauralas.html ">Restaurálás</a>
                         </li>
                         <li>
-                            <a href="mesegrafika.html">Mesegrafika</a>
+                            <a href="mesegrafika.html ">Mesegrafika</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-sm-6 col-md-3 m-footer-nav">
+                <div class="col-sm-6 col-md-3 m-footer-nav ">
                     <strong>Információ</strong>
                     <ul>
 
                         <li>
-                            <a href="bemutatkozas.html">Bemutatkozás</a>
+                            <a href="bemutatkozas.html ">Bemutatkozás</a>
                         </li>
                         <li>
-                            <a href="gyik.html">Kérdések és válaszok</a>
+                            <a href="gyik.html ">Kérdések és válaszok</a>
                         </li>
                         <li>
-                            <a href="linkek.html">Linkek</a>
+                            <a href="linkek.html ">Linkek</a>
                         </li>
                         <li>
-                            <a href="ajandekok.html">Ajándéktárgyak</a>
+                            <a href="ajandekok.html ">Ajándéktárgyak</a>
                         </li>
                         <li>
-                            <a href="kedvencek.html">Kedvencek</a>
+                            <a href="kedvencek.html ">Kedvencek</a>
                         </li>
                         <li>
-                            <a href="kapcsolat.html">Kapcsolat</a>
+                            <a href="kapcsolat.html ">Kapcsolat</a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/G%C3%B3lyam%C5%B1hely-136971399775847/"><img src="./pics/ico/fb_black_50x50.png" id="fb" alt="Facebook"><br>Facebook</a>
+                            <a href="https://www.facebook.com/G%C3%B3lyam%C5%B1hely-136971399775847/ "><img src="./pics/ico/fb_black_50x50.png " alt="Facebook "><br>Facebook</a>
                         </li>
-                        <img src="./pics/ico/phone_50x50.png" id="tel" alt="Image"><br/>06-20-482-3933
+                        <img id="tel " src="./pics/ico/phone_50x50.png " alt="Image "><br/>06-20-482-3933
                     </ul>
                 </div>
+
             </div>
             <!---row vége--->
         </div>
         <!---container vége--->
     </footer>
 
-    <script src="./js/jquery-3.1.1.slim.min.js"></script>
-    <srcipt src="./js/tether.min.js"></srcipt>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/olajfestmenyek.js"></script>
+    <script src="./js/jquery-3.1.1.slim.min.js "></script>
+    <srcipt src="./js/tether.min.js "></srcipt>
+    <script src="./js/bootstrap.min.js "></script>
+    <script src="./js/app.js "></script>
+    <script src="./js/bootstrap.js "></script>
+    <script src="./js/index.js "></script>
+    <script src="./js/olajfestmenyek.js "></script>
 
 </body>
+
+
 
 </html>
