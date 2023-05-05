@@ -1,0 +1,10 @@
+-bicikli -40000
+-yettel -14000
+-kamarai tagdíj -5000(márc)
+-tb,szocho -240000(ápr)
++120.000
+-120000
+-robogó biztosítás -5000 (márc)
+-Ipa ?
+-Gáboréknak tartozás -30000
+-Vodafone -6000

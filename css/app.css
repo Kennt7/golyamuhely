@@ -101,13 +101,8 @@ footer {
     }
 }
 
-footer [class*="col-"] {
-    margin-bottom: 20px;
-}
-
 .m-footer-contact .navbar-brand {
     color: #000;
-    margin-bottom: 10px;
 }
 
 .m-footer-contact .navbar-brand img {
@@ -164,9 +159,4 @@ DEFAULTS
 
 .gray-bg {
     background: #dedede;
-}
-
-section,
-footer {
-    padding: 20px 0;
 }

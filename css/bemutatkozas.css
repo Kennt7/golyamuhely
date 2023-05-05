@@ -12,12 +12,6 @@ body {
     background-position: right 25.5%, left 25.5%;
 }
 
-
-/* main {
-    background-image: url("../pics/gyujtes/muveszi-aranycsillag.jpg");
-    background-repeat: no-repeat;
-    /* padding: 20px; */
-
 .container mt-3 {
     background-color: yellow;
 }
@@ -28,7 +22,7 @@ nav.breadcrumb {
 }
 
 nav.link {
-    font-family: "Arial Black" sans-serif;
+    font-family: "Roboto" sans-serif;
     color: green;
 }
 
