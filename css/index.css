@@ -1,80 +1,129 @@
-            * {
-                box-sizing: border-box;
-            }
-            
-            @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-            body {
-                font-family: 'Great Vibes', cursive;
-                background-color: #5bc0de;
-                display: block;
-            }
-            
-            main {
-                background-color: #2b82bd;
-                display: flex;
-            }
-            
-            .img-fluid {
-                width: 400px;
-                height: 360px;
-            }
-            
-            .szovegsav {
-                color: black;
-            }
-            
-            h1 {
-                font-family: 'Great Vibes', cursive !important;
-                border-radius: 25px;
-                /* animation: creator 5s infinite; */
-            }
-            /*       @keyframes creator {
+        * {
+            box-sizing: border-box;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        body {
+            font-family: 'Great Vibes', cursive;
+            background-color: #5bc0de;
+            display: block;
+        }
+        
+        main {
+            background-color: #2b82bd;
+            display: flex;
+        }
+        
+        .img-fluid {
+            width: 400px;
+            height: 360px;
+        }
+        
+        .szovegsav {
+            color: black;
+        }
+        
+        h1 {
+            font-family: 'Great Vibes', cursive !important;
+            border-radius: 25px;
+            /* animation: creator 5s infinite; */
+        }
+        /*       @keyframes creator {
                 50% {
                     box-shadow: 10px 20px 30px rgb(250, 249, 246);
                 }
             } */
-            
-            #myCarousel {
-                margin: auto;
-            }
-            
-            .embed-responsive {
-                border-radius: 25px;
-                border: 3px solid gray;
-            }
-            
-            .nav-item {
-                display: flex;
-                align-items: center;
-            }
-            
-            .nav-item img {
-                margin-right: 10 px;
-            }
-            
-            .nav-item .menu_telefonszam {
-                margin-left: 10px;
-                white-space: nowrap;
-            }
-            
-            #telefonikon {
-                display: inline-block;
-            }
-            
-            .nav-link {
-                color: rgb(240, 154, 6);
-                font-family: 'Roboto', sans-serif;
-            }
-            
-            ul {
-                list-style-type: none;
-            }
-            
-            footer {
-                font-family: inherit;
-                display: flex;
-                height: 50px;
-                padding-top: 3px;
-                padding-bottom: 3px;
-            }
+        
+        #myCarousel {
+            margin: auto;
+        }
+        
+        .embed-responsive {
+            border-radius: 25px;
+            border: 3px solid gray;
+        }
+        /*    .nav {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            justify-items: center;
+        }
+        
+        .top-row {
+            grid-row: 1/2;
+        }
+        
+        .bottom-row {
+            grid-row: 2/3;
+        }
+         */
+        
+        .nav-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-item img {
+            margin-right: 10 px;
+        }
+        
+        .nav-item .menu_telefonszam {
+            margin-left: 10px;
+            white-space: nowrap;
+        }
+        
+        #telefonikon {
+            display: inline-block;
+        }
+        
+        .nav-link {
+            color: rgb(240, 154, 6);
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        /*Search*/
+        
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+        }
+        
+        form.example button {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+        
+        form.example button:hover {
+            background: #0b7dda;
+        }
+        
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        /*media queries*/
+        
+        @media only screen and(max-width:768px) {}
+        
+        footer {
+            font-family: inherit;
+            display: flex;
+            height: 50px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
