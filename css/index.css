@@ -43,20 +43,11 @@
             border-radius: 25px;
             border: 3px solid gray;
         }
-        
-        .navbar-nav {
+        /*   .navbar-nav {
             display: grid;
             grid-template-rows: 1fr 1fr;
             justify-items: center;
-        }
-        
-        .top-row {
-            grid-row: 1/2;
-        }
-        
-        .bottom-row {
-            grid-row: 2/3;
-        }
+        } */
         
         .nav-item {
             display: flex;
@@ -72,8 +63,13 @@
             white-space: nowrap;
         }
         
+        #hamburgermenü {
+            font-family: 'Roboto', sans-serif !important;
+        }
+        
         #telefonikon {
             display: inline-block;
+            font-family: 'Roboto', sans-serif !important;
         }
         
         .nav-link {
@@ -87,7 +83,7 @@
         /*Search*/
         
         form.example input[type=text] {
-            padding: 10px;
+            padding: 5px;
             font-size: 17px;
             border: 1px solid grey;
             float: left;
