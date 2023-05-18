@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="hu">
 
 <head>
@@ -31,59 +32,59 @@
 
     <nav class="navbar navbar-expand-md  navbar-dark bg-info">
         <div class="container">
-            <div class="row"> <button class=" navbar-toggler navbar-toggler-right " type="button " data-toggle="collapse " data-target="#hamburgermenü " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+            <button class=" navbar-toggler navbar-toggler-right " type="button " data-toggle="collapse " data-target="#hamburgermenü " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
                 <span class="navbar-toggler-icon "></span></button>
-                <a class="navbar-brand " href="index.html ">
-                    <h1>Gólyaműhely</h1><img src="./pics/ico/ahtale2.png " class="rounded-circle " alt="golyalogo " title="Gólyaműhely " role="img " id="golyalogo "></a>
+            <a class="navbar-brand " href="index.html ">
+                <h1>Gólyaműhely</h1><img src="./pics/ico/ahtale2.png " class="rounded-circle " alt="golyalogo " title="Gólyaműhely " role="img " id="golyalogo "></a>
 
 
 
 
-                <div class="collapse navbar-collapse flex-lg-column " id="hamburgermenü ">
+            <div class="collapse navbar-collapse flex-lg-column " id="hamburgermenü ">
 
-                    <ul class="navbar-nav ">
+                <ul class="navbar-nav ">
 
-                        <li class="nav-item active ">
-                            <a class="nav-link " href="index.html ">Főoldal<span class="sr-only ">(current)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="bemutatkozas.html ">Bemutatkozás</a>
-                        </li>
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle " href="referenciak.html " id="navbarDropdownMenuLink " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">Referenciák
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="index.html ">Főoldal<span class="sr-only ">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="bemutatkozas.html ">Bemutatkozás</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle " href="referenciak.html " id="navbarDropdownMenuLink " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">Referenciák
                         </a>
-                            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink ">
-                                <a class="dropdown-item " href="festmeny-restauralas.html ">Restaurálás</a>
-                                <a class="dropdown-item " href="grafika.html ">Grafika</a>
-                            </div>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="olajfestmenyek.html ">Olajfestmény</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="mozaik.html ">Mozaik</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="butor.html ">Bútor</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="mese.html ">Mese</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="ajandektargyak.html ">Ajándéktárgyak</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="kedvencek.html ">Kedvencek</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="kapcsolat.html ">Kapcsolat</a>
-                        </li>
-                    </ul>
-                </div>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink ">
+                            <a class="dropdown-item " href="festmeny-restauralas.html ">Restaurálás</a>
+                            <a class="dropdown-item " href="grafika.html ">Grafika</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="olajfestmenyek.html ">Olajfestmény</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="mozaik.html ">Mozaik</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="butor.html ">Bútor</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="mese.html ">Mese</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="ajandektargyak.html ">Ajándéktárgyak</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="kedvencek.html ">Kedvencek</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="kapcsolat.html ">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 
     <main>
-        <div id="myCarousel " class="carousel slide " data-ride="carousel ">
+        <div id="myCarousel" class="carousel slide " data-ride="carousel ">
             <!--Indikátorok-->
             <ul class="carousel-indicators ">
                 <li data-target="#myCarousel " data-slide-to="0 " class="active "></li>
@@ -203,22 +204,51 @@
                     <strong>Információ</strong>
                     <ul>
                         <li>
-                            <form class="example " action="/action_page.php " style="margin:auto;max-width:300px ">
-                                <input type="text " placeholder="Keresés.. " name="keresomezo ">
-                                <button type="submit ">
+                            <form class="example " action=" " style="margin:auto;max-width:300px ">
+                                <input type="text " placeholder="Keresés.. " name="keresomezo">
+                                <button type="submit" onclick="showResults()">
                                     <i class="fa fa-search "></i>
+                                    <!--Keresés--->
+                                    <?php
+                                    if(isset($_GET['submit'])){
+                                        $searchTerm = $GET['keresomezo'];
+                                        echo "<p>"."Keresett kifejezés:".$searchTerm."</p>";
+                                    }
+                                     //eredmények
+                                     $searchResults = array(
+                                        "Elsőt találat",
+                                        "Második találat",
+                                        "Harmadik találat"
+                                     );
+                                    ?>
+                            
+                                    
                                 </button>
                             </form>
 
                         </li>
 
                     </ul>
+                    
+  <div id="popup" class="popup">
+    <h2>Keresési eredmények</h2>
+    <p>Ez itt egy példa a keresési eredményekre.</p>
+    <ul>
+      <li>Eredmény 1</li>
+      <li>Eredmény 2</li>
+      <li>Eredmény 3</li>
+    </ul>
+    <button onclick="hideResults()">Bezárás</button>
+  </div>
+
+  <div id="overlay" class="overlay"></div>
                 </div>
             </div>
             <!---row vége--->
         </div>
         <!---container vége--->
     </footer>
+    <script src=" ./js/search.js "></script>
     <script src=" ./js/jquery-3.1.1.slim.min.js "></script>
 </body>
 
