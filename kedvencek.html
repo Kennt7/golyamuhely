@@ -6,18 +6,14 @@
     <title>Kedvencek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="./js/jquery-3.1.1.slim.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="shortcut icon" href="./pics/ico/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="./css/app.css" />
     <link rel="stylesheet" type="text/css" href="./css/kedvencek.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
 
@@ -118,269 +114,328 @@
 
     <main id="tartalom">
         <div class="container">
+
             <div class="col-md-12">
 
-                <div id="mdb-lightbox-ui"></div>
-
-                <div class="mdb-lightbox">
-                    <!--1.sor-------------------------->
-                    <div class="row" id="elsoSor">
-
-                        <!---1-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek1.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek1-k.png" class="img-fluid" title="Játék az udvaron.1">
-                            </a>
-                        </figure>
-
-
-                        <!---2-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek2.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek2-k.png" class="img-fluid" title="Játék az udvaron.2">
-                            </a>
-                        </figure>
-
-
-                        <!---3-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek3.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek3-k.png" class="img-fluid" title="Még játék az udvaron">
-                            </a>
-                        </figure>
-
-
-                        <!---4-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek4.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek4-k.png" class="img-fluid" title="Fekvés az udvaron">
-                            </a>
-                        </figure>
-
-
-                        <!---5-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek5.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek5-k.png" class="img-fluid" title="Mi most itt, kummantunk.">
-                            </a>
-                        </figure>
+                <div class="row">
+                    <div class="column">
+                        <img src="./kedvencek/kisKepek/jatek1-k.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
                     </div>
-
-
-                    <!--2.sor---------------------------------------->
-                    <div class="row" id="masodikSor">
-
-                        <!---6-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek6.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek6-k.png" class="img-fluid" title="Csoportkép az udvaron">
-                            </a>
-                        </figure>
-
-
-                        <!---7-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik7.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik7-k.png" class="img-fluid" title="Nem is akartam fényképezkedni!">
-                            </a>
-                        </figure>
-
-
-                        <!---8-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik12.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik12-k.png" class="img-fluid" title="Én a sötétben bújkálok.">
-                            </a>
-                        </figure>
-
-
-                        <!---9-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek9.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek9-k.png" class="img-fluid" title="Fotó!Fotó!">
-                            </a>
-                        </figure>
-
-
-                        <!---10-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek10.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek10-k.png" class="img-fluid" title="Vakar-vakar-vakar">
-                            </a>
-                        </figure>
+                    <div class="column">
+                        <img src="./kedvencek/kisKepek/jatek2-k.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
                     </div>
-
-
-                    <!--3.sor---------------------------------------------->
-                    <div class="row" id="harmadikSor">
-                        <!---11-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek11.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek11-k.png" class="img-fluid" title="Most kapj le">
-                            </a>
-                        </figure>
-
-                        <!---12-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek12.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek12-k.png" class="img-fluid" title="Alapértelmezett fekvőpóz">
-                            </a>
-                        </figure>
-
-
-                        <!---13-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek13.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek13-k.png" class="img-fluid" title="Vigyori">
-                            </a>
-                        </figure>
-
-                        <!---14-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek14.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek14-k.png" class="img-fluid" title="Én még mindig, vigyorgok!">
-                            </a>
-                        </figure>
-
-                        <!---15-->
-                        <figure class="col-md-3 col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek15.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek15-k.png" class="img-fluid" title="Ott meg mi történik?">
-                            </a>
-                        </figure>
-
-
-
-
+                    <div class="column">
+                        <img src="./kedvencek/kisKepek/jatek3-k.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
                     </div>
-                    <!--4.sor--------------------------------------------------->
-                    <div class="row" id="negyedikSor">
-                        <!---16-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek16.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek16-k.png" class="img-fluid" title="Mi folyik ott?">
-                            </a>
-                        </figure>
-                        <!---17-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/seriff1.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/seriff1-k.png" class="img-fluid" title="Ücsörgés a fűben">
-                            </a>
-                        </figure>
-                        <!---18-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/seriff2.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/seriff2-k.png" class="img-fluid" title="Bóklászás a réten">
-                            </a>
-                        </figure>
-                        <!---19-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/seriff3.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/seriff3-k.png" class="img-fluid" title="Pihenés a fűben">
-                            </a>
-                        </figure>
-                        <!---20-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/seriff4.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/seriff4-k.png" class="img-fluid" title="Most pihenek">
-                            </a>
-                        </figure>
+                    <div class="column">
+                        <img src="./kedvencek/kisKepek/jatek3-k.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
                     </div>
-                    <!--5.sor------------------------------------------>
-                    <div class="row" id="otodikSor">
-                        <!---21-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/seriff5.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/seriff5-k.png" class="img-fluid" title="Most naplementét nézek">
-                            </a>
-                        </figure>
-                        <!---22-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik1.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik1-k.png" class="img-fluid" title="Mi ez? A Góbi-sivatag?">
-                            </a>
-                        </figure>
-                        <!---23-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik2.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik2-k.png" class="img-fluid" title="Most komolyan.">
-                            </a>
-                        </figure>
-                        <!---24-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik3.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek9-k.png" class="img-fluid" title="El is fordulok">
-                            </a>
-                        </figure>
-                        <!---25-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik4.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek9-k.png" class="img-fluid" title="Ülj nyugodtan.Most repül a kismadár!">
-                            </a>
-                        </figure>
-                    </div>
-                    <!--6.sor------------------------------------------>
-                    <div class="row" id="hatodikSor">
-                        <!---26-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik5.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik5-k.png" class="img-fluid" title="Húzd ki magad!">
-                            </a>
-                        </figure>
-                        <!---27-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik6.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik6-k.png" class="img-fluid" title="Duzzogok">
-                            </a>
-                        </figure>
-                        <!---28-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/jatek8.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/jatek8-k.png" class="img-fluid" title="Mondd, csííz!">
-                            </a>
-                        </figure>
-                        <!---29-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik8.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik8-k.png" class="img-fluid" title="Én ezt nem akarom">
-                            </a>
-                        </figure>
-                        <!---30-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik9.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik9-k.png" class="img-fluid" title="Na most mi van?">
-                            </a>
-                        </figure>
-                    </div>
-                    <!--7.sor------------------------------------------>
-                    <div class="row" id="hetedikSor">
-                        <!---31-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik10.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik10-k.png" class="img-fluid" title="Ez a: 'Hasalj-mackóval'-póz">
-                            </a>
-                        </figure>
-                        <!---32-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik11.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik11-k.png" class="img-fluid" title="Mi csak itt huncutkodunk">
-                            </a>
-                        </figure>
-                        <!---33-->
-                        <figure class="col-md-3  col-lg">
-                            <a href="./kedvencek/nagyKepek/kicsik12.jpg" data-size="1600x1067">
-                                <img alt="picture" src="./kedvencek/kisKepek/kicsik12-k.png" class="img-fluid" title="Én a sötétben bújkálok">
-                            </a>
-                        </figure>
+                </div>
 
-                    </div>
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="./kedvencek/kisKepek/jatek1-k.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="./kedvencek/kisKepek/jatek2-k.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="./kedvencek/kisKepek/jatek3-k.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="./kedvencek/kisKepek/jatek3-k.png" style="width:100%">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
 
 
+                        <div class="column">
+                            <img class="demo cursor" src="./kedvencek/kisKepek/jatek1-k.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./kedvencek/kisKepek/jatek2-k.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./kedvencek/kisKepek/jatek3-k.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./kedvencek/kisKepek/jatek3-k.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                    </div>
+                </div>
+                <!--1.sor-------------------------->
+                <div class="row" id="elsoSor">
+
+                    <!---1-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek1.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek1-k.png" class="img-fluid" title="Játék az udvaron.1">
+                        </a>
+                    </figure>
+
+
+                    <!---2-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek2.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek2-k.png" class="img-fluid" title="Játék az udvaron.2">
+                        </a>
+                    </figure>
+
+
+                    <!---3-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek3.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek3-k.png" class="img-fluid" title="Még játék az udvaron">
+                        </a>
+                    </figure>
+
+
+                    <!---4-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek4.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek4-k.png" class="img-fluid" title="Fekvés az udvaron">
+                        </a>
+                    </figure>
+
+
+                    <!---5-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek5.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek5-k.png" class="img-fluid" title="Mi most itt, kummantunk.">
+                        </a>
+                    </figure>
+                </div>
+
+
+                <!--2.sor---------------------------------------->
+                <div class="row" id="masodikSor">
+
+                    <!---6-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek6.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek6-k.png" class="img-fluid" title="Csoportkép az udvaron">
+                        </a>
+                    </figure>
+
+
+                    <!---7-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik7.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik7-k.png" class="img-fluid" title="Nem is akartam fényképezkedni!">
+                        </a>
+                    </figure>
+
+
+                    <!---8-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik12.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik12-k.png" class="img-fluid" title="Én a sötétben bújkálok.">
+                        </a>
+                    </figure>
+
+
+                    <!---9-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek9.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek9-k.png" class="img-fluid" title="Fotó!Fotó!">
+                        </a>
+                    </figure>
+
+
+                    <!---10-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek10.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek10-k.png" class="img-fluid" title="Vakar-vakar-vakar">
+                        </a>
+                    </figure>
+                </div>
+
+
+                <!--3.sor---------------------------------------------->
+                <div class="row" id="harmadikSor">
+                    <!---11-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek11.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek11-k.png" class="img-fluid" title="Most kapj le">
+                        </a>
+                    </figure>
+
+                    <!---12-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek12.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek12-k.png" class="img-fluid" title="Alapértelmezett fekvőpóz">
+                        </a>
+                    </figure>
+
+
+                    <!---13-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek13.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek13-k.png" class="img-fluid" title="Vigyori">
+                        </a>
+                    </figure>
+
+                    <!---14-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek14.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek14-k.png" class="img-fluid" title="Én még mindig, vigyorgok!">
+                        </a>
+                    </figure>
+
+                    <!---15-->
+                    <figure class="col-md-3 col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek15.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek15-k.png" class="img-fluid" title="Ott meg mi történik?">
+                        </a>
+                    </figure>
 
 
 
 
                 </div>
+                <!--4.sor--------------------------------------------------->
+                <div class="row" id="negyedikSor">
+                    <!---16-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek16.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek16-k.png" class="img-fluid" title="Mi folyik ott?">
+                        </a>
+                    </figure>
+                    <!---17-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/seriff1.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/seriff1-k.png" class="img-fluid" title="Ücsörgés a fűben">
+                        </a>
+                    </figure>
+                    <!---18-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/seriff2.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/seriff2-k.png" class="img-fluid" title="Bóklászás a réten">
+                        </a>
+                    </figure>
+                    <!---19-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/seriff3.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/seriff3-k.png" class="img-fluid" title="Pihenés a fűben">
+                        </a>
+                    </figure>
+                    <!---20-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/seriff4.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/seriff4-k.png" class="img-fluid" title="Most pihenek">
+                        </a>
+                    </figure>
+                </div>
+                <!--5.sor------------------------------------------>
+                <div class="row" id="otodikSor">
+                    <!---21-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/seriff5.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/seriff5-k.png" class="img-fluid" title="Most naplementét nézek">
+                        </a>
+                    </figure>
+                    <!---22-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik1.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik1-k.png" class="img-fluid" title="Mi ez? A Góbi-sivatag?">
+                        </a>
+                    </figure>
+                    <!---23-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik2.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik2-k.png" class="img-fluid" title="Most komolyan.">
+                        </a>
+                    </figure>
+                    <!---24-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik3.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek9-k.png" class="img-fluid" title="El is fordulok">
+                        </a>
+                    </figure>
+                    <!---25-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik4.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek9-k.png" class="img-fluid" title="Ülj nyugodtan.Most repül a kismadár!">
+                        </a>
+                    </figure>
+                </div>
+                <!--6.sor------------------------------------------>
+                <div class="row" id="hatodikSor">
+                    <!---26-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik5.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik5-k.png" class="img-fluid" title="Húzd ki magad!">
+                        </a>
+                    </figure>
+                    <!---27-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik6.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik6-k.png" class="img-fluid" title="Duzzogok">
+                        </a>
+                    </figure>
+                    <!---28-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/jatek8.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/jatek8-k.png" class="img-fluid" title="Mondd, csííz!">
+                        </a>
+                    </figure>
+                    <!---29-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik8.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik8-k.png" class="img-fluid" title="Én ezt nem akarom">
+                        </a>
+                    </figure>
+                    <!---30-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik9.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik9-k.png" class="img-fluid" title="Na most mi van?">
+                        </a>
+                    </figure>
+                </div>
+                <!--7.sor------------------------------------------>
+                <div class="row" id="hetedikSor">
+                    <!---31-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik10.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik10-k.png" class="img-fluid" title="Ez a: 'Hasalj-mackóval'-póz">
+                        </a>
+                    </figure>
+                    <!---32-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik11.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik11-k.png" class="img-fluid" title="Mi csak itt huncutkodunk">
+                        </a>
+                    </figure>
+                    <!---33-->
+                    <figure class="col-md-3  col-lg">
+                        <a href="./kedvencek/nagyKepek/kicsik12.jpg" data-size="1600x1067">
+                            <img alt="picture" src="./kedvencek/kisKepek/kicsik12-k.png" class="img-fluid" title="Én a sötétben bújkálok">
+                        </a>
+                    </figure>
+
+                </div>
+
+
+
+
+
+
+
 
             </div>
 
@@ -450,13 +505,15 @@
     </footer>
 
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <srcipt src="/js/tether.min.js"></srcipt>
+
     <script src="js/kedvencek.js"></script>
-    <script src="./js/jquery-3.1.1.slim.min.js"></script>
-    <srcipt src="./js/tether.min.js"></srcipt>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/kedvencek.js"></script>
 
 </body>
 
