@@ -51,11 +51,12 @@
                         <a class="nav-link " href="bemutatkozas.html ">Bemutatkozás</a>
                     </li>
                     <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle " href="referenciak.html " id="navbarDropdownMenuLink " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">Referenciák
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">Referenciák
+                            
                         </a>
-                        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink ">
-                            <a class="dropdown-item " href="festmeny-restauralas.html ">Restaurálás</a>
-                            <a class="dropdown-item " href="grafika.html ">Grafika</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="festmeny-restauralas.html">Restaurálás</a>
+                            <a class="dropdown-item" href="grafika.html">Grafika</a>
                         </div>
                     </li>
                     <li class="nav-item ">
