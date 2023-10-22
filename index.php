@@ -204,23 +204,11 @@
                     <strong>Információ</strong>
                     <ul>
                         <li>
-                            <form class="example " action=" " style="margin:auto;max-width:300px ">
-                                <input type="text " placeholder="Keresés.. " name="keresomezo">
+                            <form class="example" method="post" action="kereses.php" style="margin:auto;max-width:300px ">
+                                <input type="text " placeholder="Keresés.. " name="search">
                                 <button type="submit" onclick="showResults()">
                                     <i class="fa fa-search "></i>
-                                    <!--Keresés--->
-                                    <?php
-                                    if(isset($_GET['submit'])){
-                                        $searchTerm = $GET['keresomezo'];
-                                        echo "<p>"."Keresett kifejezés:".$searchTerm."</p>";
-                                    }
-                                     //eredmények
-                                     $searchResults = array(
-                                        "Elsőt találat",
-                                        "Második találat",
-                                        "Harmadik találat"
-                                     );
-                                    ?>
+                                    
                             
                                     
                                 </button>
@@ -233,18 +221,14 @@
   <div id="popup" class="popup">
     <h2>Keresési eredmények</h2>
     <p>Ez itt egy példa a keresési eredményekre.</p>
-    <ul>
-      <li>Eredmény 1</li>
-      <li>Eredmény 2</li>
-      <li>Eredmény 3</li>
-    </ul>
+    <?php require 'kereses.php';?>
     <button onclick="hideResults()">Bezárás</button>
   </div>
 
   <div id="overlay" class="overlay"></div>
                 </div>
             </div>
-            <!---row vége--->
+            <!---row -vége--->
         </div>
         <!---container vége--->
     </footer>
