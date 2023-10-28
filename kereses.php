@@ -9,12 +9,18 @@ if (isset($_POST['search'])){
             echo "<p>Találat a(z) $page oldalon</p>";
         } */
         if(preg_match_all("/\b$searchTerm\b/i",$content,$matches)){
-            echo "<h2>Találatok a(z) $page oldalon:</h2>";
+            echo "<h2>Összesen: $totalMatches találat a(z) $page oldalon:. count($matches[0]) .</h2>";
             echo"<ul>";
             foreach($matches[0]as $match){
                 echo "<li><a href='$page'>$match</a></li>";
             }
             echo"</ul>";
+            echo "<style> 
+            body {
+                background-color:#5bc0de ; } ul{list-style-type:none;}
+        </style>";
+        $totalMatches +=count($matches[0]);
+        
         }
     }
 } 

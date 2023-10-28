@@ -20,8 +20,6 @@
                 height: 360px;
             }
             
-            #golyalogo {}
-            
             .carousel-caption {
                 font-family: 'Roboto', sans-serif;
             }
@@ -86,7 +84,7 @@
                 transform: translate(-50%, -50%);
                 width: 400px;
                 padding: 20px;
-                background-color: #fff;
+                background-color: #5bc0de;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
                 z-index: 9999;
             }
@@ -138,11 +136,35 @@
                 display: table;
             }
             /*media queries*/
+            /*  @media (max-width: 991.98px) {
+                .navbar-nav {
+                    flex-direction: column;
+                }
+                .nav-link {
+                    text-align: center;
+                }
+                .navbar-toggler {
+                    display: block;
+                }
+            }
             
-            @media only screen and(max-width:768px) {}
+            @media (min-width: 992px) {
+                .navbar-nav {
+                    flex-direction: row;
+                }
+                .nav-link {
+                    text-align: center;
+                }
+                .navbar-toggler {
+                    display: none;
+                }
+            }
+            
+            @media only screen and(max-width:768px) {} */
             
             footer {
                 font-family: inherit;
+                background-color: inherit;
                 display: flex;
                 height: 50px;
                 padding-top: 3px;
