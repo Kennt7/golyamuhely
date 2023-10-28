@@ -1,20 +1,35 @@
-// Get the modal
-var modal = document.getElementById("myModal");
+popup = {
+    init: function() {
+        $('figure').click(function() {
+            popup.open($(this));
+        });
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("butorkep1");
-var modalImg = document.getElementById("kep1");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+        $(document).on('click', '.popup img', function() {
+            return false;
+        }).on('click', '.popup', function() {
+            popup.close();
+        })
+    },
+    open: function($figure) {
+        $('.gallery').addClass('pop');
+        $popup = $('<div class="popup" />').appendTo($('body'));
+        $fig = $figure.clone().appendTo($('.popup'));
+        $bg = $('<div class="bg" />').appendTo($('.popup'));
+        $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
+        $shadow = $('<div class="shadow" />').appendTo($fig);
+        src = $('img', $fig).attr('src');
+        $shadow.css({ backgroundImage: 'url(' + src + ')' });
+        $bg.css({ backgroundImage: 'url(' + src + ')' });
+        setTimeout(function() {
+            $('.popup').addClass('pop');
+        }, 10);
+    },
+    close: function() {
+        $('.gallery, .popup').removeClass('pop');
+        setTimeout(function() {
+            $('.popup').remove()
+        }, 100);
+    }
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+popup.init()
