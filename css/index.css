@@ -11,7 +11,8 @@
     }
     
     main {
-        background-color: #2b82bd;
+        background-color: #5bc0de !important;
+        display: block;
         display: flex !important;
     }
     
@@ -164,7 +165,7 @@
             
             @media only screen and(max-width:768px) {} */
     
-    @media only screen and(max-width:768px) {}
+    @media only screen and (max-width:768px) {}
     
     footer {
         font-family: inherit;

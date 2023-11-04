@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Golyamuhely">
         <meta name="keywords" content="festmeny,restauralas,butor,grafika">
-        <meta name="author" content="Nagy Zoltán">
+        <meta name="author" content="Nagy Zoltán webfejlesztő">
         <title>Golyamuhely</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,137 +35,148 @@
             </div>
         </header>
 
-        <nav class="navbar navbar-expand-md  navbar-dark bg-info">
+        <nav class="navbar navbar-toggleable-md  navbar-dark bg-info">
+
             <div class="container">
                 <button
-                    class=" navbar-toggler navbar-toggler-right "
-                    type="button "
-                    data-toggle="collapse "
-                    data-target="#hamburgermenü "
-                    aria-controls="navbarSupportedContent "
-                    aria-expanded="false "
-                    aria-label="Toggle navigation ">
-                    <span class="navbar-toggler-icon "></span></button>
-                <a class="navbar-brand " href="index.html ">
-                    <h1>Gólyaműhely</h1><img
-                        src="./pics/ico/ahtale2.png "
-                        class="rounded-circle "
-                        alt="golyalogo "
-                        title="Gólyaműhely "
-                        role="img "
-                        id="golyalogo "></a>
+                    class="navbar-toggler navbar-toggler-right"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#hamburgermenü"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <div class="collapse navbar-collapse flex-lg-column " id="hamburgermenü ">
+                <a class="navbar-brand" href="index.php">
+                    Gólyaműhely<br/>
+                    <img
+                        src="./pics/ico/ahtale2.png"
+                        class="rounded-circle"
+                        alt=""
+                        title="Gólyaműhely"
+                        role="img">
+                </a>
 
-                    <ul class="navbar-nav ">
-
-                        <li class="nav-item active ">
-                            <a class="nav-link " href="index.html ">Főoldal<span class="sr-only ">(current)</span></a>
+                <div class="collapse navbar-collapse" id="hamburgermenü">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.php">Főoldal<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="bemutatkozas.html ">Bemutatkozás</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="bemutatkozas.html">Bemutatkozás</a>
                         </li>
-                        <li class="nav-item dropdown ">
+
+                        <li class="nav-item dropdown">
                             <a
                                 class="nav-link dropdown-toggle"
-                                href=""
+                                href="referenciak.html"
                                 id="navbarDropdownMenuLink"
-                                data-toggle="dropdown "
-                                aria-haspopup="true "
-                                aria-expanded="false ">Referenciák
-
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                Referenciák
                             </a>
+
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="festmeny-restauralas.html">Restaurálás</a>
+
                                 <a class="dropdown-item" href="grafika.html">Grafika</a>
+
                             </div>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="olajfestmenyek.html ">Olajfestmény</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="olajfestmenyek.html">Olajfestmény</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="mozaik.html ">Mozaik</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="mozaik.html">Mozaik</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="butor.html ">Bútor</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="butor.html">Bútor</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="mese.html ">Mese</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mese.html">Mese</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="ajandektargyak.html ">Ajándéktárgyak</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ajandektargyak.html">Ajándéktárgyak</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="kedvencek.html ">Kedvencek</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kedvencek.html">Kedvencek</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="kapcsolat.html ">Kapcsolat</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
-            <main>
-                <div id="myCarousel" class="carousel slide " data-ride="carousel ">
-                    <!--Indikátorok-->
-                    <ul class="carousel-indicators ">
-                        <li data-target="#myCarousel " data-slide-to="0 " class="active "></li>
-                        <li data-target="#myCarousel " data-slide-to="1 "></li>
-                        <li data-target="#myCarousel " data-slide-to="2 "></li>
-                    </ul>
-                    <!--A diavetítés-->
-                    <div class="carousel-inner " role="listbox ">
-                        <div class="carousel-item active "><img
-                            class="img-fluid "
-                            src="./restauralas/akac_a_parton/ilyen_volt.JPG "
-                            alt="First slide "><img
-                            class="img-fluid "
-                            src="./restauralas/akac_a_parton/keszen.JPG "
-                            alt="First slide ">
-                            <div class="carousel-caption d-none d-md-block ">
-                                <h5>Restaurálás: Akác a parton</h5>
-                            </div>
+        <main>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel ">
+                <!--Indikátorok-->
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active "></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+                <!--A diavetítés-->
+                <div class="carousel-inner" role="listbox ">
+                    <div class="carousel-item active "><img
+                        class="img-fluid "
+                        src="./restauralas/akac_a_parton/ilyen_volt.JPG "
+                        alt="First slide "><img
+                        class="img-fluid "
+                        src="./restauralas/akac_a_parton/keszen.JPG "
+                        alt="First slide ">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h5>Restaurálás: Akác a parton</h5>
                         </div>
-                        <div class="carousel-item "><img
-                            class="img-fluid "
-                            src="./restauralas/keleti_setalo_utca/DSCN1314.JPG "
-                            alt="Second slide "><img
-                            class="img-fluid "
-                            src="./restauralas/keleti_setalo_utca/DSCN1313.JPG "
-                            alt="Second slide ">
-                            <div class="carousel-caption d-none d-md-block ">
-                                <h5>Restaurálás: Keleti sétálóutca</h5>
-                            </div>
+                    </div>
+                    <div class="carousel-item"><img
+                        class="img-fluid"
+                        src="./restauralas/keleti_setalo_utca/DSCN1314.JPG"
+                        alt="Second slide"><img
+                        class="img-fluid"
+                        src="./restauralas/keleti_setalo_utca/DSCN1313.JPG"
+                        alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h5>Restaurálás: Keleti sétálóutca</h5>
                         </div>
-                        <div class="carousel-item "><img
-                            class="img-fluid "
-                            src="./restauralas/lovak_a_tengerparton/DSCN1251.JPG "
-                            alt="Third slide "><img
-                            class="img-fluid "
-                            src="./restauralas/lovak_a_tengerparton/DSCN1268.JPG "
-                            alt="Third slide ">
-                            <div class="carousel-caption d-none d-md-block ">
-                                <h5>Lovak a tengerparton</h5>
-                            </div>
+                    </div>
+                    <div class="carousel-item"><img
+                        class="img-fluid "
+                        src="./restauralas/lovak_a_tengerparton/DSCN1251.JPG "
+                        alt="Third slide"><img
+                        class="img-fluid"
+                        src="./restauralas/lovak_a_tengerparton/DSCN1268.JPG "
+                        alt="Third slide ">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h5>Lovak a tengerparton</h5>
                         </div>
-                        <div class="carousel-item "><img
-                            class="img-fluid "
-                            src="./restauralas/festmeny_tisztitas1/ilyen_volt.jpg "
-                            alt="Fourth slide "><img
-                            class="img-fluid "
-                            src=" ./restauralas/festmeny_tisztitas1/ilyen_lett.jpg "
-                            alt="Fourth slide ">
-                            <div class="carousel-caption d-none d-md-block ">
-                                <h5>Restaurálás: Festmény-tisztítás</h5>
-                            </div>
+                    </div>
+                    <div class="carousel-item"><img
+                        class="img-fluid "
+                        src="./restauralas/festmeny_tisztitas1/ilyen_volt.jpg "
+                        alt="Fourth slide "><img
+                        class="img-fluid "
+                        src=" ./restauralas/festmeny_tisztitas1/ilyen_lett.jpg "
+                        alt="Fourth slide ">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Restaurálás: Festmény-tisztítás</h5>
                         </div>
-                        <div class="carousel-item "><img class="img-fluid " src="./pics/carousel/oila01.jpg " alt="Fifth slide "><img class="img-fluid " src="./pics/carousel/oila02.jpg " alt="Fifth slide ">
-                            <div class="carousel-caption d-none d-md-block ">
-                                <h5>Olajfestmények</h5>
-                            </div>
+                    </div>
+                    <div class="carousel-item"><img class="img-fluid" src="./pics/carousel/oila01.jpg " alt="Fifth slide "><img class="img-fluid " src="./pics/carousel/oila02.jpg " alt="Fifth slide ">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h5>Olajfestmények</h5>
                         </div>
                     </div>
                 </div>
+
                 <!---slide vége-->
             </main>
             <footer class="bg-info ">
@@ -281,12 +292,13 @@
                 </div>
                 <!---container vége--->
             </footer>
+             <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="./js/carousel.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script
-                src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-            <script
-                src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
             <script src=" ./js/jquery-3.1.1.slim.min.js "></script>
         </body>
 
